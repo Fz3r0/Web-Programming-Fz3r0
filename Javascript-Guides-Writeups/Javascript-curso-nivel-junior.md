@@ -174,11 +174,11 @@ Comenzamos!
 
 ### Etiquetas básicas exto:
 
-- Titulos <h>
-- párrafo <p>
-- negrita <b>
-- Italica <i> 	
-- Tachada <strike>	
+- Titulos `<h>`
+- párrafo `<p>`
+- negrita `<b>`
+- Italica `<i>` 	
+- Tachada `<strike>`	
 	
 ```html
 <!DOCTYPE html>
@@ -203,10 +203,14 @@ Comenzamos!
 
 - Tipos de Tags:
 	
-    - Las que acompletan la caja y las que no
+    - Las que acompletan la caja y las que se adaptan al contenido
 	
     - ![image](https://user-images.githubusercontent.com/94720207/169914777-145ec062-c05a-4c24-b571-31da87ce5d29.png)
-
+    - ![image](https://user-images.githubusercontent.com/94720207/169915001-efacfa72-6f1a-4e32-9b72-78a0d8f8f393.png)
+	
+	
+- 	
+	
 
 	
 	
