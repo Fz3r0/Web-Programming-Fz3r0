@@ -244,11 +244,78 @@ Comenzamos!
     </body>
 </html>
 ```
+---
 
-	
-- 	
-	
+### Links y tag `<a>`:
 
+- Etqiuetas `<a></a>`
+
+    -  Contiene atributos como
+    
+        - `href`  
+
+- Tipos de Links
+
+    - Internos (Local Host o dentro del servidonor)
+    - Externos (otras URLs o direccionamiento NO local)  
+
+- Externos:
+
+    - Escribir "facebook.com" no funcionaría en un "href" sin usar el protocolo "html"
+
+        -  `<a href="facebook.com">Click Aqui!</a>` incorrecto
+        -  `<a href="https://www.facebook.com/">Click Aqui!</a>` correcto!   
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	<a href="https://www.facebook.com/">Click Aqui!</a>
+    </body>
+</html>
+```
+
+- Internos:
+
+    - Se alojan dentor del servidor (por ejemplo para hacer links dentro de la misma página, como lo usa mark down también) 
+    - Por ejemplo, si creamos una segunda página dentro del directorio que haga referencia:
+       
+	- ![image](https://user-images.githubusercontent.com/94720207/169916764-0c1a2c30-83a7-420e-8670-8c179923a143.png)
+    
+    - Como está dentro de la misma carpeta `root` solo es poner el nombre, en caso contrario poner la ruta en el directorio 
+
+- Ejemplo, un loop entre página 2 e Index:
+
+- `index.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	<a href="page2.html">Click Aqui!</a>
+    </body>
+</html>
+```
+
+- `page2.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Page 2 !!!!</title>
+    </head>	
+    <body>
+    	<a href="index.html">Click Aqui para volver!</a>
+    </body>
+</html>
+```
 	
 	
 	
