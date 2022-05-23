@@ -290,6 +290,11 @@ Comenzamos!
     
         - ![image](https://user-images.githubusercontent.com/94720207/169917481-f1eb8ee5-7131-4c6f-bfc8-582283299bfc.png)
 
+    - Reglas:
+        
+	- **Mismo folder** > escribir solo el nombre del file: `page2.html` 
+	- **Folder arriba** > escribir la ruta desde ubicación: `/root/page2.html` 
+	- **Folder abajo** > el universal `../`
     
 - Ejemplo, un loop entre página 2, página 3(otra carpeta) e Index:
 
@@ -332,11 +337,12 @@ Comenzamos!
     </head>	
     <body>
     	<a href="index.html">Click Aqui para volver al Index!</a>
-    	<a href="page2.html">Click Aqui para ir a página 2!</a>	    
+    	<a href="../page2.html">Click Aqui para ir a página 2!</a>	    
     </body>
 </html>
 ```
-	
+
+
 	
 	
    	
