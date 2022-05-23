@@ -28,7 +28,7 @@ Comenzamos!
 
 ---
 
-## HTML
+### HTML
 
 - HTML boxes:
 
@@ -37,14 +37,23 @@ Comenzamos!
 
 ---
 
+### Antes que nada:
+
 - Crear file en una carpeta nueva `fz3r0_compu_mundo`
 
 - Dentro de la carpeta guardar `index.html`
 
     - ![image](https://user-images.githubusercontent.com/94720207/169905415-3544003d-239c-4b9b-9055-8a9c1966c68a.png)
+    
+- Nota: se recomienda ver extensiones!  
 
-- 
+    - ![image](https://user-images.githubusercontent.com/94720207/169905695-7dcef43a-fe49-4e51-825d-68d2594f1ce1.png)
+ 
+---
 
+### Estructura Inicial HTML
+
+- Etiqueta:
 
 
 
