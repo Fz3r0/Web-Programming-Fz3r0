@@ -283,11 +283,15 @@ Comenzamos!
     - Se alojan dentor del servidor (por ejemplo para hacer links dentro de la misma página, como lo usa mark down también) 
     - Por ejemplo, si creamos una segunda página dentro del directorio que haga referencia:
        
-	- ![image](https://user-images.githubusercontent.com/94720207/169916764-0c1a2c30-83a7-420e-8670-8c179923a143.png)
+	- ![image](https://user-images.githubusercontent.com/94720207/169917851-e8415342-2c4b-42d4-bc92-39d47a38f09a.png)
     
-    - Como está dentro de la misma carpeta `root` solo es poner el nombre, en caso contrario poner la ruta en el directorio 
+    - Como está dentro de la misma carpeta `root` solo es poner el nombre.
+    - En caso contrario poner la ruta en el directorio: 
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/169917481-f1eb8ee5-7131-4c6f-bfc8-582283299bfc.png)
 
-- Ejemplo, un loop entre página 2 e Index:
+    
+- Ejemplo, un loop entre página 2, página 3(otra carpeta) e Index:
 
 - `index.html`:
 
@@ -313,6 +317,22 @@ Comenzamos!
     </head>	
     <body>
     	<a href="index.html">Click Aqui para volver al Index!</a>
+    	<a href="/folder1/page3.html">Click Aqui para ir a página 3!</a>	    
+    </body>
+</html>
+```
+
+- `page3.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Page 3 !!!!</title>
+    </head>	
+    <body>
+    	<a href="index.html">Click Aqui para volver al Index!</a>
+    	<a href="page2.html">Click Aqui para ir a página 2!</a>	    
     </body>
 </html>
 ```
