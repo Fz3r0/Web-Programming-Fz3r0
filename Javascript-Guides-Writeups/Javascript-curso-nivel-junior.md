@@ -298,7 +298,7 @@ Comenzamos!
 		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
     </head>	
     <body>
-    	<a href="page2.html">Click Aqui!</a>
+    	<a href="page2.html">Click Aqui para ir a la Page2!</a>
     </body>
 </html>
 ```
@@ -312,7 +312,7 @@ Comenzamos!
 		<title>Titulo: Fz3r0 Page 2 !!!!</title>
     </head>	
     <body>
-    	<a href="index.html">Click Aqui para volver!</a>
+    	<a href="index.html">Click Aqui para volver al Index!</a>
     </body>
 </html>
 ```
