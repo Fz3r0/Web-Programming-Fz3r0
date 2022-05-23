@@ -216,7 +216,34 @@ Comenzamos!
      - Margen
          
 	 - ![image](https://user-images.githubusercontent.com/94720207/169915530-768d8cff-d80b-4688-a5e7-0874d2235723.png)
- 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+
+		<h1> Titulo 1 (header1) </h1>
+		<h2> Titulo 2 (header2) </h2>
+		<h3> Titulo 3 (header3) </h3>
+		<h4> Titulo 4 (header4) </h4>
+		<h5> Titulo 5 (header5) </h5>
+		<h6> Titulo 6 (header6) </h6>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+		</p>
+    	<b>Negrita</b>
+    	<i>italica</i>
+    	<strike>tachada</strike>
+
+    </body>
+</html>
+```
 
 	
 - 	
