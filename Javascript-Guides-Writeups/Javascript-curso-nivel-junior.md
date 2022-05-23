@@ -161,11 +161,23 @@ Comenzamos!
 
 ---
 
-### Estructura Inicial HTML PT.2
+### Concepto semántico HTML
+
+- Poner todo de manera estructural en HTML y usar otro lenguaje como CSS para acomodar
+- No es puede poner más de 1 `h1` **(es el index del titulo search optimity para crawlers)
+- Es importante codificar todo de manera correcta en HTML, siempre siguiendo la misma estructura. 
+- Usar tabulador para saber qué caja está dentro de otra (aunque no es necesario)
+
+---
+
+### Etiquetas básicas exto:
 
 - Titulos <h>
-- Párrafos <p>
-
+- párrafo <p>
+- negrita <b>
+- Italica <i> 	
+- Tachada <strike>	
+	
 ```html
 <!DOCTYPE html>
 <html>
@@ -178,12 +190,22 @@ Comenzamos!
 	<h3> Titulo 3 (header3) </h3>
 	<h4> Titulo 4 (header4) </h4>
 	<h5> Titulo 5 (header5) </h5>
-	<h6> Titulo 6 (header6) </h6>	    
+	<h6> Titulo 6 (header6) </h6>
+	<p>
+		Lorem
+	</p>
+	    
     </body>
 </html>
 ```
 
-- No es puede poner más de 1 `h1` **(es el index del titulo search optimity para crawlers)**
+- Tipos de Tags:
+	
+    - Las que acompletan la caja y las que no
+
+	
+	
+
 
 
 
