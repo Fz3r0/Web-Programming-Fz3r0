@@ -7,11 +7,35 @@ Comenzamos!
 
 ### Intro
 
-- ![image](https://user-images.githubusercontent.com/94720207/169900319-d2c3b388-bfbf-4819-ad31-b3e95a42325a.png)
+- HTML
+- CSS
+- Javascript
 
 ---
 
+### Sublime text
+
+#### Themes and schemes
+
+- `Ctrl+shift+P` `Install` Command 
+    
+    - `Install Package Control`
+    - `Package Control: install package`  
+    
+        - Select and install package :D 
+        
+- Se usará `blackbrid` y `brogrammer` theme por ahora.  
+
+---
+
+## HTML
+
+
 
 
 
 ---
+
+### References
+
+- https://www.youtube.com/watch?v=z95mZVUcJ-E
