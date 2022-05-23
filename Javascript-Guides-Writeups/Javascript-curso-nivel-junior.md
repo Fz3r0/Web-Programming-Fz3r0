@@ -353,7 +353,7 @@ Comenzamos!
 		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
     </head>	
     <body>
-    	<h1>Titulo Pricnipal De Página</h1>
+    	<h1>Titulo Principal De Página</h1>
     	<p>
     		Esto es un párrafo que estoy escribiendo en HTML, <b> esto es muy importante así que le puse negritas, </b> si quieres ir a youtube puedes dar <a href="http://www.youtube.com/">click en este link</a>.
     		<br>
@@ -375,7 +375,7 @@ Comenzamos!
 </html>
 ```
 
-	
+- ![image](https://user-images.githubusercontent.com/94720207/169919857-f3c79ebb-05a8-4e1f-9273-29889de44ddd.png)	
 	
    	
 	
