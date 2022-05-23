@@ -1,4 +1,7 @@
 
+```html
+```
+
 ---
 
 Comenzamos!
@@ -60,9 +63,82 @@ Comenzamos!
 
 <p>This is a paragraph.</p>
 ```
+```html
+<p>HTML from 0 to Hero in .html format! by Fz3r0 - En Espanglish.</p>
+```
 
+### Estructura Inicial HTML:
 
-- Etiqueta:
+- Sintaxis:
+
+    - Tags (Etiqueta)
+    
+        - `<etqiueta>` <---- empieza a crear un ebjeto
+        - `</etqiueta>` <--- cierra ese objeto ebjeto	 
+
+    - Las Tags contienen:
+    
+        - Atributos: Propiedades/características del objeto (e.g. color)
+
+    - Los Atributos contienen:
+
+        - Valores: Los atributos siempre tienen un valor       
+
+```html
+<etiqueta atributo="valor"> </etiqueta>
+
+<boton color="rojo"> <boton> 
+
+<boton color="rojo" tamaño="grande" borde="negro"> <boton> 
+```
+
+Tipos de Tags:
+
+1. <br>          <----| Deja un espacio en linea       
+    
+
+    2. <h1></h1>     <----| Contiene algo dentro
+
+-->
+
+<br>
+<h1>
+
+    Titulo: Fz3r0	
+	
+</h1> 
+
+<!--  
+
+Basic HTML Structure:
+
+1. <!DOCTYPE html>
+
+    - No se cierra, solo se deja al inicio
+    - Indica que es la última versión de HTML
+    - Siempre poner al incio
+
+2. <html></html>  
+    
+    - Adentro está TODA la página
+    - Tanto lo que vemos como lo que NO vemos
+
+        - BODY = Lo que podemos ver  
+        - HEAD = Lo que NO podemos ver
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>	
+<body>
+	
+</body>
+</html>
+
+<!--  comment -->
 
 
 
