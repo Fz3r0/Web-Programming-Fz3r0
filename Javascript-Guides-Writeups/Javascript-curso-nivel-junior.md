@@ -53,6 +53,15 @@ Comenzamos!
 
 ### Estructura Inicial HTML
 
+- Comentar en HTML:
+
+```html
+<!--This is a comment. Comments are not displayed in the browser-->
+
+<p>This is a paragraph.</p>
+```
+
+
 - Etiqueta:
 
 
