@@ -203,11 +203,21 @@ Comenzamos!
 
 - Tipos de Tags:
 	
-    - Las que acompletan la caja y las que se adaptan al contenido
-	
-    - ![image](https://user-images.githubusercontent.com/94720207/169914777-145ec062-c05a-4c24-b571-31da87ce5d29.png)
-    - ![image](https://user-images.githubusercontent.com/94720207/169915001-efacfa72-6f1a-4e32-9b72-78a0d8f8f393.png)
-	
+    - Las que acompletan la caja y las que se adaptan al contenido:
+    	
+        - ![image](https://user-images.githubusercontent.com/94720207/169914777-145ec062-c05a-4c24-b571-31da87ce5d29.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169915001-efacfa72-6f1a-4e32-9b72-78a0d8f8f393.png)
+
+    - Ejemplo con `div`
+
+        - ![image](https://user-images.githubusercontent.com/94720207/169915357-f34498d2-b67f-4ca7-bf51-eeb3cdbbe411.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/169915371-4b833337-ec08-49ac-9656-358f89d1b147.png)
+
+     - Margen
+         
+	 - ![image](https://user-images.githubusercontent.com/94720207/169915530-768d8cff-d80b-4688-a5e7-0874d2235723.png)
+ 
+
 	
 - 	
 	
