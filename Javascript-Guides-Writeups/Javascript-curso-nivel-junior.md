@@ -1,8 +1,10 @@
 
-```html
-```
+
 
 ---
+
+```html
+```
 
 Comenzamos!
 
@@ -201,8 +203,11 @@ Comenzamos!
 
 - Tipos de Tags:
 	
-    - Las que acompletan la caja y las que noç
+    - Las que acompletan la caja y las que no
 	
+    - ![image](https://user-images.githubusercontent.com/94720207/169914777-145ec062-c05a-4c24-b571-31da87ce5d29.png)
+
+
 	
 	
 	
