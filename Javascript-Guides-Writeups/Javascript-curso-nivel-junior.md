@@ -381,8 +381,8 @@ Comenzamos!
 
 ### Listas `<ul>` & `<li>`
 
-- `<ul>` listas desordenadas
-- `<li>` listas ordenadas
+- `<ul></ul>` listas desordenadas
+- `<li></li>` listas ordenadas
 
 ```html
 <!DOCTYPE html>
@@ -421,7 +421,50 @@ Comenzamos!
 
 ---
 
-###
+### Multimedia Tags
+
+- `<img>` 
+
+- También hace referencia a local o externo:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169921395-2421e260-4514-4388-b20e-fd96915ba4c9.png)
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	<h1>Imagen en HTML</h1>
+    	<p>
+    		Esta es una imágen en una carpeta local del servidor:
+    		<img src="malcom.jpg">
+    		<br>
+    		<br>
+    		Esta es una imágen desde Internet
+    		<img src="https://vignette.wikia.nocookie.net/true-villains/images/6/68/2062092-dennis_nedry.jpg/revision/latest?cb=20170317171958">
+    		<br>
+    		<br>
+    		Widht y Height modifica horrendamente las imágenes, larga historia que no explicaré aquí, pero mejor editarlas a mano, así que en caso de modificar tamaño usar solo heigh o %.
+    		<br>
+    		<br>
+    		Además, recordar que con CSS se modifican todas esas cosas! HTML no es para que la página quede "bonita", es para estructurar
+    		<br>
+    		<img src="https://vignette.wikia.nocookie.net/true-villains/images/6/68/2062092-dennis_nedry.jpg/revision/latest?cb=20170317171958" height="300px" >
+    		Welcome to <b>Jurassic Park</b>
+    	</p>	
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169922320-b2a401de-3915-42e5-93eb-b5c837c21552.png)
+
+### Audio y Video
+
+
+
+
    	
 	
 
