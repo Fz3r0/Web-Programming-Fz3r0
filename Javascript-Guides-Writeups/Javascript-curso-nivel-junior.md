@@ -157,6 +157,33 @@ Comenzamos!
 </html>
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/169911577-4b90378a-6e47-4e2a-8e39-eb91819b831d.png)
+
+---
+
+### Estructura Inicial HTML PT.2
+
+- Titulos <h>
+- Párrafos <p>
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+	<h1> Titulo 1 (header1) </h1>
+	<h2> Titulo 2 (header2) </h2>
+	<h3> Titulo 3 (header3) </h3>
+	<h4> Titulo 4 (header4) </h4>
+	<h5> Titulo 5 (header5) </h5>
+	<h6> Titulo 6 (header6) </h6>	    
+    </body>
+</html>
+```
+
+- No es puede poner más de 1 `h1` **(es el index del titulo search optimity para crawlers)**
 
 
 
