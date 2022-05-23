@@ -201,9 +201,12 @@ Comenzamos!
 
 - Tipos de Tags:
 	
-    - Las que acompletan la caja y las que no
-
+    - Las que acompletan la caja y las que noç
 	
+	
+	
+	
+   	
 	
 
 
