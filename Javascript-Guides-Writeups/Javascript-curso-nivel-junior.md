@@ -30,6 +30,22 @@ Comenzamos!
 
 ## HTML
 
+- HTML boxes:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169904936-53681267-c6a7-429f-8dea-42d66a63c339.png)
+    - ![developer-tools-680596380](https://user-images.githubusercontent.com/94720207/169905055-9acda36e-2c92-4299-a0d2-ac4f9cb0e10a.png)
+
+---
+
+- Crear file en una carpeta nueva `fz3r0_compu_mundo`
+
+- Dentro de la carpeta guardar `index.html`
+
+    - ![image](https://user-images.githubusercontent.com/94720207/169905415-3544003d-239c-4b9b-9055-8a9c1966c68a.png)
+
+- 
+
+
 
 
 
