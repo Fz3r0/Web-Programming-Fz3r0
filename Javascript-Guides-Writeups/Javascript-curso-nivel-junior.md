@@ -376,7 +376,52 @@ Comenzamos!
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/169919857-f3c79ebb-05a8-4e1f-9273-29889de44ddd.png)	
-	
+
+---
+
+### Listas `<ul>` & `<li>`
+
+- `<ul>` listas desordenadas
+- `<li>` listas ordenadas
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	
+    	<h1>Listas del super</h1>
+    		
+    		<h3>Listas del super sin ordenar</h3>
+    	   	<ul>
+    	   		<li>zanahorias</li>
+    	   		<li>harina</li>
+    	   		<li>tortillas</li>
+    	   		<li>agua</li>
+    	   		<li>azúcar</li>
+    	   	</ul>
+
+    	<h1>Listas del super ordenadas con "ol"</h1>
+    		
+    		<h3>Listas del super ordenada</h3>
+    	   	<ol>
+    	   		<li>zanahorias</li>
+    	   		<li>harina</li>
+    	   		<li>tortillas</li>
+    	   		<li>agua</li>
+    	   		<li>azúcar</li>
+    	   	</ol>	
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169920811-d0524a4f-0a10-4eea-807e-8821bba7771b.png)
+
+---
+
+###
    	
 	
 
