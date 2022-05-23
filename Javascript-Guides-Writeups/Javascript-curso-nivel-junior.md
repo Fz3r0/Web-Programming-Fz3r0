@@ -342,6 +342,38 @@ Comenzamos!
 </html>
 ```
 
+---
+
+### Más tags!
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	<h1>Titulo Pricnipal De Página</h1>
+    	<p>
+    		Esto es un párrafo que estoy escribiendo en HTML, <b> esto es muy importante así que le puse negritas, </b> si quieres ir a youtube puedes dar <a href="http://www.youtube.com/">click en este link</a>.
+    		<br>
+    		Puse un "br" para dar un brinco y no seguir escribiendo en la misma linea del link de youtube...
+    		<br>
+    		<br>
+    		<br>
+    		Ahora puse varios para brincar más!
+    		<br>
+    		<br>
+    		También puedes ir a un link interno de está página (servidor) haciendo click <a href="/folder1/page3.html">aquí merengues</a>, o también puedes ir a mingar a tu chadre. 
+    		<br>
+    		<br>
+    		<br>
+    		Si agrego más atributos como <b>target="_BLANK"</b>, puedo abrir el link en una nueva pestaña, solo <a href="http://www.youtube.com/" target="_BLANK">debes hacer click aquí!</a>
+    		Gracias! 
+    	</p>
+    </body>
+</html>
+```
 
 	
 	
