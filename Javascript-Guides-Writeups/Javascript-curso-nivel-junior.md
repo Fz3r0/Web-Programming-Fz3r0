@@ -133,12 +133,12 @@ Comenzamos!
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
 	<title></title>
-</head>	
-<body>
+    </head>	
+    <body>
 	
-</body>
+    </body>
 </html>
 ```
 
@@ -147,12 +147,13 @@ Comenzamos!
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
 	<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
-</head>	
-<body>
-	
-</body>
+    </head>	
+    <body>
+	<h1> Titulo que se ve con h1 (header1) </h1>
+	<h2> (header2) I'm Fz3r0! </h2>	    
+    </body>
 </html>
 ```
 
