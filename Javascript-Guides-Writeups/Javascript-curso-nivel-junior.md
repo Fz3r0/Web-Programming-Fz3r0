@@ -92,42 +92,45 @@ Comenzamos!
 <boton color="rojo" tamaño="grande" borde="negro"> <boton> 
 ```
 
-Tipos de Tags:
+- **Tipos de Tags:**
 
-1. <br>          <----| Deja un espacio en linea       
-    
+```html
+<br>        <----| 1. Dejar un espacio en linea:
+```     
 
-    2. <h1></h1>     <----| Contiene algo dentro
+```html
+<h1></h1>   <----| 2. Contiene algo dentro
+``` 
+- Ejemplo:
 
--->
-
+```html
 <br>
 <h1>
 
     Titulo: Fz3r0	
 	
 </h1> 
+```
 
-<!--  
+- **Basic HTML Structure:**
 
-Basic HTML Structure:
-
-1. <!DOCTYPE html>
+1. `<!DOCTYPE html>`
 
     - No se cierra, solo se deja al inicio
     - Indica que es la última versión de HTML
     - Siempre poner al incio
 
-2. <html></html>  
+2. `<html>` `</html>`  
     
     - Adentro está TODA la página
     - Tanto lo que vemos como lo que NO vemos
 
-        - BODY = Lo que podemos ver  
-        - HEAD = Lo que NO podemos ver
+        - `<body>` = Lo que podemos ver  
+        - `<head>` = Lo que NO podemos ver
 
--->
+### Empty HTML structure:
 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -137,8 +140,24 @@ Basic HTML Structure:
 	
 </body>
 </html>
+```
 
-<!--  comment -->
+### Hello World
+ 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+</head>	
+<body>
+	
+</body>
+</html>
+```
+
+
+
 
 
 
