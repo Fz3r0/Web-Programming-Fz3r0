@@ -336,7 +336,7 @@ Comenzamos!
 		<title>Titulo: Fz3r0 Page 3 !!!!</title>
     </head>	
     <body>
-    	<a href="index.html">Click Aqui para volver al Index!</a>
+    	<a href="../index.html">Click Aqui para volver al Index!</a>
     	<a href="../page2.html">Click Aqui para ir a página 2!</a>	    
     </body>
 </html>
