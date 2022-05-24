@@ -66,20 +66,20 @@ html {
 		<meta name="keywords" content="Fz3r0 CSS Pro Lab">
 		<meta name="description" content="Github: Fz3r0 /// Twitter: Fzer0_OPs">
 		<meta name="author" content="Fz3r0">
-		<meta name="copyright" content="Skynet Incorporated SA de CV">
+		<meta name="copyright" content="Skynet Incorporated SA. de CV.">
 		<meta name="robots" content="index">
 		<meta name="robots" content="follow">
-		<link href="favicon.ico" rel="icon" type="image/x-icon">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon">
     </head>	
     <body>
     <header>
     		<nav>
     			<ul>
     				<p>---------| Este es el "header" y su "nav" |---------</p>
-    				<li><a href="page1_whoami.html">¿Quién es Fz3r0?</a></li>
-    				<li><a href="page2_dino_photos.html">Fotos de Dinosaurios</a></li>
-    				<li><a href="page3_jurassic_map.html">Mapa del Parque</a></li>
-    				<li><a href="page4_prices_table.html">Jurassic Store</a></li>
+    				<li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+    				<li><a href="page2_dino_photos.html">Link a Page2: Fotos de Dinosaurios</a></li>
+    				<li><a href="page3_jurassic_map.html">Link a Page3: Mapa del Parque</a></li>
+    				<li><a href="page4_prices_table.html">Link a Page4: Jurassic Store</a></li>
     				<p>---------| Termina el "header" y su "nav" |---------</p>
     			</ul>
     		</nav>
@@ -91,17 +91,20 @@ html {
     		        <h1>Titulo 1 (Section1)</h1>
     			<p>
     				Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1.<br>
-    				Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1.  
+    				Atentamente: Párrafo1 Section1		  
     			</p>
     			<p>
-    			    <a href="https://www.youtube.com/watch?v=u6ckRTxyNyA"><img src="images/explorer.jpg" alt="alt: explorer" title="title: mouse hover">
-                    </a>
+    				Párrafo2 Section1 Párrafo2 Section1 Párrafo2 Section1 Párrafo2 Section1.
+    			</p>
+    			<p>
+    			<a href="https://www.youtube.com/watch?v=u6ckRTxyNyA"><img src="images/explorer.jpg" alt="alt: explorer" title="title: mouse hover"></a><br>
+    			Párrafo3: Foto + Pie de foto de la Explorer de Jurassic Park
     			</p>
 		</section>    
 		<section>	
     		        <h2>Titulo 2 (Section2)</h2>
     			<p>
-    				Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2.   
+    				Párrafo1 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2.   
     			</p>
     			<p>---------| Termina el "contenido central" de página |---------</p>
 		</section>
@@ -127,8 +130,8 @@ html {
     		 <nav>
     		     <p>---------| comienza footer y su nav |---------</p>	
     			 <ul>
-    			 <li><a href="index.html" >Volver al Index</a></li>
-		         <li><a href="page1_whoami.html">¿Quién es Fz3r0?</a></li>
+    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
     			 </ul>
 		         <p>Este es el footer con su "nav"</p>
     		 </nav>
@@ -136,7 +139,7 @@ html {
     </body>
 </html>
 ```
-- ![image](https://user-images.githubusercontent.com/94720207/170089496-2a02a151-bd36-4bf0-bc3f-ba9dbc6f38c8.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170093932-327d38bb-e174-4286-8b55-dfd647686549.png)
 
 ## Store
 
