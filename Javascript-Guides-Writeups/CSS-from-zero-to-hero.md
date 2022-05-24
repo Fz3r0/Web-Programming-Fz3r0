@@ -638,12 +638,38 @@
 /* Esto es un comentario en CSS */
 ```
 
-```css
-/* Funcionamiento básico de CSS */
+### Estructura y Sintaxis Básica de CSS
 
+- Estructura básica y sintaxis de CSS, ejemplo-1:
+
+```css
 html {
-    test-align: left;
-    color: tomato;
+    text-align: left;
+    color: red;
+}
+```
+
+- Estructura básica y sintaxis de CSS, ejemplo-1 - Comentado:
+
+```css
+/* Elemento "html" / Selector > se abre "{" */
+html {
+
+/* Propiedades1: "text-align" >> Con valores: "left" */
+    text-align: left;
+
+/* Propiedades2: "color" >> Con valores: "red" */
+    color: red;
+}
+/* Termina Elemento "html" / se cierra "}" */
+```
+
+- Estructura básica y sintaxis de CSS, ejemplo-2:
+
+```css
+html {
+    text-align: left;
+    color: red;
 }
 
 *  {
@@ -654,10 +680,31 @@ html {
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}    
 ```
 
+- Comentado: 
 
+```css
 
+/* En este caso se seleccionó 1 elemento "html" */
+html {
+    text-align: left;
+    color: tomato;
+}
+
+/* El "*" significa que se seleccionó TODO */
+*  {
+   box-sizing: border-box;
+}
+
+/* Selecciona múltiples elementos con la "clase" de CSS "card" */
+.card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}    
+```
 
 
 
