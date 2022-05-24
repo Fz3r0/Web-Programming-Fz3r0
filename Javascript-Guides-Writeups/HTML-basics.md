@@ -98,10 +98,14 @@ Comenzamos!
 
 ```html
 <br>        <----| 1. Dejar un espacio en linea:
-```     
+```  
 
 ```html
-<h1></h1>   <----| 2. Contiene algo dentro
+<img>       <----| 2. Solo necesita uno
+``` 
+
+```html
+<h1></h1>   <----| 3. Contiene algo dentro
 ``` 
 - Ejemplo:
 
