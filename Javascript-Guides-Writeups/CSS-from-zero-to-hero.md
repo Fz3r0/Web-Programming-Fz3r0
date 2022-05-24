@@ -706,11 +706,15 @@ html {
 }    
 ```
 
+## Iniciar de 0
 
+- Utilizaré la carpeta que ya había mostrado de Jurassic Park y agregaré en el root `/` la carpeta `/css`
 
+    - ![image](https://user-images.githubusercontent.com/94720207/170126405-3501a226-dfdd-4466-b7e0-c1854ceb4a6c.png)
 
-    
-    - Empezar con un `index.html` Que tal el: fz3r0 super special HTML!!!
+- Ahí es donde escribiré todo el código `.css`
+
+- 
 
 
 
