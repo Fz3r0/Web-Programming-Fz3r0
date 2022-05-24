@@ -646,7 +646,7 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169969401-cf461e31-059c-402d-85f5-4104c679494c.png)
   
-### nav
+### Semantics usando los ejemplos:
 
 ```html
 <!DOCTYPE html>
@@ -668,66 +668,69 @@ Comenzamos!
     				<li><a href="index.html" >index!</a></li>
     				<li><a href="page2.html"></a>page1</li>
     				<li><a href="page3.html"></a>page2!</li>
+    				<br>
+    				<p>---------termina el header y su nav-------------------</p>
     			</ul>
     		</nav>
     	</header>
-    	<h2>subtitulo!! a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL, también en caso de haber un NAV en el footer debería ser igual, digo, a menos que quieras que cambie apropósito pues, mira las imágenes de arriba y ya decide como quieres que se vea!</h2>
-    		<p>
-    			Este ya es el párrafo del index, la page 1 y page 2 tendrás otra cosa, pero en realidad quiero aclarar que todo lo de arriba así se quedará siempre (o por lo menos casi siempre)
-    			ya que es el header de toda la pagina auqnue vayas y vengas y cambies de pagina. Es la "buena práctica"
-
-    			Así los cambios de página se verán limpios. 
-    		</p>
-    </body>
-</html>
-```
-
-### Section y Article
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
-		<meta charser="utf-8">
-		<meta name="keywords" content="Fz3r0 HTML course">
-		<meta name="description" content="Fz3r0 Labs">
-		<meta name="author" content="Fz3r0">
-		<meta name="copyright" content="Skynet Incorporation SA de CV">
-		<meta name="robots" content="index">
-		<meta name="robots" content="follow">
-    </head>	
-    <body>
-    	<header>
+    <article>
+		<section>	
+    		<p>---------empieza el "contenido de la página"----------</p>
+    		<h1> Titulo 1!! Comienza "article" con su respectiva "section", con este Titulo 1 a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL</h1>
+    			<p>
+    				Semánticamente ahora si está bien puesta la página con un "article" que después contiene un "section", ya dentro de ese section está el título y los párrafos, como este!!!
+    				<br>
+    				<br>
+    				Así los cambios de página se verán limpios.
+    				<br>
+    				<br>
+    				Este ya es el párrafo del index, la page 1 y page 2 tendrán otra cosa seguramente, pero siempre con su footer y su header, pa' que se vea bonito y pro. (o por lo menos casi siempre) ya que es el header de toda la página aunque vayas y vengas y cambies de página. Es la "buena práctica"
+    			</p>
+		</section>    
+		<section>	
+    		<h3> Titulo 2!! esta es otra section!!!! pero sigue dentro del mismo article!!! </h2>
+    			<p>
+    				Super pro, 2 "sections" pero todo dentro del "article" como muestran las imágenes, además, aún vienen los asides y el footer después de esto!
+    				<br>
+    				<br>
+    				Arriba el header, metadatos y demás cosas invisibles
+    				<br>
+    				Abajo los asides y después el footer. 
+    			</p>
+    			<p>---------termina el contenido "central"de la page, pero comienza el "aside" (justo acabando esta "section" y su "article")----------</p>
+		</section>
+	    <section>
+	    	<aside>
+	    		<h3>Titulo aside 1, cosillas a un lado, una lista, link, o lo que sea!!! solo que con únicamente HTML no se notará, se verá abajo, pero el CSS si lo identificará como un aside</h3>
+	    		<p>Este sería el contenido del aside</p>
+	    	</aside>
+	    </section>
+	    <section>
+	    	<aside>
+	    		<h3>Titulo aside 2, con su respectiva section</h3>
+	    		<p>después de este aside acaba ahora si el "article" (que contiene todo lo "central")</p>
+	    	</aside>
+	    </section>
+	</article>        
+	<aside>
+	    <h3>Titulo aside 3, sin section y fuera del article, último aside</h3>
+	    <p>Es el aside que marca la imágen fuera de todo del lado derecho, pero aún dentro del "main"</p>
+	</aside>
+    	<footer>
     		<nav>
+    			<p>--------------comienza footer y su nav ----------------</p>	
     			<ul>
-    				<li><a href="index.html" >index!</a></li>
-    				<li><a href="page2.html"></a>page1</li>
-    				<li><a href="page3.html"></a>page2!</li>
+    			<li><a href="index.html" >index!</a></li>
+				<li><a href="page666.html"></a>page666!</li>
     			</ul>
+				<p>Este es el footer con su nav, y en teoría tampoco debería cambiar nunca!</p>
     		</nav>
-    	</header>
-	<article>
-		<section>	
-    	<h2>subtitulo!! a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL</h2>
-    		<p>
-    			Semánticamente ahora si está bien puesta la página con un "article" que después contiene un "section", ya dentró de ese section está el título y los párrafos, como este!!!
-
-    			Así los cambios de página se verán limpios. 
-    		</p>
-		</section>
-	</article>
-	<article>    
-		<section>	
-    	<h3> Titulo 2!! esta es otra section!!!! con su respectivo article!!! </h2>
-    		<p>
-    			Super pro, 2 "articles" diferentes, cada uno con su section, que contiene sus titulos ypárrafos, padre santo.  
-    		</p>
-		</section>
-	</article>		
+    	</footer>	    
     </body>
 </html>
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169978795-93cd1399-4c34-41cc-8f19-90821ebef8f5.png)
 
 
 
