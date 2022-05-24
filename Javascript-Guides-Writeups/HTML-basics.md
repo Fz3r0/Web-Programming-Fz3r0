@@ -553,6 +553,64 @@ Comenzamos!
 
 ### Form / Formulario
 
+- Input
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	<form>
+    		<br>
+    		<h1> Inputs en HTML del padrino </h1>
+    		<br>
+    		<br>
+    		En esta primer linea el input que se ingrese se quedará en la variable "nombre" para después ser usada en el server, base de datos, etc.
+    		Se usa en "backend" 
+    		<br>
+    		<input type="" name="name">
+    		<br>
+    		<br>
+    		<br>
+    		Aquí no tiene ningún nombre el input, aún así puedo escribir en el text box. Y tiene el default texto, dejarlo vacío o con texto, es lo mismo.
+    		<br>
+    		<input type="text">
+    		<br>
+    		<br>
+    		<br>
+    		Aquí el type es "password"
+    		<br>
+    		<input type="password">
+    		<br>
+    		Números:
+    		<br>
+    		<input type="number">
+    		<br>
+    		<br>
+    		<br>
+    		Solo formato mail con @
+    		<br>
+    		<input type="email">
+    		<br>
+    		<br>
+    		<br>
+    		Y muchos más:
+    		<input type="color">
+    		<input type="range">
+    		<input type="time">
+    		<input type="date">
+    		<input type="range" min="1" max="5">
+            <input type="submit"> 
+            <input type="button">
+    	</form>	
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169951666-a33b0c2b-57ad-41e8-9fca-236003dff7f8.png)
+ 
 
 
 
