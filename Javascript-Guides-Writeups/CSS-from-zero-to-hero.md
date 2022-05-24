@@ -481,15 +481,15 @@
 	<table>
 		<thead>
 			<tr>
+				<th>Tabla JP</th>
 				<th>Header 1</th>
 				<th>Header 2</th>
-				<th>Header 3</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td>*</td>
-				<td>Niño</td>
+				<td>Menor</td>
 				<td>Adulto</td>
 			</tr>
 			<tr>
@@ -521,6 +521,20 @@
 	</table>
     </section>
     <section>
+    	<h3>Section2: Comprar artículos o entradas al parque:</h3>
+			<p>Seleccione tipo de cliente: (input1)</p>
+				<form action="">
+  				<label for="fname">¿menor o adulto?</label><br>
+  				<input type="text" id="producto" name="producto" value=""><br>
+				</form>
+			<p>Seleccione producto a comprar: (input2) </p>
+				<form action="">
+  				<label for="fname">Producto:</label><br>
+  				<input type="text" id="producto" name="producto" value=""><br>
+  				<input type="submit" value="(Submit)Comprar!">
+				</form>
+    </section>
+    <section>
 	    	<aside>
 	    		<h3>Titulo aside 1</h3>
 	    		<p>Contenido aside 1</p>
@@ -549,12 +563,14 @@
     		 </nav>
     </footer>	    
     </body>
-</html>		
+</html>	
+
+	
 ```
 	
 </details>
 
-- ![image](https://user-images.githubusercontent.com/94720207/170117030-0d615dee-5fcd-4369-bc31-1880b7536b3f.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170122637-42aa61c6-a925-4ac4-a2b9-3d3599f7cc6f.png)
 
 
 
