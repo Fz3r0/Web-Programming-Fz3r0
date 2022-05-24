@@ -30,6 +30,9 @@
  
 ## Index: `/index.html`
 
+<details>
+<summary>Expandir</summary>
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -112,10 +115,16 @@
     </body>
 </html>
 ```
+
+</details>
+	
 - ![image](https://user-images.githubusercontent.com/94720207/170096441-5686606f-2e71-4734-a5de-a1cfa7aa8023.png)
 
-## Page 2: `other_pages/whoami.html`
+## Page 1: `other_pages/whoami.html`
 
+<details>
+<summary>Expandir</summary>
+	
 ```html
 <!DOCTYPE html>
 <html>
@@ -192,11 +201,15 @@
     </body>
 </html>
 ```
+</dtails>
 
 - ![image](https://user-images.githubusercontent.com/94720207/170097670-9ad06536-2001-4c95-830b-e0ce104b0f37.png)
 
 ## Page 2: `other_pages/dino_photos.html`
 
+<details>
+<summary>Expandir</summary>	
+	
 ```html
 <!DOCTYPE html>
 <html>
@@ -277,12 +290,13 @@
 
 - ![image](https://user-images.githubusercontent.com/94720207/170100663-a66ee217-d8a2-44a4-9f4d-c53b7d085425.png)
 
+## Page3 `page3_jurassic_map.html`
 
+```html
 
+```
 
-
-
-### Page4 `page4_prices_table.html`
+## Page4 `page4_prices_table.html`
 
 ```html
 <!DOCTYPE html>
