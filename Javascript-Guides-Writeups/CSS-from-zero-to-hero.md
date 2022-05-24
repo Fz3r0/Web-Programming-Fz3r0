@@ -77,7 +77,7 @@
 		<section>	
     		        <h2>Titulo 2 (Section2)</h2>
     			<p>
-    				Párrafo1 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2.   
+    				Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2 Párrafo1 Section2.   
     			</p>
     			<p>---------| Termina el "contenido central" de página |---------</p>
 		</section>
@@ -112,7 +112,7 @@
     </body>
 </html>
 ```
-- ![image](https://user-images.githubusercontent.com/94720207/170093932-327d38bb-e174-4286-8b55-dfd647686549.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170096441-5686606f-2e71-4734-a5de-a1cfa7aa8023.png)
 
 ## Store
 
