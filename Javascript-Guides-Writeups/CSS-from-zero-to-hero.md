@@ -92,11 +92,7 @@ html {
 
 ## Iniciar de 0
 
-- Utilizaré la carpeta que ya había mostrado de Jurassic Park y agregaré en el root `/` la carpeta `/css`
-
-    - ![image](https://user-images.githubusercontent.com/94720207/170126405-3501a226-dfdd-4466-b7e0-c1854ceb4a6c.png)
-
-- Ahí es donde escribiré todo el código `.css`
+- Empezaré desde un `HTML` super básico:
 
 ```html
 <!DOCTYPE html>
@@ -106,7 +102,8 @@ html {
 		<meta charser="utf-8">
     </head>	
     <body>
-    	    
+	    <h1>Titulo: Fz3r0</h1>
+	    <p>Hola, soy Fz3r0!</p>
     </body>
 </html>
 ```
