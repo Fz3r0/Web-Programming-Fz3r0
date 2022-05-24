@@ -732,9 +732,63 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169978795-93cd1399-4c34-41cc-8f19-90821ebef8f5.png)
 
+---
 
+### Tablas
 
 ---
+
+### Cosillas extras
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+		<meta charset="utf-8">
+		<link href="favicon.ico" rel="icon" type="image/x-icon">	
+    </head>	
+    <body>
+        <center>
+    	<h1>Cosillas extra: center, alt(ceo), favicon, link misma página  </h1>
+    	<p>
+    		Todo irá centrado ya que el "center" lo marqué para todo el body, ingue su! 
+    		<br>
+    		<br>
+    		Lo del favicon va arriba en meta! con "link = rel" debe ir en formato .ico
+    		<br>
+    		Esta imagen tiene más propiedades que las anteriores "alt", "title"(mouse hover)
+    		<br>
+    		<img src="malcom.jpg" alt="por si no carga la imagen" title="mouse hover fz3r0">
+    		<br>
+    		<br>
+    		Otra cosilla que faltó, son los links a la misma página pero otra altura, por ejemplo los titulos del mark down (irónico el ejemplo ya que mark down funciona en base a html jaja!)
+    		<br>
+    		Este > <a href="#ejemplo_titulo">es el link hacia el titulo de "hasta abajo" después de "mucho texto" :P</a> se debe usar # dentro de href seguido del titulo!!!
+    		<br>
+    		Para eso debemos agregar el "id" en los titulos para que tenha un identificador por ejemplo:
+    		<br>
+    		<br>
+    		<p><i>Fz3r0_SpAm_Fz3r0_SpAm_Fz3r0_SpAm_ (simulando mucho texto, spam de espacios incoming!!!)</i></p>
+    		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    		<h3 id="ejemplo_titulo">hacia este titulo habrá un link al inicio de la página para no pasar por "mucho" este titulo tiene el ID "ejemplo_titulo" texto" </h3>
+    	</p>
+    	</center>
+    	<p>Esto no irá centrado, así porque si</p> </p>
+    	<p><b> EL CENTER ES MEJOR HACERLO ES CSS Y NUNCA EN HTML </b></p>
+    	<br>	
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169988375-5585f018-0644-4023-a57b-cb2c843c8b59.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/169988662-254f4372-c99d-4316-8cc1-ccb57060fa59.png)
+ 
+
+
+
 
 
 
@@ -757,3 +811,4 @@ Comenzamos!
 - https://www.youtube.com/watch?v=TC8bT7zTdoE
 - https://www.html.am/html-codes/
 - https://www.semrush.com/blog/semantic-html5-guide/
+- https://www.favicon.cc/
