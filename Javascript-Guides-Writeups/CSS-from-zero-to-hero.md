@@ -158,7 +158,12 @@ body {
 
     - ![image](https://user-images.githubusercontent.com/94720207/170136248-4575c2f7-f102-48fe-8bb8-696c8a228b89.png)
 
-## Colores y valores convencionales
+- Inspeccionar los cambios:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/170147728-3a43e5c2-6931-4c7f-ae0b-3bc99173f8fb.png)
+
+    - ![image](https://user-images.githubusercontent.com/94720207/170147944-71306a18-7011-4409-83f1-3d27293b504d.png)
+ 
 
 
 
