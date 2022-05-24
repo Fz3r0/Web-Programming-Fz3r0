@@ -244,6 +244,9 @@ Comenzamos!
     </body>
 </html>
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169927142-398dd6c4-1f3d-4d39-b7e5-11929e6fe7ae.png)
+
 ---
 
 ### Links y tag `<a>`:
@@ -541,6 +544,11 @@ Comenzamos!
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/169925971-34519419-2862-402f-b496-e84886534ccd.png)
+
+---
+
+### Form / Formulario
+
 
 
 
