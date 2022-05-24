@@ -8,7 +8,15 @@
 
 - **Full HTML Fz3r0 Jurassic Page!**
 
-## Directorios y Archivos en el Server:  
+## Directorios y Archivos en el Server:
+
+### Directorio "Fz3r0: Jurassic Park Pro HTML.zip"
+
+- **Descargar Directorio Completo** -> [Fz3r0: Jurassic Park Pro HTML](https://github.com/Fz3r0/Web-Programming-Fz3r0/files/8765615/CSS_Fz3r0_Lab_-_ROOT_dir.zip))
+
+### Páginas HTML Iniciales
+
+- ![image](https://user-images.githubusercontent.com/94720207/170113297-4dd95f43-88ee-4656-8c06-11b12d2f57d7.png)
 
 ### Directorio "root" principal: `/`
 
@@ -60,10 +68,10 @@
     		<nav>
     			<ul>
     				<p>---------| Este es el "header" y su "nav" |---------</p>
-    				<li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
-    				<li><a href="page2_dino_photos.html">Link a Page2: Fotos de Dinosaurios</a></li>
-    				<li><a href="page3_jurassic_map.html">Link a Page3: Mapa del Parque</a></li>
-    				<li><a href="page4_prices_table.html">Link a Page4: Jurassic Store</a></li>
+    				<li><a href="other_pages/page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+    				<li><a href="other_pages/page2_dino_photos.html">Link a Page2: Fotos de Dinosaurios</a></li>
+    				<li><a href="other_pages/page3_jurassic_map.html">Link a Page3: Mapa del Parque</a></li>
+    				<li><a href="other_pages/page4_prices_table.html">Link a Page4: Jurassic Store</a></li>
     				<p>---------| Termina el "header" y su "nav" |---------</p>
     			</ul>
     		</nav>
@@ -115,7 +123,7 @@
     		     <p>---------| comienza footer y su nav |---------</p>	
     			 <ul>
     			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
-		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+		         <li><a href="other_pages/page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
     			 </ul>
 		         <p>Este es el footer con su "nav"</p>
     		 </nav>
@@ -210,7 +218,7 @@
     		 <nav>
     		     <p>---------| comienza footer y su nav |---------</p>	
     			 <ul>
-    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+    			 <li><a href="../index.html" >Link a index.html: Volver al Index</a></li>
 		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
     			 </ul>
 		         <p>Este es el footer con su "nav"</p>
@@ -307,7 +315,7 @@
     		 <nav>
     		     <p>---------| comienza footer y su nav |---------</p>	
     			 <ul>
-    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+    			 <li><a href="../index.html" >Link a index.html: Volver al Index</a></li>
 		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
     			 </ul>
 		         <p>Este es el footer con su "nav"</p>
@@ -392,7 +400,7 @@
     		 <nav>
     		     <p>---------| comienza footer y su nav |---------</p>	
     			 <ul>
-    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+    			 <li><a href="../index.html" >Link a index.html: Volver al Index</a></li>
 		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
     			 </ul>
 		         <p>Este es el footer con su "nav"</p>
@@ -526,26 +534,14 @@
     		 <nav>
     		     <p>---------| comienza footer y su nav |---------</p>	
     			 <ul>
-    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+    			 <li><a href="../index.html" >Link a index.html: Volver al Index</a></li>
 		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
     			 </ul>
 		         <p>Este es el footer con su "nav"</p>
     		 </nav>
     </footer>	    
     </body>
-</html>	
-
-```
-
-</details>
-	
-- ![image](https://user-images.githubusercontent.com/94720207/170102578-25e09864-362b-4441-82e2-91667fa8b351.png)
-
-<details>
-<summary>Click Aquí para ver código HTML by Fz3r0</summary>
-
-```html
-	
+</html>		
 ```
 	
 </details>
