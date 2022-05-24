@@ -615,7 +615,39 @@ Comenzamos!
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/169956890-2d25f381-25fe-4c15-83fa-d28f2c2ad7c0.png)
+
+---
+
+### Metadatos
+
+- `meta`
  
+- se pone en el `head`
+- donde no se puede ver (son metadatos)
+- Por ejemplo sirven para poner acento y codificarse en `UTF-8`
+
+    - Ejemplos:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+		<meta charser="utf-8">
+		<meta name="keywords" content="harina, leche, jugo, droga, armas, galletas, keywords para crawlers y demás">
+		<meta name="description" content="Una descripción de la página, útil para los crawlers entre otras cosillas, hay caracteres ideales entre 70 y 140">
+		<meta name="author" content="Fz3r0">
+		<meta name="copyright" content="Skynet Incorporation SA de CV">
+		<meta name="robots" content="noindex">
+		<meta name="robots" content="nofollow">
+    </head>	
+    <body>
+
+    </body>
+</html>
+```
+
+---
 
 
 
