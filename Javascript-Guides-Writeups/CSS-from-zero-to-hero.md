@@ -3,7 +3,43 @@
 ### Intro
 
 - CSS: Cascade Style Sheet
+- Describe la presentación de un HTML, para un HTML múltiples estilos posibles.
 - Es cascada, darle estilo por estilo...por estilo....
+
+    - Funcionamiento de CSS 
+
+- CSS funciona a base de `selectores`. 
+- Los selectores pueden ser usados en 1 o varios `elementos`
+- Cada elemento seleccionado tiene sus propias `propiedades`
+
+```css
+/* Esto es un comentario en CSS */
+```
+
+```css
+/* Funcionamiento básico de CSS */
+
+html {
+    test-align: left;
+    color: tomato;
+}
+
+*  {
+   box-sizing: border-box;
+}
+
+.card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+```
+
+
+
+
+
+
+
     
     - Empezar con un `index.html` Que tal el: fz3r0 super special HTML!!!
 
@@ -91,5 +127,12 @@
     </body>
 </html>
 ```
+
+---
+
+### References
+
+- https://bootswatch.com/
+- 
 
 
