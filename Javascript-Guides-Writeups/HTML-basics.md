@@ -566,18 +566,15 @@ Comenzamos!
     		<br>
     		<h1> Inputs en HTML del padrino </h1>
     		<br>
-    		<br>
     		En esta primer linea el input que se ingrese se quedará en la variable "nombre" para después ser usada en el server, base de datos, etc.
     		Se usa en "backend" 
     		<br>
     		<input type="" name="name">
     		<br>
     		<br>
-    		<br>
     		Aquí no tiene ningún nombre el input, aún así puedo escribir en el text box. Y tiene el default texto, dejarlo vacío o con texto, es lo mismo.
-    		<br>
-    		<input type="text">
-    		<br>
+    		Como tiene el atributo requiered, es necesario para enviar el formulario del button "send"
+    		<input type="text" requiered="">
     		<br>
     		<br>
     		Aquí el type es "password"
@@ -589,11 +586,9 @@ Comenzamos!
     		<input type="number">
     		<br>
     		<br>
-    		<br>
     		Solo formato mail con @
     		<br>
     		<input type="email">
-    		<br>
     		<br>
     		<br>
     		Y muchos más:
@@ -601,15 +596,24 @@ Comenzamos!
     		<input type="range">
     		<input type="time">
     		<input type="date">
+    		<br>
+    		Solo 5 pasos de rango:
     		<input type="range" min="1" max="5">
-            <input type="submit"> 
-            <input type="button">
+    		<br>
+    		<br>
+    		El submit no necesita value para que salga el default "send". Además el submit siempre enviará los datos de las cajas (por ejemplo los mails no se podrían mandar aunque es mejor hacerlo en backend)
+                <input type="submit">
+                <br>
+                <br>  
+                Pero si no se pone nada en un "button" sale vacío
+                <input type="button" value="presionar!">
+                <input type="button">
     	</form>	
     </body>
 </html>
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/169951666-a33b0c2b-57ad-41e8-9fca-236003dff7f8.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169955707-40663d2e-a585-47f3-890e-74b33a458be0.png)
  
 
 
