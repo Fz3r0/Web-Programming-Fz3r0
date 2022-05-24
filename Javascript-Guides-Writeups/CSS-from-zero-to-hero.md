@@ -120,7 +120,7 @@ html {
     
         - Link relacionado al stylesheet
 
-        - Haciendo referencia al archivo y su ubicación en el directorio.  
+        - Haciendo referencia al archivo y su ubicación en el directorio (en mi caso `/css/style.css`).  
 
 ```html
 <!DOCTYPE html>
@@ -129,7 +129,7 @@ html {
 		<title> Fz3r0 CSS </title>
 		<meta charser="utf-8">
 
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 
     </head>	
     <body>
@@ -139,7 +139,27 @@ html {
 </html>
 ```
 
+- El archivo `style.css` al que hace referencia es en el que empezaré la aventura:
 
+```css
+body {
+    text-align: left;
+    color: red;
+}
+```
+
+- Lo guardaré en una carpeta llamada `css` creada en mi root `/`
+
+    - ![image](https://user-images.githubusercontent.com/94720207/170135921-587c0fcd-bb00-407d-ae1b-579b6f692089.png)
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/170135974-0f33aaf0-8a5c-4a48-86fc-cf75b8ce8a10.png)
+
+- Si ejecuto el `index.html` nuevamente el `body` toma el style de CSS! 
+
+    - ![image](https://user-images.githubusercontent.com/94720207/170136248-4575c2f7-f102-48fe-8bb8-696c8a228b89.png)
+
+
+ 
 
 
 
