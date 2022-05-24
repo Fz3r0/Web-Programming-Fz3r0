@@ -622,8 +622,44 @@ Comenzamos!
 - ![image](https://user-images.githubusercontent.com/94720207/169958959-193f5104-c7fa-4c47-bb64-b215d535606f.png)
 
 - ![image](https://user-images.githubusercontent.com/94720207/169958984-16b1509e-c74f-43dc-8ab0-a7148d2a09e6.png)
- 
- 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+		<meta charser="utf-8">
+		<meta name="keywords" content="Fz3r0 HTML course">
+		<meta name="description" content="Fz3r0 Labs">
+		<meta name="author" content="Fz3r0">
+		<meta name="copyright" content="Skynet Incorporation SA de CV">
+		<meta name="robots" content="index">
+		<meta name="robots" content="follow">
+    </head>	
+    <body>
+    	<header>
+    		<nav>
+    			<ul>
+    				<li><a href="index.html" >index!</a></li>
+    				<li><a href="page2.html"></a>page1</li>
+    				<li><a href="page3.html"></a>page2!</li>
+    			</ul>
+    		</nav>
+    	</header>
+    	<h2>subtitulo!! a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL</h2>
+    		<p>
+    			Este ya es el párrafo del index, la page 1 y page 2 tendrás otra cosa, pero en realidad quiero aclarar que todo lo de arriba así se quedará siempre (o por lo menos casi siempre)
+    			ya que es el header de toda la pagina auqnue vayas y vengas y cambies de pagina. Es la "buena práctica"
+
+    			Así los cambios de página se verán limpios. 
+    		</p>
+    </body>
+</html>
+```
+
+---
+
+
 
    	
 	
@@ -642,3 +678,4 @@ Comenzamos!
 - https://www.youtube.com/watch?v=z95mZVUcJ-E
 - https://www.w3schools.com/html/html_intro.asp
 - https://www.youtube.com/watch?v=TC8bT7zTdoE
+- https://www.html.am/html-codes/
