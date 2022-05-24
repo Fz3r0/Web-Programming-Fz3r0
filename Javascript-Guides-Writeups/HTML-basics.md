@@ -785,7 +785,15 @@ Comenzamos!
 - ![image](https://user-images.githubusercontent.com/94720207/169988375-5585f018-0644-4023-a57b-cb2c843c8b59.png)
 
 - ![image](https://user-images.githubusercontent.com/94720207/169988662-254f4372-c99d-4316-8cc1-ccb57060fa59.png)
- 
+
+--- 
+
+### Errores Comunes de HTML
+
+- Tratar de hacer que se vea bien (para eso es CSS), solo usar bien la semántica HTML y ya!
+- Usar tags obsoletas
+- Mientras mejor semántica mejores robots, mejores crawlers, etc...
+- Usar mal los DIV.... con las imágenes que puse queda mñas que claro donde va cada cosa, es muy importante ya estando en CSS
 
 
 
