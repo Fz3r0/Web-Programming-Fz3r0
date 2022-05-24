@@ -649,7 +649,15 @@ Comenzamos!
 
 ---
 
+### HTML Semantic Tags
 
+- ![image](https://user-images.githubusercontent.com/94720207/169958927-528ad116-3ce0-4140-8122-8452d4cfd670.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/169958959-193f5104-c7fa-4c47-bb64-b215d535606f.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/169958984-16b1509e-c74f-43dc-8ab0-a7148d2a09e6.png)
+ 
+ 
 
    	
 	
