@@ -501,6 +501,46 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169925237-b16c1bc3-0ef7-4250-9e8f-0c58567f86ea.png)
 
+---
+
+### div
+
+- Realmente el uso real se ve en CSS, pero vaya que se deben utilizar divs!!! ;) 
+- El div divide diferentes elementos en la pàgina
+- Por ejemplo si hay 2 "noticias" se pondría 1 div para cada subtíutlo....
+     
+     - Y un div para el pie de página...y otro para "la barra" de "deportes"....etc... 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+		<div>
+			<h3>Producto 1</h3>
+				<p>
+					El producto 1 cuesta X
+				</p>
+		</div>
+		<div>
+			<h3>Producto 2</h3>
+				<p>
+					El producto 2 cuesta Y
+				</p>
+		</div>
+		<div>
+			<h3>Producto 3</h3>
+				<p>
+					El producto 3 cuesta Z
+				</p>
+		</div>	
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169925971-34519419-2862-402f-b496-e84886534ccd.png)
 
 
 
