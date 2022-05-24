@@ -1,57 +1,30 @@
 
 
-### Intro
-
-- CSS: Cascade Style Sheet
-- Describe la presentación de un HTML, para un HTML múltiples estilos posibles.
-- Es cascada, darle estilo por estilo...por estilo....
-
-    - Funcionamiento de CSS 
-
-- CSS funciona a base de `selectores`. 
-- Los selectores pueden ser usados en 1 o varios `elementos`
-- Cada elemento seleccionado tiene sus propias `propiedades`
-
-```css
-/* Esto es un comentario en CSS */
-```
-
-```css
-/* Funcionamiento básico de CSS */
-
-html {
-    test-align: left;
-    color: tomato;
-}
-
-*  {
-   box-sizing: border-box;
-}
-
-.card {
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-```
 
 
+# CSS by Fz3r0
 
+## Setup Inicial
 
+- **Full HTML Fz3r0 Jurassic Page!**
 
+## Directorios y Archivos en el Server:  
 
+### Directorio "root" principal: `/`
 
-    
-    - Empezar con un `index.html` Que tal el: fz3r0 super special HTML!!!
+- ![image](https://user-images.githubusercontent.com/94720207/170094834-5e5a8430-9afd-4f42-bcce-b78d42c20a69.png)
 
----
+### Directorio "images": `/images`
 
-### Setup Inicial
+- ![image](https://user-images.githubusercontent.com/94720207/170095055-e33e59b8-daf1-43dc-879e-f21440aa51e2.png)
 
-- Directorios en "Servidor":
+### Directorio "other_pages": `/other_pages`
 
-    - 
-    - ![image](https://user-images.githubusercontent.com/94720207/170078662-a812ad19-928b-4a8d-a2fe-0345c9b590d8.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170095288-cfd3f10d-0fa9-42f4-b3b5-30084a0aa86c.png)
+
+## Semántica HTML
  
+- **Idea aproximada de la semántica HTML que llevará la página:**
 
 - ![image](https://user-images.githubusercontent.com/94720207/169996597-cde55d9f-4834-440d-8337-d57135dd190a.png)
  
@@ -146,6 +119,51 @@ html {
 ```html
 ```
 ---
+
+### Intro
+
+- CSS: Cascade Style Sheet
+- Describe la presentación de un HTML, para un HTML múltiples estilos posibles.
+- Es cascada, darle estilo por estilo...por estilo....
+
+    - Funcionamiento de CSS 
+
+- CSS funciona a base de `selectores`. 
+- Los selectores pueden ser usados en 1 o varios `elementos`
+- Cada elemento seleccionado tiene sus propias `propiedades`
+
+```css
+/* Esto es un comentario en CSS */
+```
+
+```css
+/* Funcionamiento básico de CSS */
+
+html {
+    test-align: left;
+    color: tomato;
+}
+
+*  {
+   box-sizing: border-box;
+}
+
+.card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+```
+
+
+
+
+
+
+
+    
+    - Empezar con un `index.html` Que tal el: fz3r0 super special HTML!!!
+
+
 
 ### References
 
