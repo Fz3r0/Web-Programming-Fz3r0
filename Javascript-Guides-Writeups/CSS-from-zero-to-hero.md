@@ -98,7 +98,18 @@ html {
 
 - Ahí es donde escribiré todo el código `.css`
 
-- 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+    </head>	
+    <body>
+    	    
+    </body>
+</html>
+```
 
 
 
