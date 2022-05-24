@@ -462,6 +462,45 @@ Comenzamos!
 
 ### Audio y Video
 
+- `<video>`
+- `controls` atributos como controles (se deja vacío para dejar al explorador "decidir")
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+    </head>	
+    <body>
+    	<h1>Video</h1>
+    	<p>
+    		<br>
+    		Acá un videito sin controles todo chafa: (no se ve)
+    		<br>
+    		<video src="https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4"> 
+    		</video>
+    		<br>
+    		<br>
+    		<br>
+    		Acá uno con controles:
+    		<br>	
+    		<video src="https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4" controls="">
+    		</video>   			
+    		<br>
+    		<br>
+    		<br>
+    		Acá versión audio, así es, directo desde el video ;)
+    		<br>
+    		<audio src="https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4" controls="">	
+    	    <br>
+  			</audio>   			
+    	</p>	
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/169925237-b16c1bc3-0ef7-4250-9e8f-0c58567f86ea.png)
+
 
 
 
@@ -481,3 +520,4 @@ Comenzamos!
 
 - https://www.youtube.com/watch?v=z95mZVUcJ-E
 - https://www.w3schools.com/html/html_intro.asp
+- https://www.youtube.com/watch?v=TC8bT7zTdoE
