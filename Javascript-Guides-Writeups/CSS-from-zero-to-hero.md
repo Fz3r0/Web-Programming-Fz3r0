@@ -163,7 +163,71 @@ body {
     - ![image](https://user-images.githubusercontent.com/94720207/170147728-3a43e5c2-6931-4c7f-ae0b-3bc99173f8fb.png)
 
     - ![image](https://user-images.githubusercontent.com/94720207/170147944-71306a18-7011-4409-83f1-3d27293b504d.png)
+
+## Selectores
+
+- Para poder tener bien especificados los selectores hay que agregarles `id` a los elementos de `HTML`
+
+- Por ejemplo agregaré ID al título, después iré agregando ID básicamente a todo (**u otros selectores**)... Mientras más identificado, seleccionado y ordenado, mejor! 
+
+    - En este caso utilizaré los selectores:
+    
+        - `id`
+        - `class`   
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+
+		<!-- Importando el style.css --> 
+
+		<link rel="stylesheet" href="css/style.css">
+
+    </head>	
+    <body>
+	    
+            <!-- Agregando "id" para titulo, "class" para párrafo --> 
+
+	    <h1 id="id_titulo">Titulo: Fz3r0</h1>
+	    
+	    <p class="class_texto">Hola, soy Fz3r0!</p>
+    
+    </body>
+</html>
+```
+
+- Ahora para poderlo aplicar en `CSS:`
+
+    - Titulo:
+    
+        - Con `#` se indica a `CSS` que debe ir  abuscar un elemento con propiedad `id` que tenga el id `id_titulo` 
+    
+    - Párrafos:
+    
+        - Con `p` se selecciona todo
+	
+	- Con `.` se indica a `CSS` que debe seleccionar solo `1` clase (se debe indicar el nombre de la `clase` osea `id_texto`) 
+
+```css
+#id_titulo {
+    text-align: left;
+    color: red;
+}
+
+.class_texto {
+    text-align: right;
+    color: blue;
+}     
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170150106-f3d9de12-8623-48bc-824e-b22b0c520e02.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/170150151-c2ce8ada-8324-4a9c-9084-3df96445d37e.png)
  
+
 
 
 
