@@ -576,6 +576,7 @@ Comenzamos!
     		Como tiene el atributo requiered, es necesario para enviar el formulario del button "send"
     		<input type="text" requiered="">
     		<br>
+    		<input type="text" value="este input text tiene un 'vaule' con este texto">    		
     		<br>
     		Aquí el type es "password"
     		<br>
@@ -602,18 +603,18 @@ Comenzamos!
     		<br>
     		<br>
     		El submit no necesita value para que salga el default "send". Además el submit siempre enviará los datos de las cajas (por ejemplo los mails no se podrían mandar aunque es mejor hacerlo en backend)
-                <input type="submit">
-                <br>
-                <br>  
-                Pero si no se pone nada en un "button" sale vacío
-                <input type="button" value="presionar!">
-                <input type="button">
+            <input type="submit">
+            <br>
+            <br>  
+            Pero si no se pone nada en un "button" sale vacío
+            <input type="button" value="presionar!">
+            <input type="button">
     	</form>	
     </body>
 </html>
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/169955707-40663d2e-a585-47f3-890e-74b33a458be0.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169956890-2d25f381-25fe-4c15-83fa-d28f2c2ad7c0.png)
  
 
 
