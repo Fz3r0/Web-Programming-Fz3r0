@@ -28,7 +28,7 @@
 
 - ![image](https://user-images.githubusercontent.com/94720207/169996597-cde55d9f-4834-440d-8337-d57135dd190a.png)
  
-## index.html
+## Index: `/index.html`
 
 ```html
 <!DOCTYPE html>
@@ -114,10 +114,169 @@
 ```
 - ![image](https://user-images.githubusercontent.com/94720207/170096441-5686606f-2e71-4734-a5de-a1cfa7aa8023.png)
 
-## Store
+## Page 2: `other_pages/whoami.html`
 
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Fz3r0: Jurassic Park - CSS Pro Lab</title>
+		<meta charser="utf-8">
+		<meta name="keywords" content="Fz3r0 CSS Pro Lab">
+		<meta name="description" content="Github: Fz3r0 /// Twitter: Fzer0_OPs">
+		<meta name="author" content="Fz3r0">
+		<meta name="copyright" content="Skynet Incorporated SA. de CV.">
+		<meta name="robots" content="index">
+		<meta name="robots" content="follow">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    </head>	
+    <body>
+    <header>
+    		<nav>
+    			<ul>
+    				<p>---------| Este es el "header" y su "nav" |---------</p>
+    				<li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+    				<li><a href="page2_dino_photos.html">Link a Page2: Fotos de Dinosaurios</a></li>
+    				<li><a href="page3_jurassic_map.html">Link a Page3: Mapa del Parque</a></li>
+    				<li><a href="page4_prices_table.html">Link a Page4: Jurassic Store</a></li>
+    				<p>---------| Termina el "header" y su "nav" |---------</p>
+    			</ul>
+    		</nav>
+    </header>
+<main>    
+    <article>
+		<section>	
+    		        <p>---------| Inicia el "contenido central" de página |---------</p>
+    		        <h1>Titulo 1 (Section1): WHO AM I???</h1>
+    			<p>
+    				Párrafo1 Section1:<br>
+    				I am: | Github: Fz3r0 | Twitter: Fz3r0_OPs 		  
+    			</p>
+    			<p>
+    				Párrafo2 Section1<br>
+    				Follow me!!!
+    			</p>
+    			<p>
+    			<a href="https://github.com/Fz3r0"><img src="https://user-images.githubusercontent.com/94720207/165896925-bb6403fc-e3b3-480f-971b-874401e43708.gif" alt="alt: explorer" title="title: mouse hover"></a><br>
+    			I am Fz3r0 and the Sun no longer rises...
+    			</p>
+		</section>    
+	        <section>
+	    	<aside>
+	    		<h3>Titulo aside 1</h3>
+	    		<p>Contenido aside 1</p>
+	    	</aside>
+	        </section>
+	        <section>
+	    	<aside>
+	    		<h3>Titulo aside 2</h3>
+	    		<p>Contenido aside 2</p>
+	    	</aside>
+	        </section>
+    </article>        
+    	    <aside>
+	        <h3>Titulo aside 3, aside independiente de article</h3>
+	        <p>Contenido aside 3: sin "section" y fuera del "article", último "aside"</p>
+	    </aside>
+</main>
+    <footer>
+    		 <nav>
+    		     <p>---------| comienza footer y su nav |---------</p>	
+    			 <ul>
+    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+    			 </ul>
+		         <p>Este es el footer con su "nav"</p>
+    		 </nav>
+    </footer>	    
+    </body>
+</html>
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170097670-9ad06536-2001-4c95-830b-e0ce104b0f37.png)
+
+## Page 2: `other_pages/dino_photos.html`
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Fz3r0: Jurassic Park - CSS Pro Lab</title>
+		<meta charser="utf-8">
+		<meta name="keywords" content="Fz3r0 CSS Pro Lab">
+		<meta name="description" content="Github: Fz3r0 /// Twitter: Fzer0_OPs">
+		<meta name="author" content="Fz3r0">
+		<meta name="copyright" content="Skynet Incorporated SA. de CV.">
+		<meta name="robots" content="index">
+		<meta name="robots" content="follow">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    </head>	
+    <body>
+    <header>
+    		<nav>
+    			<ul>
+    				<p>---------| Este es el "header" y su "nav" |---------</p>
+    				<li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+    				<li><a href="page2_dino_photos.html">Link a Page2: Fotos de Dinosaurios</a></li>
+    				<li><a href="page3_jurassic_map.html">Link a Page3: Mapa del Parque</a></li>
+    				<li><a href="page4_prices_table.html">Link a Page4: Jurassic Store</a></li>
+    				<p>---------| Termina el "header" y su "nav" |---------</p>
+    			</ul>
+    		</nav>
+    </header>
+<main>    
+    <article>
+		<section>	
+    		        <p>---------| Inicia el "contenido central" de página |---------</p>
+    		        <h1>Titulo 1 (Section1): Fotos de Dinosaurios</h1>
+    			<p>
+    			<h3> Foto1: </h3>
+    			<a href="https://github.com/Fz3r0"><img src="../images/welcome.jpg" alt="alt: welcome" title="title: welcome mouse hover"></a><br>
+    			Párrafo 1: welcome to jurassic park!!!
+    			</p>
+    			<h3> Foto2: </h3>
+    			<a href="https://github.com/Fz3r0"><img src="../images/brachio.jpg" alt="alt: welcome" title="title: welcome mouse hover"></a><br>
+    			Párrafo 2: welcome to jurassic park!!!
+    			</p>
+    			<h3> Foto3: </h3>
+    			<a href="https://github.com/Fz3r0"><img src="../images/malcom.jpg" alt="alt: welcome" title="title: welcome mouse hover"></a><br>
+    			Párrafo 3: welcome to jurassic park!!!
+    			</p>
+		</section>    
+	        <section>
+	    	<aside>
+	    		<h3>Titulo aside 1</h3>
+	    		<p>Contenido aside 1</p>
+	    	</aside>
+	        </section>
+	        <section>
+	    	<aside>
+	    		<h3>Titulo aside 2</h3>
+	    		<p>Contenido aside 2</p>
+	    	</aside>
+	        </section>
+    </article>        
+    	    <aside>
+	        <h3>Titulo aside 3, aside independiente de article</h3>
+	        <p>Contenido aside 3: sin "section" y fuera del "article", último "aside"</p>
+	    </aside>
+</main>
+    <footer>
+    		 <nav>
+    		     <p>---------| comienza footer y su nav |---------</p>	
+    			 <ul>
+    			 <li><a href="index.html" >Link a index.html: Volver al Index</a></li>
+		         <li><a href="page1_whoami.html">Link a Page1: ¿Quién es Fz3r0?</a></li>
+    			 </ul>
+		         <p>Este es el footer con su "nav"</p>
+    		 </nav>
+    </footer>	    
+    </body>
+</html>
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170100663-a66ee217-d8a2-44a4-9f4d-c53b7d085425.png)
+
 ---
 
 ### Intro
