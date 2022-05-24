@@ -614,15 +614,38 @@ Comenzamos!
 
 ### HTML Semantic Tags
 
-- Header siempre arriba siendo parte del nav
-- 
+- [Instrucciones Pro completas](https://www.semrush.com/blog/semantic-html5-guide/)
 
-- ![image](https://user-images.githubusercontent.com/94720207/169958927-528ad116-3ce0-4140-8122-8452d4cfd670.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169968546-55c2a86d-dda3-43fa-9cfd-b8d05118fd5e.png)
 
-- ![image](https://user-images.githubusercontent.com/94720207/169958959-193f5104-c7fa-4c47-bb64-b215d535606f.png)
+    - Super simple semantic HTML5 Example:
 
-- ![image](https://user-images.githubusercontent.com/94720207/169958984-16b1509e-c74f-43dc-8ab0-a7148d2a09e6.png)
+- ![image](https://user-images.githubusercontent.com/94720207/169968613-631bd37b-f8d1-475f-862d-8f547af4c131.png)
 
+    - Using sections and articles:
+
+- ![image](https://user-images.githubusercontent.com/94720207/169968847-7b0fda95-0cf0-434e-b1b3-f92893a9da52.png)
+
+    - Related Aside: 
+
+- ![image](https://user-images.githubusercontent.com/94720207/169968823-ec0d3075-e40c-4810-a685-a2e8cbafdd38.png)
+
+    - Indirectly Related Aside:
+    
+- ![image](https://user-images.githubusercontent.com/94720207/169968943-768920dc-3ae5-4b8e-98c9-27df72cd6204.png)
+
+    - Section VS Article:
+    
+- ![image](https://user-images.githubusercontent.com/94720207/169969015-fca3d05e-ce4d-42d2-829e-23b4dac3aa70.png)
+
+    - **NOT TO DO**
+
+- ![image](https://user-images.githubusercontent.com/94720207/169969111-10a3bcc9-7bc3-41d2-9f40-e77c5a4ef452.png)
+
+    - **GOOD SEMANTICS = GOOD FOR HUMANS, GOOD FOR ROBOTS! HTML GOOD SEMANTICS ARE YOUR FRIEND :)**
+
+- ![image](https://user-images.githubusercontent.com/94720207/169969401-cf461e31-059c-402d-85f5-4104c679494c.png)
+  
 ### nav
 
 ```html
@@ -648,7 +671,7 @@ Comenzamos!
     			</ul>
     		</nav>
     	</header>
-    	<h2>subtitulo!! a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL</h2>
+    	<h2>subtitulo!! a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL, también en caso de haber un NAV en el footer debería ser igual, digo, a menos que quieras que cambie apropósito pues, mira las imágenes de arriba y ya decide como quieres que se vea!</h2>
     		<p>
     			Este ya es el párrafo del index, la page 1 y page 2 tendrás otra cosa, pero en realidad quiero aclarar que todo lo de arriba así se quedará siempre (o por lo menos casi siempre)
     			ya que es el header de toda la pagina auqnue vayas y vengas y cambies de pagina. Es la "buena práctica"
@@ -659,8 +682,52 @@ Comenzamos!
 </html>
 ```
 
-### nav
+### Section y Article
 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
+		<meta charser="utf-8">
+		<meta name="keywords" content="Fz3r0 HTML course">
+		<meta name="description" content="Fz3r0 Labs">
+		<meta name="author" content="Fz3r0">
+		<meta name="copyright" content="Skynet Incorporation SA de CV">
+		<meta name="robots" content="index">
+		<meta name="robots" content="follow">
+    </head>	
+    <body>
+    	<header>
+    		<nav>
+    			<ul>
+    				<li><a href="index.html" >index!</a></li>
+    				<li><a href="page2.html"></a>page1</li>
+    				<li><a href="page3.html"></a>page2!</li>
+    			</ul>
+    		</nav>
+    	</header>
+	<article>
+		<section>	
+    	<h2>subtitulo!! a partir de aquí puede cambiar, todo lo de arriba SIEMPRE DEBE SER IGUAL</h2>
+    		<p>
+    			Semánticamente ahora si está bien puesta la página con un "article" que después contiene un "section", ya dentró de ese section está el título y los párrafos, como este!!!
+
+    			Así los cambios de página se verán limpios. 
+    		</p>
+		</section>
+	</article>
+	<article>    
+		<section>	
+    	<h3> Titulo 2!! esta es otra section!!!! con su respectivo article!!! </h2>
+    		<p>
+    			Super pro, 2 "articles" diferentes, cada uno con su section, que contiene sus titulos ypárrafos, padre santo.  
+    		</p>
+		</section>
+	</article>		
+    </body>
+</html>
+```
 
 
 
@@ -686,3 +753,4 @@ Comenzamos!
 - https://www.w3schools.com/html/html_intro.asp
 - https://www.youtube.com/watch?v=TC8bT7zTdoE
 - https://www.html.am/html-codes/
+- https://www.semrush.com/blog/semantic-html5-guide/
