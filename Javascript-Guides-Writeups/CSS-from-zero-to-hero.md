@@ -90,7 +90,11 @@ html {
 }    
 ```
 
-## Iniciar de 0
+## Opciones para insertar CSS (Spoiler: solo hay una)
+
+- Existen 3 opciones pero una no es nada recomendada, otra es meeh, y una es la Pro...No revisaré las maneras noobs de programar en CSS siquiera... así que solo utilizaré la siguiente opción:
+
+### Escribir CSS Importanto un archivo `css` dentro del `html`
 
 - Empezaré desde un `HTML` super básico:
 
@@ -107,6 +111,36 @@ html {
     </body>
 </html>
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170134040-840fab4e-06be-4de1-bfff-86f4ed2b379a.png)
+
+- Dentro de head se escribe el `link rel`
+
+    - `<link rel="stylesheet" href="style.css">`
+    
+        - Link relacionado al stylesheet
+
+        - Haciendo referencia al archivo y su ubicación en el directorio.  
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+
+		<link rel="stylesheet" href="style.css">
+
+    </head>	
+    <body>
+	    <h1>Titulo: Fz3r0</h1>
+	    <p>Hola, soy Fz3r0!</p>
+    </body>
+</html>
+```
+
+
+
 
 
 
