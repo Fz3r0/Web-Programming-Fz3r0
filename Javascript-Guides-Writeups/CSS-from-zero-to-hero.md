@@ -31,7 +31,7 @@
 ## Index: `/index.html`
 
 <details>
-<summary>Expandir</summary>
+<summary>Click Aquí para ver código HTML by Fz3r0</summary>
 
 ```html
 <!DOCTYPE html>
@@ -123,7 +123,7 @@
 ## Page 1: `other_pages/whoami.html`
 
 <details>
-<summary>Expandir</summary>
+<summary>Click Aquí para ver código HTML by Fz3r0</summary>
 	
 ```html
 <!DOCTYPE html>
@@ -201,14 +201,14 @@
     </body>
 </html>
 ```
-</dtails>
+</details>
 
 - ![image](https://user-images.githubusercontent.com/94720207/170097670-9ad06536-2001-4c95-830b-e0ce104b0f37.png)
 
 ## Page 2: `other_pages/dino_photos.html`
 
 <details>
-<summary>Expandir</summary>	
+<summary>Click Aquí para ver código HTML by Fz3r0</summary>	
 	
 ```html
 <!DOCTYPE html>
@@ -288,15 +288,20 @@
 </html>
 ```
 
+</details>
+
 - ![image](https://user-images.githubusercontent.com/94720207/170100663-a66ee217-d8a2-44a4-9f4d-c53b7d085425.png)
 
 ## Page3 `page3_jurassic_map.html`
 
-```html
 
-```
+
+
 
 ## Page4 `page4_prices_table.html`
+
+<details>
+<summary>Click Aquí para ver código HTML by Fz3r0</summary>
 
 ```html
 <!DOCTYPE html>
@@ -414,8 +419,13 @@
 
 ```
 
+</details>
+	
 - ![image](https://user-images.githubusercontent.com/94720207/170102578-25e09864-362b-4441-82e2-91667fa8b351.png)
 
+<details>
+<summary>Click Aquí para ver código HTML by Fz3r0</summary>
+	
 
 
 
