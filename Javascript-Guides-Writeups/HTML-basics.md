@@ -794,21 +794,7 @@ Comenzamos!
 - Usar tags obsoletas
 - Mientras mejor semántica mejores robots, mejores crawlers, etc...
 - Usar mal los DIV.... con las imágenes que puse queda mñas que claro donde va cada cosa, es muy importante ya estando en CSS
-
-
-
-
-
-
-   	
-	
-
-
-
-
-
-
-
+- Ya no se usa combinar lenguajes y meter a fuerza con calzador CSS o javascript entre tags HTML, no se deberían combinar, sino que cada uno tener "su propio espacio"
 
 ---
 
