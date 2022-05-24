@@ -188,43 +188,6 @@ Comenzamos!
 <!DOCTYPE html>
 <html>
     <head>
-	<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
-    </head>	
-    <body>
-	<h1> Titulo 1 (header1) </h1>
-	<h2> Titulo 2 (header2) </h2>
-	<h3> Titulo 3 (header3) </h3>
-	<h4> Titulo 4 (header4) </h4>
-	<h5> Titulo 5 (header5) </h5>
-	<h6> Titulo 6 (header6) </h6>
-	<p>
-		Lorem
-	</p>
-	    
-    </body>
-</html>
-```
-
-- Tipos de Tags:
-	
-    - Las que acompletan la caja y las que se adaptan al contenido:
-    	
-        - ![image](https://user-images.githubusercontent.com/94720207/169914777-145ec062-c05a-4c24-b571-31da87ce5d29.png)
-        - ![image](https://user-images.githubusercontent.com/94720207/169915001-efacfa72-6f1a-4e32-9b72-78a0d8f8f393.png)
-
-    - Ejemplo con `div`
-
-        - ![image](https://user-images.githubusercontent.com/94720207/169915357-f34498d2-b67f-4ca7-bf51-eeb3cdbbe411.png)
-        - ![image](https://user-images.githubusercontent.com/94720207/169915371-4b833337-ec08-49ac-9656-358f89d1b147.png)
-
-     - Margen
-         
-	 - ![image](https://user-images.githubusercontent.com/94720207/169915530-768d8cff-d80b-4688-a5e7-0874d2235723.png)
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
 		<title>Titulo: Fz3r0 Compumundo Hypermegared</title>
     </head>	
     <body>
@@ -351,7 +314,7 @@ Comenzamos!
 
 ---
 
-### Más tags!
+### Links internos y externos
 
 ```html
 <!DOCTYPE html>
@@ -650,6 +613,9 @@ Comenzamos!
 ---
 
 ### HTML Semantic Tags
+
+- Header siempre arriba siendo parte del nav
+- 
 
 - ![image](https://user-images.githubusercontent.com/94720207/169958927-528ad116-3ce0-4140-8122-8452d4cfd670.png)
 
