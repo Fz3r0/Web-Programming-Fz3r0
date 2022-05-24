@@ -6,7 +6,15 @@
 
 ## Setup Inicial
 
-- **Full HTML Fz3r0 Jurassic Page!**
+- Para setup inicial se utilizará mi proyecto de `HTML` de `Jurassic Park`.
+
+- Es un script super "raw" en HTML sin ningún tipo de estilo ni modificación, HTML en su estado más puro posible. 
+
+- Este script respeta por completo la `Semántica HTML` para que `CSS` lo pueda adaptar lo mejor posible.
+
+- Ajunto el proyecto completo incluyendo `directories`, `images`, `source-code`.
+
+- Espero esta información y tanto mi proyecto de `HTML` como el Lab de `CSS` ayude a alguien :)     
 
 ## Directorios y Archivos en el Server:
 
@@ -545,7 +553,9 @@
 ```
 	
 </details>
-	
+
+- ![image](https://user-images.githubusercontent.com/94720207/170117030-0d615dee-5fcd-4369-bc31-1880b7536b3f.png)
+
 
 
 
@@ -574,6 +584,7 @@
 
 
 ---
+---
 
 
 
@@ -595,7 +606,7 @@
 
 
 
-### Intro
+## Intro de CSS
 
 - CSS: Cascade Style Sheet
 - Describe la presentación de un HTML, para un HTML múltiples estilos posibles.
