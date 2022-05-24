@@ -45,20 +45,26 @@ html {
 
 ---
 
-###
+### Setup Inicial
 
-- ![image](https://user-images.githubusercontent.com/94720207/169996003-92bb2dd4-9aa3-45c6-bfb7-54114c2b0ead.png)
+- Directorios en "Servidor":
+
+    - 
+    - ![image](https://user-images.githubusercontent.com/94720207/170078662-a812ad19-928b-4a8d-a2fe-0345c9b590d8.png)
+ 
 
 - ![image](https://user-images.githubusercontent.com/94720207/169996597-cde55d9f-4834-440d-8337-d57135dd190a.png)
  
+## index.html
+
 ```html
 <!DOCTYPE html>
 <html>
     <head>
-		<title>Titulo: Fz3r0 CSS Super Pro</title>
+		<title>Fz3r0: Jurassic Park - CSS Pro Lab</title>
 		<meta charser="utf-8">
-		<meta name="keywords" content="Fz3r0 CSS course">
-		<meta name="description" content="Fz3r0 Labs">
+		<meta name="keywords" content="Fz3r0 CSS Pro Lab">
+		<meta name="description" content="Github: Fz3r0 /// Twitter: Fzer0_OPs">
 		<meta name="author" content="Fz3r0">
 		<meta name="copyright" content="Skynet Incorporated SA de CV">
 		<meta name="robots" content="index">
@@ -69,65 +75,73 @@ html {
     <header>
     		<nav>
     			<ul>
-    				<p>---------Este es el header y su nav-------------------</p>
-    				<li><a href="page1.html"></a>page1</a></li>
-    				<li><a href="page2.html"></a>page2</li>
-    				<li><a href="page3.html"></a>page3!</li><br>
-    				<p>---------termina el header y su nav-------------------</p>
+    				<p>---------| Este es el "header" y su "nav" |---------</p>
+    				<li><a href="page1_whoami.html">¿Quién es Fz3r0?</a></li>
+    				<li><a href="page2_dino_photos.html">Fotos de Dinosaurios</a></li>
+    				<li><a href="page3_jurassic_map.html">Mapa del Parque</a></li>
+    				<li><a href="page4_prices_table.html">Jurassic Store</a></li>
+    				<p>---------| Termina el "header" y su "nav" |---------</p>
     			</ul>
     		</nav>
     </header>
 <main>    
     <article>
 		<section>	
-    		<p>---------empieza el "contenido de la página"----------</p>
-    		<h1>Titulo 1</h1>
+    		        <p>---------| Inicia el "contenido central" de página |---------</p>
+    		        <h1>Titulo 1 (Section1)</h1>
     			<p>
-    				Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 Párrafo1 
+    				Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1.<br>
+    				Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1 Párrafo1 Section1.  
     			</p>
     			<p>
-    				<img src="malcom.jpg" alt="info de alt" title="mouse hover title">
+    			    <a href="https://www.youtube.com/watch?v=u6ckRTxyNyA"><img src="images/explorer.jpg" alt="alt: explorer" title="title: mouse hover">
+                    </a>
     			</p>
 		</section>    
 		<section>	
-    		<h3>Titulo 2</h2>
+    		        <h2>Titulo 2 (Section2)</h2>
     			<p>
-    				Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2 Párrafo2  
+    				Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2 Párrafo2 Section2.   
     			</p>
-    			<p>---------termina el contenido "central"-------</p>
+    			<p>---------| Termina el "contenido central" de página |---------</p>
 		</section>
-	    <section>
+	        <section>
 	    	<aside>
 	    		<h3>Titulo aside 1</h3>
 	    		<p>Contenido aside 1</p>
 	    	</aside>
-	    </section>
-	    <section>
+	        </section>
+	        <section>
 	    	<aside>
 	    		<h3>Titulo aside 2</h3>
 	    		<p>Contenido aside 2</p>
 	    	</aside>
-	    </section>
-	   </article>        
-	   <aside>
-	       <h3>Titulo aside 3, sin section y fuera del article, último aside</h3>
-	       <p>Contenido aside 3</p>
-	   </aside>
+	        </section>
+    </article>        
+    	    <aside>
+	        <h3>Titulo aside 3, aside independiente de article</h3>
+	        <p>Contenido aside 3: sin "section" y fuera del "article", último "aside"</p>
+	    </aside>
 </main>
     <footer>
     		 <nav>
-    		     <p>--------------comienza footer y su nav ----------------</p>	
-    			   <ul>
-    			       <li><a href="index.html" >index!</a></li>
-				         <li><a href="page666.html"></a>page666!</li>
-    			   </ul>
-				         <p>Este es el footer con su nav</p>
+    		     <p>---------| comienza footer y su nav |---------</p>	
+    			 <ul>
+    			 <li><a href="index.html" >Volver al Index</a></li>
+		         <li><a href="page1_whoami.html">¿Quién es Fz3r0?</a></li>
+    			 </ul>
+		         <p>Este es el footer con su "nav"</p>
     		 </nav>
     </footer>	    
     </body>
 </html>
 ```
+- ![image](https://user-images.githubusercontent.com/94720207/170089496-2a02a151-bd36-4bf0-bc3f-ba9dbc6f38c8.png)
 
+## Store
+
+```html
+```
 ---
 
 ### References
