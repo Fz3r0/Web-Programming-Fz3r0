@@ -476,7 +476,54 @@ p.class_soy_otra_class {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170364801-af487209-7beb-4dc3-8fb1-0c9682e4031a.png)
 
+## Usando "div"
 
+- Los `<div></div>` que eran muy importantes para la semántica de `HTML` pero no se notaban en lo más minimo es justo para que "algo" como `CSS` lo pueda identificar! así de fácil.
+
+- Ahora los "bloques" con `div` podrán ser seleccionados y referenciados!
+
+- Para tener un buen laboratorio con varios escenarios y variables hice este script de `css` que tiene varias combinaciones de clases:
+
+    - Clases que se repiten en `TODOS`
+    - Clases que `NO` se repiten
+    - Clases que solo se repiten en `1` y `2`
+    - Clases que solo se repiten en `2` y `3` 
+
+- `index.html`
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+    </head>	
+    <body>
+
+    	<div>
+    		<h1 id="id_titulo">Titulo1: Div1</h1>
+	    
+	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
+	    
+	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>
+	    
+	    		<p class="text class_Z class_9 diferente_3">3 Hola, soy Fz3r0! 3</p>  		
+    	</div>
+
+    	<div>
+    		<h1 id="id_titulo">Titulo2: Div2</h1>
+	    
+	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
+	    
+	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>
+	    
+	    		<p class="text class_Z class_9 diferente_3">3 Hola, soy Fz3r0! 3</p> 		
+    	</div>
+
+    </body>
+</html>
+```
 
 
 
