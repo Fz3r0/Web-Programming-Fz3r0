@@ -376,8 +376,8 @@ p {
 
 - Esto permite seleccionar 2 o más elementos que compartan aunque sea 1 clase de todas las que tengan. Por ejemplo:
 
-    - Le pondré nuevamente a los primeros párrafos el nombre `class_texto` pero con un identificador secundario diferente en el segundo párrafo `p`. 
-    - El tercer `p` se llamará diferente, es decir, los 3 `p`'s tendrán un "nombre completo" diferente, pero algunos coincidirán en algunos "nombres" o mejor dicho: `class`.
+    - Le pondré nuevamente a los primeros 2 `p` la clase `class_texto1`, pero! seguido de otra `class` secundaria diferente en el segundo y tercer párrafo `p`. 
+    - El tercer `p` se llamará totalmente diferente, es decir, los 3 `p`'s tendrán un "nombre completo" diferente, pero algunos coincidirán en algunos "nombres" o mejor dicho: `class`.
 
 
 ```html
@@ -394,15 +394,15 @@ p {
     </head>	
     <body>
 	    
-            <!-- p1 y p2 comparten la class "class_texto --> 
+            <!-- p1 y p2 comparten la class "class_texto1" --> 
 
 	    <h1 id="id_titulo">Titulo: Fz3r0</h1>
 	    
-	    <p class="class_texto">1 Hola, soy Fz3r0! 1</p>
+	    <p class="class_texto1">1 Hola, soy Fz3r0! 1</p>
 	    
-	    <p class="class_texto class_soy_otra_class">2 Hola, soy Fz3r0! 2</p>
+	    <p class="class_texto1 class_soy_otra_class">2 Hola, soy Fz3r0! 2</p>
 	    
-	    <p class="class_texto3 class_fz3r0_OPs">3 Hola, soy Fz3r0! 3</p>
+	    <p class="class_texto3 class_soy_otra_class_también">3 Hola, soy Fz3r0! 3</p>
     
     </body>
 </html>
