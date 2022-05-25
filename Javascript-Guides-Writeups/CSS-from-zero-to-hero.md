@@ -502,7 +502,7 @@ p.class_soy_otra_class {
     <body>
 
     	<div>
-    		<h1 id="id_titulo">Titulo1: Div1</h1>
+    		<h2 id="id_titulo">Titulo1: Div1</h2>
 	    
 	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
 	    
@@ -512,7 +512,7 @@ p.class_soy_otra_class {
     	</div>
 
     	<div>
-    		<h1 id="id_titulo">Titulo2: Div2</h1>
+    		<h2 id="id_titulo">Titulo2: Div2</h2>
 	    
 	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
 	    
@@ -563,6 +563,8 @@ p.diferente_3 {
 - Ahora que ya tengo el `HTML` y lo probé con el `CSS` que usaré en los próximos ejemplos, mostraré la primer prueba con `CSS`
 
     - **Seleccionaré `div p` osea **TODOS** los `p` (párrafos) dentro del `div` (**o cualquier div ya que aún no están identificados**)**
+    
+    - **Lo mismo haré con los titulos `h2` (en este ejemplo ambos titulos de ambas `divs` son `h2`)** 
 
 - `style.css`
 
@@ -582,9 +584,10 @@ div p {
 ```
 - ![image](https://user-images.githubusercontent.com/94720207/170376463-693463d8-dbf1-4feb-bfd1-a9f7d208d7a8.png)
 
-- Pero, si pongo la base inicial de mi `style.css` donde ya había especificado las clases **NO LO CAMBIARÁ, A PESAR DE ESTAR HASTA ABAJO DE LA CASCADA:**
+- Pero, si pongo la base inicial de mi `style.css` donde ya había especificado las clases **NO CAMBIARÁ EL ESTILO DE LOS `p`, A PESAR DE ESTAR HASTA ABAJO DE LA CASCADA:**
 
     -  Esto es por el **selector**!!! Estoy seleccionando `TODOS` los `TAGS` de `p`... No los que ya tengo identificados como `p.texto` ;)
+    -  Algo similar pasaría con el titulo, ya que ya hemos declarado un estilo con el selector `#`
     -  Regresamos a lo mismo, por eso es bueno tener bien identifcado todo con buena semántica `HTML`, los `p` con sus clases, cada sección con `div`, etc. 
 
 - `style.css`
@@ -617,9 +620,19 @@ p.diferente_3 {
     font-size: 22px
 }
 
+/* Los siguientes "div p" o "div h1" no tendrían sentido, ya que he identificado cada titulo y párrafo de la página */
+
 div p {
     text-align: center;
     color: magenta;
+    font-weight: bold;
+    font-size: 22px
+
+}
+
+div h1 {
+    text-align: center;
+    color: lime;
     font-weight: bold;
     font-size: 22px
 
