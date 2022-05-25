@@ -405,14 +405,73 @@ p {
 	    
 	    <p class="class_texto1 class_soy_otra_class">2 Hola, soy Fz3r0! 2</p>
 	    
-	    <p class="class_texto3 class_soy_otra_class_también">3 Hola, soy Fz3r0! 3</p>
+	    <p class="class_texto3 class_soy_otra_class">3 Hola, soy Fz3r0! 3</p>
     
     </body>
 </html>
 ```
 
+- `style.css`
+
+```css
+#id_titulo {
+    text-align: left;
+    color: red;
+}
+
+p.class_texto1 {
+    text-align: right;
+    color: blue;
+}
+
+p.class_texto2 {
+    text-align: center;
+    color: purple;
+}
+
+p.class_texto3 {
+    text-align: left;
+    color: green;
+}
+
+```
+
 - ![image](https://user-images.githubusercontent.com/94720207/170362594-922c5334-5a90-4e0e-8e21-d850c06f5cae.png)
 
+- Si después de eso yo agregara otro `selector` como `p.class_soy_otra_class` entonces cambiarían 2 y 3. 
+
+- Esto pasa por la **`cascada`** de `CSS`, tomaría la segunda elección ya que ´p2´ compartiría ya 2 selectores para 2 clases diferentes:
+
+- `style.css`
+
+```css
+#id_titulo {
+    text-align: left;
+    color: red;
+}
+
+p.class_texto1 {
+    text-align: right;
+    color: blue;
+}
+
+p.class_texto2 {
+    text-align: center;
+    color: purple;
+}
+
+p.class_texto3 {
+    text-align: left;
+    color: green;
+}
+
+p.class_soy_otra_class {
+    text-align: center;
+    color: pink;
+    font-weight: bold;
+    font-family: "Lucida Console";
+}
+```
 
 
 
