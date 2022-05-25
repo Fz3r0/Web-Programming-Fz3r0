@@ -90,9 +90,60 @@ html {
 }    
 ```
 
-## Opciones para insertar CSS (Spoiler: solo hay una)
+## Opciones para insertar CSS _(Spoiler: solo hay una Pro)_
 
-- Existen 3 opciones pero una no es nada recomendada, otra es meeh, y una es la Pro...No revisaré las maneras noobs de programar en CSS siquiera... así que solo utilizaré la siguiente opción:
+- Existen 3 opciones pero una no es nada recomendada, otra es meeh, y una es la Pro...
+
+- Las primeras 2 solo haré mención para saberlas identificar en caso de un análisis o pentesting, pero para desarrollo personal no abordaré formas noobs de CSS...
+
+1. **La peor: abrir un `style` dentro de algún elemento HTML, ejemplo:**
+
+```html
+/* Peor forma de CSS, fuchi! */
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+    </head>
+	
+    <body style="color:red">
+	  
+	    <h1>Titulo: Fz3r0</h1>
+	    <p>Hola, soy Fz3r0!</p>
+    </body>
+</html>
+```
+
+2. **Forma meeeh: abrir un `style` desde el `head` del código `HTML`:**
+
+```html
+/* Forma meehhh de CSS, fuchi! */
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+	        
+	        <style>
+		   body {
+		       color: red;
+		   }	
+		</style>	
+			
+    </head>
+	
+    <body style="color:red">
+	  
+	    <h1>Titulo: Fz3r0</h1>
+	    <p>Hola, soy Fz3r0!</p>
+    </body>
+</html>
+```
+
+3. **Forma PRO de usar `CSS`: Escribir CSS Importanto un archivo `css` dentro del `html`:**
 
 ### Escribir CSS Importanto un archivo `css` dentro del `html`
 
@@ -189,7 +240,7 @@ body {
     </head>	
     <body>
 	    
-            <!-- Agregando "id" para titulo, "class" para párrafo --> 
+            <!-- Agregando "id" para titulo, "class_texto" para párrafo --> 
 
 	    <h1 id="id_titulo">Titulo: Fz3r0</h1>
 	    
@@ -205,15 +256,16 @@ body {
 
 - Ahora para poderlo aplicar en `CSS:`
 
-    - Titulo:
+    - Titulos:
     
-        - Con `#` se indica a `CSS` que debe ir  abuscar un elemento con propiedad `id` que tenga el id `id_titulo` 
+        - Con `#` se indica a `CSS` que debe ir  abuscar un elemento con propiedad `id` que tenga el id `id_titulo`.
+        - Solo los titulos **(H1,H2,H3,H4,H5,H6)** contienen esta propiedad. 
     
     - Párrafos:
-    
-        - Con `p` se selecciona todo.
-	- Con `.` se indica a `CSS` que debe seleccionar solo `1` clase
-	- Se debe indicar el nombre de la `clase` osea `id_texto` 
+
+        - Con `p` se selecciona **todo**.
+        - Con `.` se indica a `CSS` que debe seleccionar solo `1` clase.
+        - Se debe indicar el nombre de la `clase` osea `id_texto`. 
 
 ```css
 #id_titulo {
@@ -230,11 +282,70 @@ body {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170150766-685b4061-056a-467e-ad9e-61c1146cf2c5.png)
 
-- Ahora seleccionó todos los "p" en azul, ya que aunque usé `.` todos se llaman `class_texto`
+- Ahora seleccionó todos los "p" en azul, ya que aunque usé `.` todos se llaman `class_texto`, o mejor dicho como lo entendería el explorador:
 
-- Así que para que no cambien 
+    - **`p.class_texto`** 
 
+- Así que para que no cambien todos juntos, tendría que seleccionar **un nombre por `class`** desde mi `HTML`, así tendría por ejemplo:
 
+    - **`p.class_texto1`** 
+    - **`p.class_texto2`** 
+    - **`p.class_texto3`** 
+
+- Ahora se va aterrizando el por qué escribir el código HTML con semántica perfecta y tener todo bien identificado desde un principio, por ejemplo:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+
+		<!-- Importando el style.css --> 
+
+		<link rel="stylesheet" href="css/style.css">
+
+    </head>	
+    <body>
+	    
+            <!-- Agregando "id" para titulo, 
+
+                "class_text1", "class_text2", "class_text3" para cada párrafo --> 
+
+	    <h1 id="id_titulo">Titulo: Fz3r0</h1>
+	    
+	    <p class="class_texto1">1 Hola, soy Fz3r0! 1</p>
+	    
+	    <p class="class_texto2">2 Hola, soy Fz3r0! 2</p>
+	    
+	    <p class="class_texto3">3 Hola, soy Fz3r0! 3</p>
+    
+    </body>
+</html>
+```
+
+```css
+#id_titulo {
+    text-align: left;
+    color: red;
+}
+
+.class_texto1 {
+    text-align: right;
+    color: blue;
+}
+
+.class_texto2 {
+    text-align: center;
+    color: purple;
+}
+
+.class_texto3 {
+    text-align: left;
+    color: green;
+}
+
+```
 
 
 
