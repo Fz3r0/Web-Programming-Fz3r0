@@ -584,6 +584,9 @@ div p {
 
 - Pero, si pongo la base inicial de mi `style.css` donde ya había especificado las clases **NO LO CAMBIARÁ, A PESAR DE ESTAR HASTA ABAJO DE LA CASCADA:**
 
+    -  Esto es por el **selector**!!! Estoy seleccionando `TODOS` los `TAGS` de `p`... No los que ya tengo identificados como `p.texto` ;)
+    -  Regresamos a lo mismo, por eso es bueno tener bien identifcado todo con buena semántica `HTML`, los `p` con sus clases, cada sección con `div`, etc. 
+
 - `style.css`
 
 ```css
