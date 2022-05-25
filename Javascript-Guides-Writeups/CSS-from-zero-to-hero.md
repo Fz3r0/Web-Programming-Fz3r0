@@ -769,6 +769,54 @@ div h1 {
 
     - [CSS Borders](https://www.w3schools.com/Css/css_border.asp)
 
+- Ejemplo:
+
+- `style.css`
+
+```css
+#id_titulo {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    
+    border: 10px royalblue dashed;
+}
+
+p.diferente_1 {
+    text-align: right;
+    color: blue;
+    font-weight: bold;
+    font-size: 22px
+
+    border: 5px darkred outset;
+}
+
+
+div p {
+    text-align: center;
+    color: magenta;
+    font-weight: bold;
+    font-size: 22px
+
+}
+
+div h1 {
+    text-align: center;
+    color: lime;
+    font-weight: bold;
+    font-size: 22px
+
+}
+
+
+* {
+    font-family: monospace;
+    border: 5px lightgray double;
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170386587-ae2d519c-7914-4091-b096-87a8025ed2be.png)
+ 
 
 
 
