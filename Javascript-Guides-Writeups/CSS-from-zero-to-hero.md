@@ -815,8 +815,74 @@ div h1 {
 }
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/170386587-ae2d519c-7914-4091-b096-87a8025ed2be.png)
- 
+## Background 
+
+- Adjunto la cheatsheet de background:
+
+    - [CSS Background](https://www.w3schools.com/Css/css_background.asp)
+
+Ejemplo básico:
+
+```css
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+```
+
+- Más ejemplos:
+
+```css
+
+div.uno {
+   background-color: lightblue 
+   opacity: 0.3; 
+}
+
+div.dos {
+   background-color: lightblue 
+   background: rgba(0, 128, 0, 0.3)
+}
+
+
+```
+
+Background image:
+
+```css
+body {
+  background-image: url("paper.gif");
+  background-repeat: norepeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+```
+
+### Background EZ hint:
+
+- **CSS background - Shorthand property**
+
+    - **To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.**
+
+```css
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+## Background 
+
+
 
 
 
