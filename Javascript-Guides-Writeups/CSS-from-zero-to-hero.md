@@ -647,39 +647,14 @@ div h1 {
     - Ojo! como TODO debería estar dentro de su `div` de manera limpia y elegante, obvio se especifica su `div`
     
         - `div h1, div h2`  
+    
+    - Nota: quitaré los primeros estilos a los `p` y `h` para que no sobrepongan los estilos de los `div`: 
 
 ```css
-#id_titulo {
-    text-align: left;
-    color: black;
-    font-weight: bold;
-}
-
-p.diferente_1 {
-    text-align: right;
-    color: blue;
-    font-weight: bold;
-    font-size: 22px
-}
-
-p.diferente_2 {
-    text-align: center;
-    color: purple;
-    font-weight: bold;
-    font-size: 22px
-}
-
-p.diferente_3 {
-    text-align: left;
-    color: green;
-    font-weight: bold;
-    font-size: 22px
-}
-
 /* Aplicando el mismo estilo para h1 y h2 en el div para titulos */
 
 div p {
-    text-align: center;
+    text-align: left;
     color: magenta;
     font-weight: bold;
     font-size: 22px
@@ -694,7 +669,11 @@ div h1, div h2 {
 
 }
 ```
-    
+
+- ![image](https://user-images.githubusercontent.com/94720207/170381252-cf60b1b8-dd6e-4f05-84a9-64f48f19cb3f.png)
+
+
+
 
 
 
