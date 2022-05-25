@@ -750,7 +750,7 @@ div h1 {
     - Lo mismo para con las `propiedades` y `elementos` dentro de cada `tag`.
     - Es por eso que siempre hay que tener en cuenta la cascada y los selectores que hemos utilizado. 
 
-## Colores y valores convencionales
+## Colores, Medidas y Valores convencionales en general
 
 - Adjunto herramientas para poder revisar, calcular y modificar los valores convencionales de `CSS`:
 
@@ -763,6 +763,11 @@ div h1 {
 
     - **[CSS References](https://www.w3schools.com/cssref/default.asp)**
 
+## Borders
+
+- Adjunto la cheatsheet de borders:
+
+    - [CSS Borders](https://www.w3schools.com/Css/css_border.asp)
 
 
 
