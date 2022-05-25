@@ -674,7 +674,71 @@ div h1, div h2 {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170381252-cf60b1b8-dd6e-4f05-84a9-64f48f19cb3f.png)
 
+- Para seleccionar `TODO` lo que se encuentre dentro del documento `HTML` se usa `*`
 
+- De la misma manera funciona, si ya se ha seleccionado algo no lo tomará en cuenta.
+
+- En este ejemplo a ninguna selección le hemos declarado un tipo de letra, entonces aunque estén declarados, al no haber declado el tipo de letra eso si cambiaría por ejemplo, pero no el color que si cambiamos. 
+
+- Es decir, las propiedades también las podría tomar en cuenta por ejemplo:
+
+    - Usando el `.HTML` y `.CSS` con el que inicié esta sección de `div` no seleccioné ningín tipo de letra, entonces eso si lo podría cambiar:
+
+```css
+#id_titulo {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+p.diferente_1 {
+    text-align: right;
+    color: blue;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_2 {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_3 {
+    text-align: left;
+    color: green;
+    font-weight: bold;
+    font-size: 22px
+}
+
+/* Los siguientes "div p" o "div h1" no tendrían sentido, ya que he identificado cada titulo y párrafo de la página */
+
+div p {
+    text-align: center;
+    color: magenta;
+    font-weight: bold;
+    font-size: 22px
+
+}
+
+div h1 {
+    text-align: center;
+    color: lime;
+    font-weight: bold;
+    font-size: 22px
+
+}
+
+/* Este "div" seleccionadno todo "*" si funcionaría, ya que aunque ya estén decladas varias propiedas, no lo estaba la de tipo de letra */
+
+* {
+    font-family: papyrus;
+    text-align: right
+}
+```
+
+- 
 
 
 
