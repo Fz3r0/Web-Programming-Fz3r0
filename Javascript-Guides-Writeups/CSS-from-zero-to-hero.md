@@ -744,6 +744,24 @@ div h1 {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170383004-88afeb2d-edd2-4e52-bfd4-520e40bb8fc1.png)
 
+- En resumen:
+
+    - Si hay un `tag` que ya ha sido identificado con alguna clase, unas propiedades generalizadas escritas más adelante no sobre esribirían la configuración ya realizada. 
+    - Lo mismo para con las `propiedades` y `elementos` dentro de cada `tag`.
+    - Es por eso que siempre hay que tener en cuenta la cascada y los selectores que hemos utilizado. 
+
+## Colores y valores convencionales
+
+- Adjunto herramientas para poder revisar, calcular y modificar los valores convencionales de `CSS`:
+
+    - [CSS Units](https://www.w3schools.com/cssref/css_units.asp)
+    - [PX to EM Conversion](https://www.w3schools.com/cssref/css_pxtoemconversion.asp)
+    - [CSS Colors](https://www.w3schools.com/cssref/css_colors.asp)
+    - [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp)
+
+- En general de esta página se pueden sacar todos esos datos que se utilizarán en un futuro:
+
+    - **[CSS References](https://www.w3schools.com/cssref/default.asp)**
 
 
 
