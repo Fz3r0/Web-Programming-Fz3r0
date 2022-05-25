@@ -467,11 +467,14 @@ p.class_texto3 {
 
 p.class_soy_otra_class {
     text-align: center;
-    color: pink;
+    color: brown;
     font-weight: bold;
     font-family: "Lucida Console";
+    font-size: 21px
 }
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170364801-af487209-7beb-4dc3-8fb1-0c9682e4031a.png)
 
 
 
