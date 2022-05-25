@@ -193,7 +193,11 @@ body {
 
 	    <h1 id="id_titulo">Titulo: Fz3r0</h1>
 	    
-	    <p class="class_texto">Hola, soy Fz3r0!</p>
+	    <p class="class_texto">1 Hola, soy Fz3r0! 1</p>
+	    
+	    <p class="class_texto">2 Hola, soy Fz3r0! 2</p>
+	    
+	    <p class="class_texto">3 Hola, soy Fz3r0! 3</p>
     
     </body>
 </html>
@@ -207,9 +211,9 @@ body {
     
     - Párrafos:
     
-        - Con `p` se selecciona todo
-	
-	- Con `.` se indica a `CSS` que debe seleccionar solo `1` clase (se debe indicar el nombre de la `clase` osea `id_texto`) 
+        - Con `p` se selecciona todo.
+	- Con `.` se indica a `CSS` que debe seleccionar solo `1` clase
+	- Se debe indicar el nombre de la `clase` osea `id_texto` 
 
 ```css
 #id_titulo {
@@ -222,11 +226,13 @@ body {
     color: blue;
 }     
 ```
+- ![image](https://user-images.githubusercontent.com/94720207/170150812-c491199f-8c7b-4568-81dc-b16b7008b950.png)
 
-- ![image](https://user-images.githubusercontent.com/94720207/170150106-f3d9de12-8623-48bc-824e-b22b0c520e02.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170150766-685b4061-056a-467e-ad9e-61c1146cf2c5.png)
 
-- ![image](https://user-images.githubusercontent.com/94720207/170150151-c2ce8ada-8324-4a9c-9084-3df96445d37e.png)
- 
+- Ahora seleccionó todos los "p" en azul, ya que aunque usé `.` todos se llaman `class_texto`
+
+- Así que para que no cambien 
 
 
 
