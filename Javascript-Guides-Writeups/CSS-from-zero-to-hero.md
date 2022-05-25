@@ -680,6 +680,8 @@ div h1, div h2 {
 
 - En este ejemplo a ninguna selección le hemos declarado un tipo de letra, entonces aunque estén declarados, al no haber declado el tipo de letra eso si cambiaría por ejemplo, pero no el color que si cambiamos. 
 
+- Sin embargo, el "text align" no lo cambiará, ya que esa propiedad ya había sido seleccionada independientemente en cada "tag" 
+
 - Es decir, las propiedades también las podría tomar en cuenta por ejemplo:
 
     - Usando el `.HTML` y `.CSS` con el que inicié esta sección de `div` no seleccioné ningín tipo de letra, entonces eso si lo podría cambiar:
@@ -730,7 +732,9 @@ div h1 {
 
 }
 
-/* Este "div" seleccionadno todo "*" si funcionaría, ya que aunque ya estén decladas varias propiedas, no lo estaba la de tipo de letra */
+/* Este "div" seleccionadno todo "*" si funcionaría para la tipografía, ya que aunque ya estén decladas varias propiedas, no lo estaba la de tipo de letra */
+
+/* Sin embargo, el "text align" no lo cambiará, ya que esa propiedad ya había sido seleccionada independientemente en cada"tag" */
 
 * {
     font-family: papyrus;
@@ -738,7 +742,9 @@ div h1 {
 }
 ```
 
-- 
+- ![image](https://user-images.githubusercontent.com/94720207/170383004-88afeb2d-edd2-4e52-bfd4-520e40bb8fc1.png)
+
+
 
 
 
