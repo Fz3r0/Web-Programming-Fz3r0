@@ -215,7 +215,7 @@ body {
 
     - ![image](https://user-images.githubusercontent.com/94720207/170147944-71306a18-7011-4409-83f1-3d27293b504d.png)
 
-## Selectores
+## Selectores en CSS
 
 - Para poder tener bien especificados los selectores hay que agregarles `id` a los elementos de `HTML`
 
@@ -478,7 +478,7 @@ p.class_soy_otra_class {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170364801-af487209-7beb-4dc3-8fb1-0c9682e4031a.png)
 
-## Usando "div"
+## Usando "div" en selectores CSS
 
 - Los `<div></div>` que eran muy importantes para la semántica de `HTML` pero no se notaban en lo más minimo es justo para que "algo" como `CSS` lo pueda identificar! así de fácil.
 
