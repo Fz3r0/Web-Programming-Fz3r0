@@ -370,6 +370,46 @@ p {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170358890-6758da0c-93a1-47dc-ae96-1907c34e905c.png)
 
+- **Ojito!**
+
+- También se pueden seleccionar varias clases al mismo tiempo dentro de un mismo párrafo `p`
+
+- Esto permite seleccionar 2 o más elementos que compartan aunque sea 1 clase de todas las que tengan. Por ejemplo:
+
+    - Le pondré nuevamente a los primeros párrafos el nombre `class_texto` pero con un identificador secundario diferente en el segundo párrafo `p`. 
+    - El tercer `p` se llamará diferente, es decir, los 3 `p`'s tendrán un "nombre completo" diferente, pero algunos coincidirán en algunos "nombres" o mejor dicho: `class`.
+
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+
+		<!-- Importando el style.css --> 
+
+		<link rel="stylesheet" href="css/style.css">
+
+    </head>	
+    <body>
+	    
+            <!-- p1 y p2 comparten la class "class_texto --> 
+
+	    <h1 id="id_titulo">Titulo: Fz3r0</h1>
+	    
+	    <p class="class_texto">1 Hola, soy Fz3r0! 1</p>
+	    
+	    <p class="class_texto class_soy_otra_class">2 Hola, soy Fz3r0! 2</p>
+	    
+	    <p class="class_texto3 class_fz3r0_OPs">3 Hola, soy Fz3r0! 3</p>
+    
+    </body>
+</html>
+```
+
+
+
 
 
 
