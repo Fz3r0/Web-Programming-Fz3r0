@@ -880,9 +880,24 @@ body {
 }
 ```
 
-## Background 
+## CSS Box Model
 
+- Adjunto la cheatsheet de background:
 
+    - [CSS Box Model](https://www.w3schools.com/Css/css_boxmodel.asp)
+
+- ![image](https://user-images.githubusercontent.com/94720207/170388070-4baa079a-d2e6-44d3-a601-c86d77b426b7.png)
+
+- Ejemplo:
+
+```css
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+```
 
 
 
