@@ -502,7 +502,7 @@ p.class_soy_otra_class {
     <body>
 
     	<div>
-    		<h2 id="id_titulo">Titulo1: Div1</h2>
+    		<h1 id="id_titulo">Titulo1: Div1</h1>
 	    
 	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
 	    
@@ -512,7 +512,7 @@ p.class_soy_otra_class {
     	</div>
 
     	<div>
-    		<h2 id="id_titulo">Titulo2: Div2</h2>
+    		<h1 id="id_titulo">Titulo2: Div2</h1>
 	    
 	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
 	    
@@ -640,7 +640,62 @@ div h1 {
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170376753-3819c24e-3384-4416-a830-fe78170f9e36.png)
- 
+
+- También se puede aplicar **el mismo estilo** para varios **elementos**
+
+    - Por ejemplo, que tal que yo tengo varios tipos de titulo como `h1` para `titulo1` y `h2` para `titulo2` pero quiero el mismo estilo para los 2 titulos:
+    - Ojo! como TODO debería estar dentro de su `div` de manera limpia y elegante, obvio se especifica su `div`
+    
+        - `div h1, div h2`  
+
+```css
+#id_titulo {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+p.diferente_1 {
+    text-align: right;
+    color: blue;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_2 {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_3 {
+    text-align: left;
+    color: green;
+    font-weight: bold;
+    font-size: 22px
+}
+
+/* Aplicando el mismo estilo para h1 y h2 en el div para titulos */
+
+div p {
+    text-align: center;
+    color: magenta;
+    font-weight: bold;
+    font-size: 22px
+
+}
+
+div h1, div h2 {
+    text-align: center;
+    color: lime;
+    font-weight: bold;
+    font-size: 22px
+
+}
+```
+    
+
 
 
 
