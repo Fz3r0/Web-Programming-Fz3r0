@@ -525,7 +525,106 @@ p.class_soy_otra_class {
 </html>
 ```
 
+- Esta es una prueba con `CSS` para identificar los divs, párrafos y clases:
 
+- `style.css`
+
+```css
+#id_titulo {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+p.diferente_1 {
+    text-align: right;
+    color: blue;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_2 {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_3 {
+    text-align: left;
+    color: green;
+    font-weight: bold;
+    font-size: 22px
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170375860-5a5e5b6c-9bd7-4b4e-a581-f2df2024b28b.png)
+
+- Ahora que ya tengo el `HTML` y lo probé con el `CSS` que usaré en los próximos ejemplos, mostraré la primer prueba con `CSS`
+
+    - **Seleccionaré `div p` osea **TODOS** los `p` (párrafos) dentro del `div` (**o cualquier div ya que aún no están identificados**)**
+
+- `style.css`
+
+```css
+#id_titulo {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+div p {
+    text-align: center;
+    color: magenta;
+    font-weight: bold;
+    font-size: 22px
+
+}
+```
+- ![image](https://user-images.githubusercontent.com/94720207/170376463-693463d8-dbf1-4feb-bfd1-a9f7d208d7a8.png)
+
+- Pero, si pongo la base inicial de mi `style.css` donde ya había especificado las clases **NO LO CAMBIARÁ, A PESAR DE ESTAR HASTA ABAJO DE LA CASCADA:**
+
+- `style.css`
+
+```css
+#id_titulo {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+p.diferente_1 {
+    text-align: right;
+    color: blue;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_2 {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 22px
+}
+
+p.diferente_3 {
+    text-align: left;
+    color: green;
+    font-weight: bold;
+    font-size: 22px
+}
+
+div p {
+    text-align: center;
+    color: magenta;
+    font-weight: bold;
+    font-size: 22px
+
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170376753-3819c24e-3384-4416-a830-fe78170f9e36.png)
+ 
 
 
 
