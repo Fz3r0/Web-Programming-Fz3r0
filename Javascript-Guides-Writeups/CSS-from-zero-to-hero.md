@@ -374,11 +374,14 @@ p {
 
 - También se pueden seleccionar varias clases al mismo tiempo dentro de un mismo párrafo `p`
 
-- Esto permite seleccionar 2 o más elementos que compartan aunque sea 1 clase de todas las que tengan. Por ejemplo:
+- Esto permite seleccionar 2 o más elementos que compartan aunque sea 1 clase de todas las que tengan. 
+
+- Por ejemplo, utilizando exactamente el mismo `style.css` pero cambiando lo siguiente en el `HTML`:
 
     - Le pondré nuevamente a los primeros 2 `p` la clase `class_texto1`, pero! seguido de otra `class` secundaria diferente en el segundo y tercer párrafo `p`. 
     - El tercer `p` se llamará totalmente diferente, es decir, los 3 `p`'s tendrán un "nombre completo" diferente, pero algunos coincidirán en algunos "nombres" o mejor dicho: `class`.
 
+- `index.html`
 
 ```html
 <!DOCTYPE html>
@@ -407,6 +410,10 @@ p {
     </body>
 </html>
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170362594-922c5334-5a90-4e0e-8e21-d850c06f5cae.png)
+
+
 
 
 
