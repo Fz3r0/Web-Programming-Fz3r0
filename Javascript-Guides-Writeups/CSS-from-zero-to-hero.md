@@ -263,9 +263,11 @@ body {
     
     - Párrafos:
 
-        - Con `p` se selecciona **todo**.
+        - Con `p` se seleccionan **todos los `p`**.
         - Con `.` se indica a `CSS` que debe seleccionar solo `1` clase.
         - Se debe indicar el nombre de la `clase` osea `id_texto`. 
+    
+    - Nota: con `*` se selecciona TODO, pero por FUERA de un estilo, no confundir! (eso se verá mas adelante)
 
 - Seleccionar todo con `p` _(excepto titulo que ya se especificó)_
 
