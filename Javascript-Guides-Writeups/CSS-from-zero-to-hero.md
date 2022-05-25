@@ -267,6 +267,22 @@ body {
         - Con `.` se indica a `CSS` que debe seleccionar solo `1` clase.
         - Se debe indicar el nombre de la `clase` osea `id_texto`. 
 
+- Seleccionar todo con `p` _(excepto titulo que ya se especificó)_
+
+```css
+#id_titulo {
+    text-align: left;
+    color: red;
+}
+
+p {
+    text-align: right;
+    color: blue;
+}     
+```
+
+- Solo 1 por 1 `class` usando `.`
+
 ```css
 #id_titulo {
     text-align: left;
@@ -293,6 +309,9 @@ body {
     - **`p.class_texto3`** 
 
 - Ahora se va aterrizando el por qué escribir el código HTML con semántica perfecta y tener todo bien identificado desde un principio, por ejemplo:
+
+
+- **`index.html`:**
 
 ```html
 <!DOCTYPE html>
@@ -324,6 +343,8 @@ body {
 </html>
 ```
 
+- **`style.css`:**
+
 ```css
 #id_titulo {
     text-align: left;
@@ -346,6 +367,9 @@ body {
 }
 
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170358890-6758da0c-93a1-47dc-ae96-1907c34e905c.png)
+
 
 
 
