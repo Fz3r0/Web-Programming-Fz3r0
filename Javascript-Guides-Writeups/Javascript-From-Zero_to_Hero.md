@@ -39,16 +39,17 @@ Varias lineas dije!...
     
 ## Tipos de datos en Javascript
 
-- In programming, data types is an important concept.
+- [Javascript Data Types Cheatlist](https://www.w3schools.com/js/js_datatypes.asp)
 
-- To be able to operate on variables, it is important to know something about the type.
+    - In programming, data types is an important concept.
 
-    - Without data types, a computer cannot safely solve this:
+    - To be able to operate on variables, it is important to know something about the type.
+
+        - Without data types, a computer cannot safely solve this:
 
 ```js
 let x = 16 + "Volvo";
 ```
-- [Javascript Data Types Cheatlist](https://www.w3schools.com/js/js_datatypes.asp)
 
 - Tipos de Datos en `js`
 
@@ -67,10 +68,12 @@ let x = 16 + "Volvo";
 
 ## Definición de Variables
 
+- [Javascript Variables Cheatsheet](https://www.w3schools.com/js/js_variables.asp)
+
 - `var` es la manera legacy de declarar una variable, **ya no se utiliza.**
 
 ```js
-// NO UTILIZAR VAR PARA DECLARAR VARIABLES!!!
+// NO UTILIZAR "VAR" PARA DECLARAR VARIABLES!!!
 
 var miPrimerVariable = 'fz3r0_variable_string'
 ```
@@ -112,6 +115,10 @@ console.log(miPrimerVariable);
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170558599-fe794144-c1c8-4b70-8120-465d0060e4cd.png)
+
+    - De esta manera se pueden ir modificando las variables, muy parecido a otros lenguajes de programación realmente. 
+
+- 
 
 
 
