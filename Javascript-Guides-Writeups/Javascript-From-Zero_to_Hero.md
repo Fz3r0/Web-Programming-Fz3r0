@@ -80,6 +80,12 @@ var miPrimerVariable = 'fz3r0_variable_string'
 
 - **La correcta manera de declarar variables en `js` es la siguiente utilizando `let` y utilizando posteriormente `console.log` para hacerle un llamado:**
 
+    - NOTA: Siempre se debe empezar la variable por un string, después ya puede ser seguida por un número, por ejemplo:
+    
+        - `fila_22`
+        - `form-_-3`
+        - `f0_$variable_radio.b_200` 
+
 ```js
 // FORMA CORRECTA DE DEFINIR VARIABLES:
 
@@ -130,7 +136,23 @@ console.log(miPrimerVariable);
 
 ### Asignando otros Tipos de Datos a las variables
 
-- 
+- Ejemplos:
+
+
+
+```js
+    // Boolean
+
+let f0_boolean = true
+let f0_otro_boolean2 = false
+
+    // Number
+
+let f0_number = 1
+let f0_otro_number2 = 10
+let f0_otro_number3 = 666
+let f0_otro_number4 = 3.1416
+```
 
 
 
