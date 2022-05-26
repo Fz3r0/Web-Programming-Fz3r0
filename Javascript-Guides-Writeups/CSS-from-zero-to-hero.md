@@ -1040,33 +1040,6 @@ body {
 
 - Ejemplo de Span vs Div
 
-- HTML:
-
-```html
-<div id="div-0">
-  <h2>This is a heading inside a div element</h2>
-  <p>This a paragraph inside  a div element.<p>
-</div>
-<div id="div-1">
-  <h2>This is a heading inside a div element</h2>
-  <p>This a paragraph inside  a div element.<p>
-</div>
-<span id="span-0">This text is inside a span element.</span>
-<span id="span-1" span>This text is inside another span element.</span>
-```
-- CSS:
-
-```css
-#div-0 { background-color: #7fd1de; }
-#div-1 { background-color: #b4bbe8; }
-#span-0 { background-color: #ffbcac; }
-#span-1 { background-color: #7fded2; }
-```
-
-- ![image](https://user-images.githubusercontent.com/94720207/170402213-fde5f7d2-6178-4544-9c69-c35fa29c856c.png)
-
-- [Ver en **Codepen**](https://codepen.io/hubspot/pen/bGqGwPJ)
-
 - HTML
 
 ```html
@@ -1074,11 +1047,11 @@ body {
   <p><span id="span-1">DIV 1</span> - We can use the div element to separate contents of a page into chunks. Each of these orange blocks is a div element.</p>
 </div>
 <div>
-  <p><span id="span-1">DIV 2</span> - We can use a span tag to <span id="span-0">change the color</span> of text.</p>
+  <p><span id="span-1">DIV 2</span> - We can use a <span id="span-0">span</span> tag to <span id="span-0">change the color</span> of text.</p>
 </div>
 <div>
-  <p><span id="span-1">DIV 3</span> - We can also use span to <span id="span-1">change other style aspects</span> of text as well.</p>
-</div>
+  <p><span id="span-1">DIV 3</span> - We can also use <span id="span-0">span</span> to <span id="span-1">change other style aspects</span> of text as well. <span id="span-0">span</span> are few text inside a div, and div is the whole block</p></div>
+<div>
 ```
 
 - CSS
@@ -1106,7 +1079,8 @@ div {
 }
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/170403127-d6c14d0c-ef5c-496e-9d5f-d51d4e4d7ac0.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170403770-e29a25f2-c567-409a-9143-195ab49181f0.png)
+
 
 ## Links
 
@@ -1171,6 +1145,6 @@ div {
 - https://bootswatch.com/
 - https://fonts.google.com/
 - https://blog.hubspot.com/website/span-vs-div
-- 
+- https://codepen.io/hubspot/pen/bGqGwPJ
 
 
