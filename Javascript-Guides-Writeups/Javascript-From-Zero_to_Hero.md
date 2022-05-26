@@ -199,15 +199,82 @@ console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_nu
 
 ## Objetos en Javascript
 
-- - [**JavaScript Objects**](https://www.w3schools.com/js/js_objects.asp)
+- [**JavaScript Objects**](https://www.w3schools.com/js/js_objects.asp)
 
-    - In real life, a _**car**_ is an **`object`**.
+    - **Un objeto es una agrupación de datos. -> Estos datos hacen sentido entre si.**
+     
+        - In real life, a _**car**_ is an **`object`**.
 
-    - A _**car**_ has **`properties`** like _**weight**_ and _**colo**r_, and **`methods`** like **_start_** and **_stop_**.
+        - A _**car**_ has **`properties`** like _**weight**_ and _**colo**r_, and **`methods`** like **_start_** and **_stop_**.
     
-    - All **_cars_** have the same **`properties`**, but the **`property values`** differ from **_car_** to _**car**_.
+        - All **_cars_** have the same **`properties`**, but the **`property values`** differ from **_car_** to _**car**_.
 
-    - All **_cars_** have the same **`methods`**, but the **`methods`** are performed at **_different times_**.
+        - All **_cars_** have the same **`methods`**, but the **`methods`** are performed at **_different times_**.
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/170566842-d7d2829e-34f5-46c4-8cc3-8f25c7890683.png)
+
+- Del mismo modo que ese coche son los `objetos` en Javascript, por ejemplo:
+
+    - Un `usuario` con **nombre, apellido, contraseña, usuario, tipo de usuario, etc...** y con un objeto agruparemos esos datos en un `objeto`  
+
+
+- El `object` es uno de los **tipos de datos** más utilizados en Javascript.
+
+```js
+
+    // Objeto vacío (no contiene ninguna propiedad):
+
+const f0_objeto_vacio = {}
+
+    // Objeto con "variables o valores" que se llaman << PROPIEDADES >>
+
+    // Las "propiedades" de los "objetos" se colocan entre "{}"
+
+        // "const" es muy similar a "let", solo que uno es para variables y otro es para objetos 
+
+        // en lugar de usar "=" como "let", los "const" usan ":"
+
+        // Agregar "," para agregar una siguiente propiedad
+
+const f0_objeto = {
+
+	f0_numero: 666,
+	f0_string: "Esto es un string, padrino!",
+	f0_condicion: true,
+
+}  
+
+    // Mandar llamar al objeto "const" para imprimir en consola el objeto "f0_objeto" 
+
+console.log(f0_objeto)
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170572973-4f352e44-028f-4e58-a08c-ee97f3a0d570.png) 
+
+- Al imprimir un `object` se puede ver con la misma `sintaxis` y formato que usamos en el script. 
+
+    - Nota: la `,` en la última propiedad del objeto no es necesaria, pero es una buena práctica (para copiar y pegar fácil y mejor uso del control de versiones)
+
+- **También se puede tomar un objeto e imprimir una sola propiedad de este (o seleccionar la propiedad deseada):**
+
+    - Similar a `CSS` solo se debe poner el identificador del objeto, en este caso el `const` `"f0_objeto"` seguido de `.` y el nombre de la propiedad: 
+
+```js
+    // Mandar llamar al objeto "const" "f0_objeto", pero solo las propiedades seleccionadas:
+
+console.log(f0_objeto.f0_string, f0_objeto.f0_numero, f0_objeto.f0_string, f0_objeto.f0_numero)
+console.log(f0_objeto.f0_condicion, f0_objeto.f0_condicion, f0_objeto.f0_condicion, f0_objeto.f0_condicion, )
+console.log(f0_objeto.f0_string, f0_objeto.f0_numero, f0_objeto.f0_string, f0_objeto.f0_numero)
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170575035-af97e810-f234-481c-8ff5-358772c9199d.png)
+
+
+
+
+
+
+
 
 
 
