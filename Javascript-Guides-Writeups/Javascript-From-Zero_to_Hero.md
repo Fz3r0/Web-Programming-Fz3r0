@@ -269,6 +269,16 @@ console.log(f0_objeto.f0_string, f0_objeto.f0_numero, f0_objeto.f0_string, f0_ob
 
 - ![image](https://user-images.githubusercontent.com/94720207/170575035-af97e810-f234-481c-8ff5-358772c9199d.png)
 
+## Arreglos en Javascript
+
+- [**JavaScript Arrays**](https://www.w3schools.com/js/js_arrays.asp)
+
+    - An array is a special variable, which can hold more than one value:
+
+```js
+const cars = ["Saab", "Volvo", "BMW"]; 
+```
+
 
 
 
