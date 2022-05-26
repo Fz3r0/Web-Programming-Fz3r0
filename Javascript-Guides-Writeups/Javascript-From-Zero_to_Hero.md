@@ -344,7 +344,53 @@ console.log(f0_array_2)
 - Si lo vuelvo a ejecutar:
 
 - ![image](https://user-images.githubusercontent.com/94720207/170586274-2d9863f8-deb4-4ac3-a27d-dc3b4e722dbc.png)
- 
+
+## Operadores Matemáticos en Javascript
+
+- [Javascript Operators](https://www.w3schools.com/js/js_operators.asp)
+
+| **Operator** | **Description **              |
+|--------------|-------------------------------|
+| +            | Addition                      |
+| -            | Subtraction                   |
+| *            | Multiplication                |
+| **           | Exponentiation (ES2016)       |
+| /            | Division                      |
+| %            | Modulus (Division Remainder)  |
+| ++           | Increment                     |
+| --           | Decrement                     |
+
+- Ejemplo 
+
+```js
+const suma = 1 + 2
+const restar = 2 - 1
+const dividir = 10 / 5
+const exponente = 10 ** 2
+
+    // El modulus/modulo: toma los 2 número que le indiquemos, después los divide, pero, REGRESA EL VALOR QUE SOBRA
+    
+        // Ejemplo:  10 % 3   --   10 / 3 = 9 (10 entre 3 igual a 9)... sobra << 1 >> Ese es el modulus!!! ;) 
+
+const modulo = 10 % 3
+
+        // Incremento o decremento: Toma un valor, por ejemplo a "f0_num" le daré el valor "5". 
+	
+	                         // A ese valor yo le quiero incrementar ese mismo valor de una manera más "rápida"
+				    
+				 // Entonces escribo:   num = (5)   >>>   5++    >>>    (10)    >>>    5++    >>>    (15)
+    // Valor "base" = 5
+
+const f0_num = 5
+
+    // "++" a la variable = 5 + 5
+
+f0_num++
+
+    // imprime el resultado:
+
+console.log(f0_num)
+```
 
 
 
