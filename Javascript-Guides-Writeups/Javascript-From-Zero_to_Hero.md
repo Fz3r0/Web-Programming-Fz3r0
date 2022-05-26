@@ -89,5 +89,29 @@ let miPrimerVariable = 'fz3r0_variable_string'
 console.log(miPrimerVariable);
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/170557784-069eb3a9-9a05-4f4e-b296-57fec771eb3e.png)
+
+```js
+// FORMA CORRECTA DE DEFINIR VARIABLES:
+
+    // 1. Declarar la variable con "let":
+
+let miPrimerVariable = 'fz3r0_variable_string'
+
+    // 2. Mandar a llamar a la variable cuando sea necesario:
+
+console.log(miPrimerVariable);
+
+    // 3. Cambiar valores de la MISMA variable (ojo, ya no es necesario el "let"):
+
+miPrimerVariable = 'fz3r0 ha cambiado el string! :)'
+
+    // 4. Mandar a llamar a la variable cuando sea necesario:
+
+console.log(miPrimerVariable);
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170558599-fe794144-c1c8-4b70-8120-465d0060e4cd.png)
+
 
 
