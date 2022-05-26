@@ -932,10 +932,54 @@ p.outset {outline-style: outset;}
 
     - [Text Formatting on CSS](https://www.w3schools.com/Css/css_text.asp)
 
-- Cargar tipografía online de `google`
+### Cargar tipografía online de `google fonts`
 
-- https://fonts.google.com/ 
- 
+- Entrar a: 
+
+    - https://fonts.google.com/ 
+
+- Seleccionar tiografía
+
+    - ![image](https://user-images.githubusercontent.com/94720207/170390762-20c5105e-a70f-4d99-9e50-efb15203d967.png)
+
+- Copiar link:
+
+    - ![image](https://user-images.githubusercontent.com/94720207/170390891-b9e7d869-9105-40ed-ade6-ba4bac995d90.png)
+
+- Pegar en `head` de código `HTML`:
+
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Fz3r0 CSS </title>
+		<meta charser="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	    
+                <!-- Código de Tipografía: -->
+	    
+	        <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	    	        
+    </head>	
+    <body>
+    	<div>
+    		<h1 id="id_titulo">Titulo1: Div1</h1>   
+	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>	    
+	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>	    
+	    		<p class="text class_Z class_9 diferente_3">3 Hola, soy Fz3r0! 3</p>  		
+    	</div>
+    	<div>
+    		<h1 id="id_titulo">Titulo2: Div2</h1>	    
+	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>	    
+	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>	    
+	    		<p class="text class_Z class_9 diferente_3">3 Hola, soy Fz3r0! 3</p> 		
+    	</div>
+    </body>
+</html>
+```
  
 
 
