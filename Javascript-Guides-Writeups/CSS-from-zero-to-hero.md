@@ -1128,6 +1128,35 @@ div {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170401398-2e204ab2-8d54-4a4a-9b9a-943509bd8385.png)
 
+## CSS visibility Property
+
+- Este lo quise mencionar porque es posible que venga en uno que otro CTF o se pueda encontrar en algún laboratorio de Cyber-Security.
+
+- Esto debido a que es una propiedad que permite ocultar elementos de la página, pero sigues siendo visibles en el código dependiendo del elemento!
+
+- Adjunto la cheatsheet de Display:
+
+    - [CSS Visibility](https://www.w3schools.com/cssref/pr_class_visibility.asp)
+
+```css
+h2.a {
+  visibility: visible;
+}
+
+h2.b {
+  visibility: hidden;
+}
+
+tr.collapse {
+  visibility: collapse;
+}
+
+```
+
+## CSS Animatable
+
+
+
 
 
 
