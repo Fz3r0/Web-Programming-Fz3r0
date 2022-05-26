@@ -128,13 +128,13 @@ console.log(miPrimerVariable);
     
     - A esto de ir re-asignando variables se le llama `mutabilidad`.   
 
-### Palabras Reservadas de Javascript
+## Palabras Reservadas de Javascript
 
 - In JavaScript you cannot use these reserved words as variables, labels, or function names: 
 
     - [**JavaScript Reserved Words**](https://www.w3schools.com/js/js_reserved.asp)
 
-### Asignando otros Tipos de Datos a las variables
+## Asignando otros Tipos de Datos a las variables
 
 - Ejemplos:
 
