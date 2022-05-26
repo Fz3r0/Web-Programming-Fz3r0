@@ -967,14 +967,14 @@ p.outset {outline-style: outset;}
     <body>
     	<div>
     		<h1 id="id_titulo">Titulo1: Div1</h1>   
-	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>	    
-	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>	    
+	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
+	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>
 	    		<p class="text class_Z class_9 diferente_3">3 Hola, soy Fz3r0! 3</p>  		
     	</div>
     	<div>
     		<h1 id="id_titulo">Titulo2: Div2</h1>	    
-	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>	    
-	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>	    
+	    		<p class="text class_A class_1 diferente_1">1 Hola, soy Fz3r0! 1</p>
+	    		<p class="text class_A class_9 diferente_2">2 Hola, soy Fz3r0! 2</p>
 	    		<p class="text class_Z class_9 diferente_3">3 Hola, soy Fz3r0! 3</p> 		
     	</div>
     </body>
