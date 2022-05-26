@@ -1193,12 +1193,22 @@ tr.collapse {
 
     - Este es un ejemplo muy sencillo que solo trae `HTML` y `CSS` en una sola página sencilla para experimentar!
     
-    - ![image](https://user-images.githubusercontent.com/94720207/170409903-88d01bc7-9495-4da0-8c2a-055b921ec2b7.png)
+        - ![image](https://user-images.githubusercontent.com/94720207/170409903-88d01bc7-9495-4da0-8c2a-055b921ec2b7.png)
 
-    - [**<<< Descargar Ejemplo HTML y CSS >>>**](https://github.com/Fz3r0/Web-Programming-Fz3r0/files/8776011/Gunmetal.Free.Website.Template.-.Free-CSS.com.zip)
+        - [**<<< Descargar Ejemplo 1 HTML y CSS >>>**](https://github.com/Fz3r0/Web-Programming-Fz3r0/files/8776011/Gunmetal.Free.Website.Template.-.Free-CSS.com.zip)
+        
+    - Otro ejemplo más complejo, pero igual puro `CSS` y `HTML`
+    
+        - ![image](https://user-images.githubusercontent.com/94720207/170413995-423eb3c6-b2f2-4433-95f9-225ff3d9b57e.png)
+        
+        - [**<<< Descargar Ejemplo 2 HTML y CSS >>>**](https://github.com/Fz3r0/Web-Programming-Fz3r0/files/8776197/Newserific.Free.Website.Template.-.Free-CSS.com.zip)
+
+    - Links directos de los ejemplos:
+    
+    - https://www.free-css.com/free-css-templates/page12/gunmetal
+    - https://www.free-css.com/free-css-templates/page2/newserific
 
 - **Después de `HTML` y `CSS` ha llegado la hora, ahora si viene lo bueno! `javascript` y `PHP`**  
-
 
 ### References
 
@@ -1211,5 +1221,6 @@ tr.collapse {
 - https://codepen.io/hubspot/pen/bGqGwPJ
 - https://www.free-css.com/free-css-templates
 - https://www.free-css.com/free-css-templates/page12/gunmetal
+- https://www.free-css.com/free-css-templates/page2/newserific
 
 
