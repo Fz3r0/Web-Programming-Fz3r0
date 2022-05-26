@@ -181,6 +181,37 @@ console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_nu
 
 - ![image](https://user-images.githubusercontent.com/94720207/170563978-22f23bda-e211-40de-8ef4-7df6ce2a6714.png)
 
+```js
+console.log(undef);
+
+console.log(valor_nulo);
+
+console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
+
+console.log(f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3);
+
+console.log(f0_otro_number3);
+
+console.log(valor_nulo);
+
+console.log(undef, "esto no es una variable, lo escribí directo ;)");
+
+console.log(f0_otro_number3);
+
+console.log(undef, valor_nulo, f0_otro_number3, f0_otro_number2);
+
+console.log(f0_otro_number3, "numero sin variable:", 420);
+
+console.log(valor_nulo, null, "<--- un null es variable, el otro es null directo");
+
+console.log(f0_otro_number3);
+
+console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170564862-c81aeb0a-a6a9-420e-9e69-2f9703846353.png)
+
+
 
 
 
