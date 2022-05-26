@@ -215,9 +215,10 @@ console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_nu
 
 - Del mismo modo que ese coche son los `objetos` en Javascript, por ejemplo:
 
-    - Un `usuario` con **nombre, apellido, contraseña, usuario, tipo de usuario, etc...** y con un objeto agruparemos esos datos en un `objeto`  
-
-
+    - Un `usuario` con **nombre, apellido, contraseña, usuario, tipo de usuario, etc...** y con un objeto agruparemos esos datos en un `objeto`
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/170601505-ab4fa255-6db1-411f-95cd-3f8ec48ac19c.png)
+   
 - El `object` es uno de los **tipos de datos** más utilizados en Javascript.
 
 ```js
@@ -349,7 +350,7 @@ console.log(f0_array_2)
 
 - [Javascript Operators](https://www.w3schools.com/js/js_operators.asp)
 
-### JavaScript Arithmetic Operators:
+### JavaScript Arithmetic Operators
 
 | **Operator** | **Description **              |
 |--------------|-------------------------------|
@@ -491,7 +492,7 @@ console.log("decremento (-10 en total) también se puede con: '--'", f0_num_incr
 
 - ![image](https://user-images.githubusercontent.com/94720207/170594347-4c9d9944-495f-449d-839c-61c075fda8d0.png)
 
-### JavaScript Assignment Operators:
+### JavaScript Assignment Operators
 
 | **Operator** | **Example** | **Same As**  |
 |--------------|-------------|--------------|
@@ -578,6 +579,9 @@ console.log("Usando operador /= 3: ", f0_num_original);
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170598723-c7f91644-2b70-45cd-853f-8f5da204f6a7.png)
+
+### JavaScript Comparison Operators
+
 
 
 
