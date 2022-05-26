@@ -1046,16 +1046,17 @@ body {
 
 ## Listas y Tablas
 
-- Para las listas se pueden poner y quitar puntos, modificar padding y otras propiedades. 
+- Para las listas se pueden poner y quitar puntos, formas, modificar padding, celdas en caso de las tablas y otras propiedades... 
 
 - Adjunto la cheatsheet de listas:
 
     - [CSS Lists](https://www.w3schools.com/Css/css_list.asp)
 
-- - Adjunto el cheatsheet de tables:
+-  Adjunto el cheatsheet de tablas:
 
     - [CSS Tables](https://www.w3schools.com/Css/css_table.asp) 
-- 
+
+##  
 
 
 
