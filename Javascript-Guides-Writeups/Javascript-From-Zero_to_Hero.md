@@ -402,7 +402,7 @@ console.log(f0_num)
 - Usando exactamente el mismo ejemplo pero usando `let` para definir la `variable`  
 
 ```js
-let suma = 1 + 2
+let sumar = 1 + 2
 let restar = 2 - 1
 let dividir = 10 / 5
 let exponente = 10 ** 2
@@ -421,15 +421,24 @@ let modulo = 10 % 3
 				 
     // Valor "base" = 5
 
-let f0_num = 5
+let f0_num_incremento = 5
 
     // "++" a la variable = 5 + 1
 
-f0_num++
+f0_num_incremento++
 
     // imprime el resultado: (resultado: 5 + 1 = 6) 
 
-console.log(f0_num)
+// Imprimir resultados a consola:
+
+console.log("RESULTADOS fz3r0:")
+console.log("")
+console.log("suma: ", sumar)
+console.log("resta: ", restar)
+console.log("dividir: ", exponente)
+console.log("exponente: ", exponente)
+console.log("modulo: ", modulo)
+console.log("incremento: ", f0_num)
 ```
 
 
