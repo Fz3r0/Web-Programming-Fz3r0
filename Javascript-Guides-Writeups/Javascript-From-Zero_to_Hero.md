@@ -152,7 +152,26 @@ let f0_number = 1
 let f0_otro_number2 = 10
 let f0_otro_number3 = 666
 let f0_otro_number4 = 3.1416
+
+    // Imprimir Variables
+
+console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
+
+console.log(f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3);
+
+console.log(f0_otro_number3);
+
+console.log(f0_otro_number3);
+
+console.log(f0_otro_number3);
+
+console.log(f0_otro_number3);
+
+console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170562232-06a64945-5172-4533-8808-ef7e8e0aaec2.png)
+
 
 
 
