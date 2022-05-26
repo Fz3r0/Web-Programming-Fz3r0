@@ -29,12 +29,14 @@ Varias lineas dije!...
 
 3. Ejecutarlo en `Node.js`:
 
-    - Windows: `node C:\Users\fz3r0\Desktop\fz3r0_OP_2022\fz3r0_2022_programming\javascript\js\index.js`
+    - Windows: `node C:\Users\fz3r0\Desktop\fz3r0_OP_2022\fz3r0_2022_programming\javascript\js\fz3r0_index.js`
     
-    - Linux: `node /home/usr/fz3r0/documents/programming/javascript/js/index.js`
+    - Linux: `node /home/usr/fz3r0/documents/programming/javascript/js/fz3r0_index.js`
     
-    - Nota: O colocarse en el path y correrlo _(como cualquier shell básicamente :P)_  
-
+        - Nota: O colocarse en el path y correrlo _(como cualquier shell básicamente :P)_  
+        
+    - ![image](https://user-images.githubusercontent.com/94720207/170554598-ae26aab3-d50c-418a-bc20-614b66d72bda.png)
+    
 ## Tipos de datos en Javascript
 
 - In programming, data types is an important concept.
