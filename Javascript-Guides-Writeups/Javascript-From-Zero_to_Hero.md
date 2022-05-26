@@ -503,6 +503,18 @@ console.log("decremento (-10 en total) también se puede con: '--'", f0_num_incr
 | %=           | x %= y      | x = x % y    |
 | **=          | x **= y     | x = x ** y   |
 
+- **Nos permiten poder realizar una operación matemática sobre el mismo número que hemos definido y cambiar inmediatamente su valor.** 
+
+- Por ejemplo:
+
+    - Un ejemplo sencillo es tomar el `++` del capítulo pasado, ahí el incremento era forzosamente << +1 >> 
+    
+    - En este caso yo puedo tomar un `+=` y ponerle un valor:
+    
+        - `f0_num_original = 10`  >>>> `f0_num_original += 3` >>>> **`f0_num_original = 13`**
+
+
+
 
 
 
