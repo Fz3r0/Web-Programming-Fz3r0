@@ -802,8 +802,8 @@ Comenzamos!
 
 ### Archivos utilizados
 
-- Malcom: ![malcom](https://user-images.githubusercontent.com/94720207/169991408-0d1a37e8-8ee8-4dbc-8ae4-6fcecd3a596e.jpg)
-- Favicon: https://www.favicon.cc/?action=icon&file_id=820354
+- Malcom: [malcom](https://user-images.githubusercontent.com/94720207/169991408-0d1a37e8-8ee8-4dbc-8ae4-6fcecd3a596e.jpg)
+- Favicon: [favicon](https://www.favicon.cc/?action=icon&file_id=820354)
 
 ### References
 
@@ -813,3 +813,4 @@ Comenzamos!
 - https://www.html.am/html-codes/
 - https://www.semrush.com/blog/semantic-html5-guide/
 - https://www.favicon.cc/
+- https://www.youtube.com/watch?v=MJkdaVFHrto
