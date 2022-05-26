@@ -1134,7 +1134,7 @@ div {
 
 - Esto debido a que es una propiedad que permite ocultar elementos de la página, pero sigues siendo visibles en el código dependiendo del elemento!
 
-- Adjunto la cheatsheet de Display:
+- Adjunto la cheatsheet de Visibility:
 
     - [CSS Visibility](https://www.w3schools.com/cssref/pr_class_visibility.asp)
 
@@ -1153,7 +1153,32 @@ tr.collapse {
 
 ```
 
-## CSS Animatable
+## CSS Animatable & Animation
+
+- Algunas propiedades de CSS se pueden animar, lo que significa que se pueden usar en animaciones y transiciones.
+
+- Adjunto la cheatsheet de Animation:
+
+    - https://www.w3schools.com/cssref/css3_pr_animation.asp
+
+- Las propiedades animables pueden cambiar gradualmente de un valor a otro, como el tamaño, los números, el porcentaje y el color.
+
+- Adjunto la cheatsheet de Animatable:
+
+    - [CSS Visibility](https://www.w3schools.com/cssref/css_animatable.asp)
+
+## Float
+
+- Básicamente es el efecto que se dá cuando existe una imagen y queremos que haya texto alrededor, como en un libro.
+
+- Es decir, no tener que dar un párrafo hacia abajo después de poner una imagen. 
+
+- Lo curioso es que podemos anidar floats para poner cosas al lado de otro. 
+
+- Adjunto la cheatsheet de Float: 
+
+    - [CSS Float](https://www.w3schools.com/cssref/pr_class_float.asp)    
+
 
 
 
