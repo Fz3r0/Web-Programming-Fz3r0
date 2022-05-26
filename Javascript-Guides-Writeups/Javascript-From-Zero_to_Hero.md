@@ -345,7 +345,7 @@ console.log(f0_array_2)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170586274-2d9863f8-deb4-4ac3-a27d-dc3b4e722dbc.png)
 
-## Operadores Matemáticos en Javascript
+## Operadores Matemáticos en Javascript 
 
 - [Javascript Operators](https://www.w3schools.com/js/js_operators.asp)
 
@@ -392,6 +392,43 @@ f0_num++
 console.log(f0_num)
 ```
 
+- ![image](https://user-images.githubusercontent.com/94720207/170591780-66317846-ce4a-421e-a34a-c9e4f6f98af2.png)
+
+- **OJITO CON EL ERROR!!!**
+
+    -  **`const` NO PERMITE SER MODIFICADO, ESA ES SU DIFERENCIA CON `let`**
+
+- Usando exactamente el mismo ejemplo pero usando `let` para definir la `variable`  
+
+```js
+let suma = 1 + 2
+let restar = 2 - 1
+let dividir = 10 / 5
+let exponente = 10 ** 2
+
+    // El modulus/modulo: toma los 2 número que le indiquemos, después los divide, pero, REGRESA EL VALOR QUE SOBRA
+    
+        // Ejemplo:  10 % 3   --   10 / 3 = 9 (10 entre 3 igual a 9)... sobra << 1 >> Ese es el modulus!!! ;) 
+
+let modulo = 10 % 3
+
+        // Incremento o decremento: Toma un valor, por ejemplo a "f0_num" le daré el valor "5". 
+	
+	                         // A ese valor yo le quiero incrementar ese mismo valor de una manera más "rápida"
+				    
+				 // Entonces escribo:   num = (5)   >>>   5++    >>>    (10)    >>>    5++    >>>    (15)
+    // Valor "base" = 5
+
+let f0_num = 5
+
+    // "++" a la variable = 5 + 5
+
+f0_num++
+
+    // imprime el resultado:
+
+console.log(f0_num)
+```
 
 
 
