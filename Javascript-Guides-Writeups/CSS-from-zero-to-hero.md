@@ -928,11 +928,13 @@ p.outset {outline-style: outset;}
 
 ## CSS Text Formatting
 
-- Adjunto la cheatsheet de tofo el formato en cuanto a texto en CSS:
+- Adjunto la cheatsheet de todo el formato en cuanto a texto, fuente, tipografía en CSS:
 
     - [Text Formatting on CSS](https://www.w3schools.com/Css/css_text.asp)
 
-- Ingresar tipografía online de `google`
+- Cargar tipografía online de `google`
+
+- https://fonts.google.com/ 
  
  
 
@@ -941,7 +943,11 @@ p.outset {outline-style: outset;}
 
 ### References
 
+- https://www.w3schools.com/cssref/default.asp
+- https://youtu.be/wZniZEbPAzk 
 - https://bootswatch.com/
+- https://fonts.google.com/
+- 
 - 
 
 
