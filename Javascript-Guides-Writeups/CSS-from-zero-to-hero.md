@@ -1181,7 +1181,7 @@ tr.collapse {
 
 ## Outro del WriteUp
 
-- **En realidad este WriteUp CC es todo lo que se necesita para tener las armas de domar a la fiera `CSS`**
+- **En realidad este WriteUp CC es todo lo que se necesita para tener las armas para domar a la fiera `CSS`**
 
 - **Todos los demás detalles se pueden ver por uno mismo de otros códigos o cheatsheets o ejemplos de codepen o w3schools.**
 
