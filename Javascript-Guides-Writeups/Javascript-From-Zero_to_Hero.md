@@ -183,29 +183,17 @@ console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_nu
 
 ```js
 console.log(undef);
-
 console.log(valor_nulo);
-
 console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
-
 console.log(f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3);
-
 console.log(f0_otro_number3);
-
 console.log(valor_nulo);
-
 console.log(undef, "esto no es una variable, lo escribí directo ;)");
-
 console.log(f0_otro_number3);
-
 console.log(undef, valor_nulo, f0_otro_number3, f0_otro_number2);
-
 console.log(f0_otro_number3, "numero sin variable:", 420);
-
 console.log(valor_nulo, null, "<--- un null es variable, el otro es null directo");
-
 console.log(f0_otro_number3);
-
 console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
 ```
 
