@@ -1030,14 +1030,32 @@ body {
 
     font-family: 'Indie Flower', monospace;
 }
-
-
-
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170395703-b0339f64-479f-4f94-af5e-e12a58f7e964.png)
 
+## Links
 
+- Para los links se puedes agregar estados dependiendo si ha sido visitado, formas como botones, hover, active y más tricks muy buenos.
+
+- **El orden de por ejemplo hover, link, active... o visited y hover, y cosas por el estilo hay que fijarse bien en el orden (solo por lógica)**  
+
+- Adjunto la cheatsheet de background:
+
+    - [CSS Links](https://www.w3schools.com/Css/css_link.asp)
+
+## Listas y Tablas
+
+- Para las listas se pueden poner y quitar puntos, modificar padding y otras propiedades. 
+
+- Adjunto la cheatsheet de listas:
+
+    - [CSS Lists](https://www.w3schools.com/Css/css_list.asp)
+
+- - Adjunto el cheatsheet de tables:
+
+    - [CSS Tables](https://www.w3schools.com/Css/css_table.asp) 
+- 
 
 
 
