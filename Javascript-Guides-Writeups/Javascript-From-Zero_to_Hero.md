@@ -59,10 +59,35 @@ let x = 16 + "Volvo";
     - `undefined`
     - `object`
     
+        - Nota:
+    
         - Un `object` puede tener cualquier combinación de tipos de datos.
        
         - Los `object` son estructuras que nos permiten agrupar **TODOS** los tipos de datos.    
 
-## 
+## Definición de Variables
+
+- `var` es la manera legacy de declarar una variable, **ya no se utiliza.**
+
+```js
+// NO UTILIZAR VAR PARA DECLARAR VARIABLES!!!
+
+var miPrimerVariable = 'fz3r0_variable_string'
+```
+
+- **La correcta manera de declarar variables en `js` es la siguiente utilizando `let` y utilizando posteriormente `console.log` para hacerle un llamado:**
+
+```js
+// FORMA CORRECTA DE DEFINIR VARIABLES:
+
+    // 1. Declarar la variable con "let":
+
+let miPrimerVariable = 'fz3r0_variable_string'
+
+    // 2. Mandar a llamar a la variable cuando sea necesario:
+
+console.log(miPrimerVariable);
+```
+
 
 
