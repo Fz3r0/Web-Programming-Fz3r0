@@ -469,10 +469,27 @@ f0_num_incremento++
 f0_num_incremento++
 f0_num_incremento++
 
-console.log("hyper incremento!!! ", f0_num_incremento)
+console.log("hyper incremento '++'!!! ", f0_num_incremento)
+
+// "--" decremento! lo mismo pero resntando << -1 >> cada vez. 
+
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+f0_num_incremento--
+
+console.log("decremento (-10 en total) también se puede con: '--'", f0_num_incremento)
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/170593905-9791506b-e060-4f87-ae37-b28074d89d97.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170594347-4c9d9944-495f-449d-839c-61c075fda8d0.png)
+
+
 
 
 
