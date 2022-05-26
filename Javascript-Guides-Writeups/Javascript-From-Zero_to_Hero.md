@@ -513,6 +513,43 @@ console.log("decremento (-10 en total) también se puede con: '--'", f0_num_incr
     
         - `f0_num_original = 10`  >>>> `f0_num_original += 3` >>>> **`f0_num_original = 13`**
 
+```js
+    // Usando operando "=+""
+
+console.log(); 
+
+let f0_num_original = 10
+
+console.log("Número original:      ", f0_num_original); 
+
+console.log(); 
+
+f0_num_original += 3
+
+console.log("Usando operador += 3: ", f0_num_original); 
+
+f0_num_original += 3
+
+console.log("Usando operador += 3: ", f0_num_original); 
+
+f0_num_original += 3
+
+console.log("Usando operador += 3: ", f0_num_original); 
+
+f0_num_original += 3
+
+console.log("Usando operador += 3: ", f0_num_original); 
+
+f0_num_original += 3
+
+console.log("Usando operador += 3: ", f0_num_original); 
+
+f0_num_original += 3
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170597025-3238a466-48c4-4e06-b090-4897a2567e40.png)
+
+
 
 
 
