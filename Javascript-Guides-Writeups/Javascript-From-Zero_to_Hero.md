@@ -153,24 +153,33 @@ let f0_otro_number2 = 10
 let f0_otro_number3 = 666
 let f0_otro_number4 = 3.1416
 
-    // Imprimir Variables
+    // Undefined (NO TIENE NINGÚN VALOR [COMO EN EL CASO DE NULL], ES SIMPLEMENTE "INDEFINIDO")
+    // Como es "indefinido" no necesita un " = 0 " o nada por el estilo!!! 
 
+let undef 
+
+    // Null - Este SI es un valor, pero, su valor es "nulo"
+
+let valor_nulo = null  
+
+    // Hacer un llamado a las variables para imprimir en consola:  
+
+console.log(undef);
+console.log(valor_nulo);
 console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
-
 console.log(f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3, f0_otro_number3);
-
 console.log(f0_otro_number3);
-
+console.log(valor_nulo);
+console.log(undef);
 console.log(f0_otro_number3);
-
+console.log(undef, valor_nulo, f0_otro_number3, f0_otro_number2);
 console.log(f0_otro_number3);
-
+console.log(valor_nulo);
 console.log(f0_otro_number3);
-
 console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_number3, f0_otro_number4);
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/170562232-06a64945-5172-4533-8808-ef7e8e0aaec2.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170563978-22f23bda-e211-40de-8ef4-7df6ce2a6714.png)
 
 
 
