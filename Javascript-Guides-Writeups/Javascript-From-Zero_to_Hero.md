@@ -419,6 +419,8 @@ let modulo = 10 % 3
 				    
 				 // Entonces escribo:   x_num = (5)   >>>   x_num++    >>>    (6)    >>>    x_num++    >>>    (7)
 				 
+				 // Imaginar un contador "de feria" que cuenta cada persona que pasa al juego, eso es un "++"
+				 
     // Valor "base" = 5
 
 let f0_num_incremento = 5
@@ -440,6 +442,9 @@ console.log("exponente: ", exponente)
 console.log("modulo: ", modulo)
 console.log("incremento: ", f0_num)
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170593378-94e30bc1-a272-49d5-bb11-cac123ea5735.png)
+
 
 
 
