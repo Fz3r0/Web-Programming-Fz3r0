@@ -317,6 +317,9 @@ console.log(f0_array_2)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170583157-a4ef1ef1-8022-4e48-8742-d2607b333304.png)
 
+### Push Method
+
+- Para mandar llamar a varios `arrays` se utiliza el método de `push`
 
 
 
