@@ -1036,8 +1036,6 @@ body {
 
 ## Span VS Div
 
-- https://blog.hubspot.com/website/span-vs-div
-
 - Ejemplo de Span vs Div
 
 - HTML
@@ -1146,5 +1144,6 @@ div {
 - https://fonts.google.com/
 - https://blog.hubspot.com/website/span-vs-div
 - https://codepen.io/hubspot/pen/bGqGwPJ
+- 
 
 
