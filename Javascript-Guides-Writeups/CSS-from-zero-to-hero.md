@@ -948,6 +948,7 @@ p.outset {outline-style: outset;}
 
 - Pegar en `head` de código `HTML`:
 
+- `index.html`
 
 ```html
 <!DOCTYPE html>
@@ -980,7 +981,62 @@ p.outset {outline-style: outset;}
     </body>
 </html>
 ```
- 
+
+- `style.css`
+
+```css
+
+h1#id_titulo {
+    font-size: 34px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+p.text {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+div.div1 {
+    text-align: right;
+    color: lime;
+    font-weight: bold;
+    font-size: 26px
+
+}
+
+div.div2 {
+    text-align: left;
+    color: magenta;
+    font-weight: bold;
+    font-size: 26px
+    
+
+}
+
+body {
+  background-color: black;
+  background-image: url("../images/background_fz3r0.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* Aplicando crossorigin desde google a TODO, si no la encuentra sigue por monospace */
+
+* {
+
+    font-family: 'Indie Flower', monospace;
+}
+
+
+
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170395703-b0339f64-479f-4f94-af5e-e12a58f7e964.png)
+
 
 
 
