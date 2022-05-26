@@ -1074,6 +1074,17 @@ body {
 
     - [CSS Position](https://www.w3schools.com/Css/css_positioning.asp) 
 
+## Website Layout
+
+- Su nombre lo dice todo, esta herramienta permite modificar a placer el layout de la página, por ejemplo:
+
+- ![image](https://user-images.githubusercontent.com/94720207/170401317-dad4ced1-1024-4c3c-815c-93f7361f1ba6.png)
+
+- ![image](https://user-images.githubusercontent.com/94720207/170401398-2e204ab2-8d54-4a4a-9b9a-943509bd8385.png)
+
+
+
+
 
 
 
