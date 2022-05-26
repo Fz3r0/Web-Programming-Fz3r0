@@ -50,4 +50,19 @@ let x = 16 + "Volvo";
 ```
 - [Javascript Data Types Cheatlist](https://www.w3schools.com/js/js_datatypes.asp)
 
+- Tipos de Datos en `js`
+
+    - `string`
+    - `boolean`
+    - `null`
+    - `number`
+    - `undefined`
+    - `object`
+    
+        - Un `object` puede tener cualquier combinación de tipos de datos.
+       
+        - Los `object` son estructuras que nos permiten agrupar **TODOS** los tipos de datos.    
+
+## 
+
 
