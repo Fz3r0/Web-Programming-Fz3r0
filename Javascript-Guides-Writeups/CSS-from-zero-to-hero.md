@@ -1034,6 +1034,80 @@ body {
 
 - ![image](https://user-images.githubusercontent.com/94720207/170395703-b0339f64-479f-4f94-af5e-e12a58f7e964.png)
 
+## Span VS Div
+
+- https://blog.hubspot.com/website/span-vs-div
+
+- Ejemplo de Span vs Div
+
+- HTML:
+
+```html
+<div id="div-0">
+  <h2>This is a heading inside a div element</h2>
+  <p>This a paragraph inside  a div element.<p>
+</div>
+<div id="div-1">
+  <h2>This is a heading inside a div element</h2>
+  <p>This a paragraph inside  a div element.<p>
+</div>
+<span id="span-0">This text is inside a span element.</span>
+<span id="span-1" span>This text is inside another span element.</span>
+```
+- CSS:
+
+```css
+#div-0 { background-color: #7fd1de; }
+#div-1 { background-color: #b4bbe8; }
+#span-0 { background-color: #ffbcac; }
+#span-1 { background-color: #7fded2; }
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170402213-fde5f7d2-6178-4544-9c69-c35fa29c856c.png)
+
+- [Ver en **Codepen**](https://codepen.io/hubspot/pen/bGqGwPJ)
+
+- HTML
+
+```html
+<div>
+  <p><span id="span-1">DIV 1</span> - We can use the div element to separate contents of a page into chunks. Each of these orange blocks is a div element.</p>
+</div>
+<div>
+  <p><span id="span-1">DIV 2</span> - We can use a span tag to <span id="span-0">change the color</span> of text.</p>
+</div>
+<div>
+  <p><span id="span-1">DIV 3</span> - We can also use span to <span id="span-1">change other style aspects</span> of text as well.</p>
+</div>
+```
+
+- CSS
+
+```css
+div {
+  background-color: #ff7a59;
+  border-radius: 5px;
+  color: white;
+  font-family: Avenir;
+  margin: 5px;
+  padding: 5px;
+}
+
+#span-0 { color: #33475b; }
+
+#span-1 {
+  background-color: #33475b;
+  text-decoration: underline;
+}
+
+#span-2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170403127-d6c14d0c-ef5c-496e-9d5f-d51d4e4d7ac0.png)
+
 ## Links
 
 - Para los links se puedes agregar estados dependiendo si ha sido visitado, formas como botones, hover, active y más tricks muy buenos.
@@ -1089,13 +1163,14 @@ body {
 
 
 
+
 ### References
 
 - https://www.w3schools.com/cssref/default.asp
 - https://youtu.be/wZniZEbPAzk 
 - https://bootswatch.com/
 - https://fonts.google.com/
-- 
+- https://blog.hubspot.com/website/span-vs-div
 - 
 
 
