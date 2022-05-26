@@ -419,8 +419,6 @@ let modulo = 10 % 3
 				    
 				 // Entonces escribo:   x_num = (5)   >>>   x_num++    >>>    (6)    >>>    x_num++    >>>    (7)
 				 
-				 // Imaginar un contador "de feria" que cuenta cada persona que pasa al juego, eso es un "++"
-				 
     // Valor "base" = 5
 
 let f0_num_incremento = 5
@@ -433,17 +431,50 @@ f0_num_incremento++
 
 // Imprimir resultados a consola:
 
+console.log("")
 console.log("RESULTADOS fz3r0:")
 console.log("")
 console.log("suma: ", sumar)
 console.log("resta: ", restar)
-console.log("dividir: ", exponente)
+console.log("dividir: ", dividir)
 console.log("exponente: ", exponente)
 console.log("modulo: ", modulo)
-console.log("incremento: ", f0_num)
+console.log("incremento: ", f0_num_incremento)
+
+    // "++" a la variable = 6 + 1
+
+f0_num_incremento++
+
+console.log("incremento: ", f0_num_incremento)
+
+    // "++" a la variable = 7 + 1
+
+f0_num_incremento++
+
+console.log("incremento: ", f0_num_incremento)
+
+    // "++" a la variable = 8 + 1
+
+f0_num_incremento++
+
+console.log("incremento: ", f0_num_incremento)
+
+    // "++" a la variable = 9 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+
+f0_num_incremento++
+f0_num_incremento++
+f0_num_incremento++
+f0_num_incremento++
+f0_num_incremento++
+f0_num_incremento++
+f0_num_incremento++
+
+console.log("hyper incremento!!! ", f0_num_incremento)
 ```
 
-- ![image](https://user-images.githubusercontent.com/94720207/170593378-94e30bc1-a272-49d5-bb11-cac123ea5735.png)
+- ![image](https://user-images.githubusercontent.com/94720207/170593905-9791506b-e060-4f87-ae37-b28074d89d97.png)
+
+
 
 
 
