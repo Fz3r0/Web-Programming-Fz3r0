@@ -899,7 +899,32 @@ div {
 }
 ```
 
+## CSS Outline
 
+- Adjunto la cheatsheet de background:
+
+    - [CSS Outline](https://www.w3schools.com/Css/css_outline.asp)
+
+- ![image](https://user-images.githubusercontent.com/94720207/170388806-fb7da099-7a7a-42f7-82fd-e5f5f636bf22.png)
+
+- Ejemplo:
+
+```css
+body {
+  outline-style: groove
+}
+```
+
+```css
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+```
 
 
 
