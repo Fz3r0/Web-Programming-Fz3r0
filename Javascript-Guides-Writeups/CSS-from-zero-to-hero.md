@@ -1056,7 +1056,25 @@ body {
 
     - [CSS Tables](https://www.w3schools.com/Css/css_table.asp) 
 
-##  
+## Display, Max-Width y Position en CSS
+
+- Estas tres propiedades son muy importantes ya que es básicamente lo que permite modificar posiciones a placer de los elementos en pantalla.
+
+- Así el esqueleto de HTML podría ser movido a placer, una vez más....por eso debe estar super bien estructurado el `HTML`
+
+- Adjunto la cheatsheet de Display:
+
+    - [CSS Display](https://www.w3schools.com/Css/css_display_visibility.asp)
+
+-  Adjunto el cheatsheet de Max-Width:
+
+    - [CSS Max-Width](https://www.w3schools.com/Css/css_max-width.asp) 
+
+-  Adjunto el cheatsheet de Position:
+
+    - [CSS Position](https://www.w3schools.com/Css/css_positioning.asp) 
+
+
 
 
 
