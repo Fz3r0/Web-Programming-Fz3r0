@@ -199,7 +199,7 @@ console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_nu
 
 ## Objetos en Javascript
 
-- - [**JavaScript Reserved Words**](https://www.w3schools.com/js/js_reserved.asp)
+- - [**JavaScript Objects**](https://www.w3schools.com/js/js_objects.asp)
 
     - In real life, a _**car**_ is an **`object`**.
 
