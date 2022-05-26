@@ -1,22 +1,5 @@
 
-## HTML 5
-
----
-
-```html
-```
-
-Comenzamos!
-
----
-
-### Intro
-
-- HTML
-- CSS
-- Javascript
-
----
+# HTML 5
 
 ### Sublime text
 
@@ -33,16 +16,14 @@ Comenzamos!
 
 ---
 
-### HTML
+## HTML Boxes
 
 - HTML boxes:
 
     - ![image](https://user-images.githubusercontent.com/94720207/169904936-53681267-c6a7-429f-8dea-42d66a63c339.png)
     - ![developer-tools-680596380](https://user-images.githubusercontent.com/94720207/169905055-9acda36e-2c92-4299-a0d2-ac4f9cb0e10a.png)
 
----
-
-### Antes que nada:
+## HTML setup inicial
 
 - Crear file en una carpeta nueva `fz3r0_compu_mundo`
 
@@ -54,9 +35,7 @@ Comenzamos!
 
     - ![image](https://user-images.githubusercontent.com/94720207/169905695-7dcef43a-fe49-4e51-825d-68d2594f1ce1.png)
  
----
-
-### Estructura Inicial HTML
+## Estructura Inicial HTML
 
 - Comentar en HTML:
 
@@ -68,8 +47,6 @@ Comenzamos!
 ```html
 <p>HTML from 0 to Hero in .html format! by Fz3r0 - En Espanglish.</p>
 ```
-
-### Estructura Inicial HTML:
 
 - Sintaxis:
 
@@ -94,7 +71,7 @@ Comenzamos!
 <boton color="rojo" tamaño="grande" borde="negro"> <boton> 
 ```
 
-- **Tipos de Tags:**
+### Tipos de Tags:
 
 ```html
 <br>        <----| 1. Dejar un espacio en linea:
@@ -165,18 +142,14 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169911577-4b90378a-6e47-4e2a-8e39-eb91819b831d.png)
 
----
-
-### Concepto semántico HTML
+## Concepto de semántica HTML
 
 - Poner todo de manera estructural en HTML y usar otro lenguaje como CSS para acomodar
 - No es puede poner más de 1 `h1` **(es el index del titulo search optimity para crawlers)
 - Es importante codificar todo de manera correcta en HTML, siempre siguiendo la misma estructura. 
 - Usar tabulador para saber qué caja está dentro de otra (aunque no es necesario)
 
----
-
-### Etiquetas básicas exto:
+## Etiquetas básicas de formato texto:
 
 - Titulos `<h>`
 - párrafo `<p>`
@@ -216,7 +189,7 @@ Comenzamos!
 
 ---
 
-### Links y tag `<a>`:
+## Links y tag `<a>`:
 
 - Etqiuetas `<a></a>`
 
@@ -312,9 +285,7 @@ Comenzamos!
 </html>
 ```
 
----
-
-### Links internos y externos
+## Links internos y externos
 
 ```html
 <!DOCTYPE html>
@@ -347,9 +318,7 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169919857-f3c79ebb-05a8-4e1f-9273-29889de44ddd.png)	
 
----
-
-### Listas `<ul>` & `<li>`
+## Listas `<ul>` & `<li>`
 
 - `<ul></ul>` listas desordenadas
 - `<li></li>` listas ordenadas
@@ -389,9 +358,7 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169920811-d0524a4f-0a10-4eea-807e-8821bba7771b.png)
 
----
-
-### Multimedia Tags
+## Multimedia Tags
 
 - `<img>` 
 
@@ -471,9 +438,7 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169925237-b16c1bc3-0ef7-4250-9e8f-0c58567f86ea.png)
 
----
-
-### div
+## div
 
 - Realmente el uso real se ve en CSS, pero vaya que se deben utilizar divs!!! ;) 
 - El div divide diferentes elementos en la pàgina
@@ -512,9 +477,7 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169925971-34519419-2862-402f-b496-e84886534ccd.png)
 
----
-
-### Form / Formulario
+## Form
 
 - Input
 
@@ -579,9 +542,7 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169956890-2d25f381-25fe-4c15-83fa-d28f2c2ad7c0.png)
 
----
-
-### Metadatos
+## Metadatos
 
 - `meta`
  
@@ -610,9 +571,7 @@ Comenzamos!
 </html>
 ```
 
----
-
-### HTML Semantic Tags
+## HTML Semantic Tags
 
 - [Instrucciones Pro completas](https://www.semrush.com/blog/semantic-html5-guide/)
 
@@ -732,13 +691,13 @@ Comenzamos!
 
 - ![image](https://user-images.githubusercontent.com/94720207/169978795-93cd1399-4c34-41cc-8f19-90821ebef8f5.png)
 
----
+## Tablas
 
-### Tablas
+- No hay mucho que decir aquí, son tablas igual que mark down... solo usar el tool de siempre:
 
----
+    - https://tableconvert.com/html-generator
 
-### Cosillas extras
+## Cosillas extras
 
 ```html
 <!DOCTYPE html>
