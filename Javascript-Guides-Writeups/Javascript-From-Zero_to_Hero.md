@@ -349,6 +349,8 @@ console.log(f0_array_2)
 
 - [Javascript Operators](https://www.w3schools.com/js/js_operators.asp)
 
+### JavaScript Arithmetic Operators:
+
 | **Operator** | **Description **              |
 |--------------|-------------------------------|
 | +            | Addition                      |
@@ -488,6 +490,19 @@ console.log("decremento (-10 en total) también se puede con: '--'", f0_num_incr
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170594347-4c9d9944-495f-449d-839c-61c075fda8d0.png)
+
+### JavaScript Assignment Operators:
+
+| **Operator** | **Example** | **Same As**  |
+|--------------|-------------|--------------|
+| =            | x = y       | x = y        |
+| +=           | x += y      | x = x + y    |
+| -=           | x -= y      | x = x - y    |
+| *=           | x *= y      | x = x * y    |
+| /=           | x /= y      | x = x / y    |
+| %=           | x %= y      | x = x % y    |
+| **=          | x **= y     | x = x ** y   |
+
 
 
 
