@@ -1191,7 +1191,14 @@ tr.collapse {
 
 - **Por ejemplo [este link](https://www.free-css.com/free-css-templates) contiene miles y miles de templates de `css`, puedes descargar algunos y ver unas páginas completas de HTML y CSS y vámonos rikis!!!** 
 
+    - Este es un ejemplo muy sencillo que solo trae `HTML` y `CSS` en una sola página sencilla para experimentar!
+    
+    - ![image](https://user-images.githubusercontent.com/94720207/170409903-88d01bc7-9495-4da0-8c2a-055b921ec2b7.png)
+
+    - [**<<< Descargar Ejemplo HTML y CSS >>>**](https://github.com/Fz3r0/Web-Programming-Fz3r0/files/8776011/Gunmetal.Free.Website.Template.-.Free-CSS.com.zip)
+
 - **Después de `HTML` y `CSS` ha llegado la hora, ahora si viene lo bueno! `javascript` y `PHP`**  
+
 
 ### References
 
@@ -1202,5 +1209,6 @@ tr.collapse {
 - https://blog.hubspot.com/website/span-vs-div
 - https://codepen.io/hubspot/pen/bGqGwPJ
 - https://www.free-css.com/free-css-templates
+- https://www.free-css.com/free-css-templates/page12/gunmetal
 
 
