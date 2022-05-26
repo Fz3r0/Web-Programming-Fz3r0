@@ -138,8 +138,6 @@ console.log(miPrimerVariable);
 
 - Ejemplos:
 
-
-
 ```js
     // Boolean
 
@@ -199,6 +197,17 @@ console.log(f0_boolean, f0_otro_boolean2, f0_number, f0_otro_number2, f0_otro_nu
 
 - ![image](https://user-images.githubusercontent.com/94720207/170564862-c81aeb0a-a6a9-420e-9e69-2f9703846353.png)
 
+## Objetos en Javascript
+
+- - [**JavaScript Reserved Words**](https://www.w3schools.com/js/js_reserved.asp)
+
+    - In real life, a _**car**_ is an **`object`**.
+
+    - A _**car**_ has **`properties`** like _**weight**_ and _**colo**r_, and **`methods`** like **_start_** and **_stop_**.
+    
+    - All **_cars_** have the same **`properties`**, but the **`property values`** differ from **_car_** to _**car**_.
+
+    - All **_cars_** have the same **`methods`**, but the **`methods`** are performed at **_different times_**.
 
 
 
