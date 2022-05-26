@@ -1189,6 +1189,8 @@ tr.collapse {
 
 - **En resources agregué de esos links, en mi Index de mi Github de Fz3r0 también actualizo seguido las biblias, cheatsheets y trucos para este tipo de cosas.**
 
+- **Por ejemplo [este link](https://www.free-css.com/free-css-templates) contiene miles y miles de templates de `css`, puedes descargar algunos y ver unas páginas completas de HTML y CSS y vámonos rikis!!!** 
+
 - **Después de `HTML` y `CSS` ha llegado la hora, ahora si viene lo bueno! `javascript` y `PHP`**  
 
 ### References
@@ -1199,5 +1201,6 @@ tr.collapse {
 - https://fonts.google.com/
 - https://blog.hubspot.com/website/span-vs-div
 - https://codepen.io/hubspot/pen/bGqGwPJ
+- https://www.free-css.com/free-css-templates
 
 
