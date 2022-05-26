@@ -549,6 +549,36 @@ f0_num_original += 3
 
 - ![image](https://user-images.githubusercontent.com/94720207/170597025-3238a466-48c4-4e06-b090-4897a2567e40.png)
 
+```js
+    // Usando los demás operadores
+
+console.log(); 
+
+let f0_num_original = 10
+
+console.log("Número original:      ", f0_num_original); 
+
+console.log(); 
+
+f0_num_original -= 3
+
+console.log("Usando operador -= 3: ", f0_num_original); 
+
+f0_num_original += 3
+
+console.log("Usando operador += 3: ", f0_num_original); 
+
+f0_num_original *= 3
+
+console.log("Usando operador *= 3: ", f0_num_original); 
+
+f0_num_original /= 3
+
+console.log("Usando operador /= 3: ", f0_num_original); 
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170598723-c7f91644-2b70-45cd-853f-8f5da204f6a7.png)
+
 
 
 
