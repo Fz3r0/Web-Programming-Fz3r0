@@ -376,9 +376,10 @@ const modulo = 10 % 3
 
         // Incremento o decremento: Toma un valor, por ejemplo a "f0_num" le daré el valor "5". 
 	
-	                         // A ese valor yo le quiero incrementar ese mismo valor de una manera más "rápida"
+	                         // A ese valor yo le quiero incrementar << +1 >> de una manera más "rápida"
 				    
-				 // Entonces escribo:   num = (5)   >>>   5++    >>>    (10)    >>>    5++    >>>    (15)
+				 // Entonces escribo:   x_num = (5)   >>>   x_num++    >>>    (6)    >>>    x_num++    >>>    (7)
+				 
     // Valor "base" = 5
 
 const f0_num = 5
@@ -422,11 +423,11 @@ let modulo = 10 % 3
 
 let f0_num = 5
 
-    // "++" a la variable = 5 + 5
+    // "++" a la variable = 5 + 1
 
 f0_num++
 
-    // imprime el resultado:
+    // imprime el resultado: (resultado: 5 + 1 = 6) 
 
 console.log(f0_num)
 ```
