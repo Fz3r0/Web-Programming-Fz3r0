@@ -279,6 +279,45 @@ console.log(f0_objeto.f0_string, f0_objeto.f0_numero, f0_objeto.f0_string, f0_ob
 const cars = ["Saab", "Volvo", "BMW"]; 
 ```
 
+Ejemplo:
+
+```js
+    // Objeto del ejemplo anterior:
+
+const f0_objeto = {
+	f0_numero: 666,
+	f0_string: "Esto es un string (que viene de un objeto), padrino!",
+	f0_condicion: true,
+} 
+
+
+    // Array vacío (no contiene ningún dato):
+
+const f0_array_vacio = []
+
+
+    // Array con << DATOS >>
+
+    // Los datos de un "Array" se colocan entre "[]"
+
+        // El array que contiene varios tipos de datos diferentes
+
+        // Incluyendo variables, objetos, strings puestos directamente, números, etc
+
+const f0_array = [1, 2.9, 'fz3r0', f0_objeto.f0_numero, '|XYZ_dentro_de_array|', null, f0_objeto]
+
+const f0_array_2 = ["Así de fácil son los array", f0_objeto.f0_numero, "Son la bolsa del mandado"]
+
+// Mandar llamar a los 2 array que acabo de crear "f0_array", "f0_array_2" a imprimir a consola
+
+console.log(f0_array)
+
+console.log(f0_array_2)
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170583157-a4ef1ef1-8022-4e48-8742-d2607b333304.png)
+
+
 
 
 
