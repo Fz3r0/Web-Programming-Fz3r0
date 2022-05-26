@@ -319,7 +319,36 @@ console.log(f0_array_2)
 
 ### Push Method
 
-- Para mandar llamar a varios `arrays` se utiliza el método de `push`
+- Para poder meter más `datos` o `elementos` a un `array` se utiliza el `push`
+
+- Muy similar al verbo en `git`, osea "empujar" más propiedades al `array` previamente creado y que quizás contenga más datos (o esté vacío)
+
+- Para esto no se usa `const` sino que solo el `identificador` del `array` por ejemplo `fz3r0_array` seguido de `.` y `push`, donte dentro se contendrán los nuevos `datos` o `elementos` 
+
+- Ejemplo:
+
+```javascript
+    // Hago "push" a nuevos datos o elementos hacia el "array"
+
+f0_array.push(12345, 'push cosas al array 1', f0_objeto.numero)
+
+f0_array_2.push("push al array 2: Los push también están en corto!", 3.1416, "Solo es echarle más cosas a la bolsa del mandado")
+
+    // Mandar llamar a los 2 array que acabo de crear "f0_array", "f0_array_2" a imprimir a consola
+
+console.log(f0_array)
+
+console.log(f0_array_2)
+```
+
+- Si lo vuelvo a ejecutar:
+
+- ![image](https://user-images.githubusercontent.com/94720207/170586274-2d9863f8-deb4-4ac3-a27d-dc3b4e722dbc.png)
+ 
+
+
+
+
 
 
 
