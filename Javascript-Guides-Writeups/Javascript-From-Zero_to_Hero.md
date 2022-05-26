@@ -39,7 +39,7 @@ Varias lineas dije!...
     
 ## Tipos de datos en Javascript
 
-- [Javascript Data Types Cheatlist](https://www.w3schools.com/js/js_datatypes.asp)
+- [**Javascript Data Types Cheatlist**](https://www.w3schools.com/js/js_datatypes.asp)
 
     - In programming, data types is an important concept.
 
@@ -68,7 +68,7 @@ let x = 16 + "Volvo";
 
 ## Definición de Variables
 
-- [Javascript Variables Cheatsheet](https://www.w3schools.com/js/js_variables.asp)
+- [**Javascript Variables Cheatsheet**](https://www.w3schools.com/js/js_variables.asp)
 
 - `var` es la manera legacy de declarar una variable, **ya no se utiliza.**
 
@@ -94,6 +94,8 @@ console.log(miPrimerVariable);
 
 - ![image](https://user-images.githubusercontent.com/94720207/170557784-069eb3a9-9a05-4f4e-b296-57fec771eb3e.png)
 
+### Mutabilidad
+
 ```js
 // FORMA CORRECTA DE DEFINIR VARIABLES:
 
@@ -116,7 +118,17 @@ console.log(miPrimerVariable);
 
 - ![image](https://user-images.githubusercontent.com/94720207/170558599-fe794144-c1c8-4b70-8120-465d0060e4cd.png)
 
-    - De esta manera se pueden ir modificando las variables, muy parecido a otros lenguajes de programación realmente. 
+    - De esta manera se pueden ir modificando las variables, muy parecido a otros lenguajes de programación realmente.
+    
+    - A esto de ir re-asignando variables se le llama `mutabilidad`.   
+
+### Palabras Reservadas de Javascript
+
+- In JavaScript you cannot use these reserved words as variables, labels, or function names: 
+
+    - [**JavaScript Reserved Words**](https://www.w3schools.com/js/js_reserved.asp)
+
+### Asignando otros Tipos de Datos a las variables
 
 - 
 
