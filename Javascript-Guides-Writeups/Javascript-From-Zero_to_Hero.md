@@ -48,4 +48,6 @@ Varias lineas dije!...
 ```js
 let x = 16 + "Volvo";
 ```
-- Javascript Data Types Cheatlist
+- [Javascript Data Types Cheatlist](https://www.w3schools.com/js/js_datatypes.asp)
+
+
