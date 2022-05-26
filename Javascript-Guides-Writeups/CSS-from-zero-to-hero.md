@@ -1167,7 +1167,7 @@ tr.collapse {
 
     - [CSS Visibility](https://www.w3schools.com/cssref/css_animatable.asp)
 
-## Float
+## CSS Float
 
 - Básicamente es el efecto que se dá cuando existe una imagen y queremos que haya texto alrededor, como en un libro.
 
@@ -1177,18 +1177,19 @@ tr.collapse {
 
 - Adjunto la cheatsheet de Float: 
 
-    - [CSS Float](https://www.w3schools.com/cssref/pr_class_float.asp)    
+    - [CSS Float](https://www.w3schools.com/cssref/pr_class_float.asp)
 
+## Outro del WriteUp
 
+- **En realidad este WriteUp CC es todo lo que se necesita para tener las armas de domar a la fiera `CSS`**
 
+- **Todos los demás detalles se pueden ver por uno mismo de otros códigos o cheatsheets o ejemplos de codepen o w3schools.**
 
+- **Basicamente te puedes fusilar cualquier código de `CCS` de Internet y analizarlo, ahora ya se puede comprender cualquier cosa que veas de CSS :)**   
 
+- **En resources agregué de esos links, en mi Index de mi Github de Fz3r0 también actualizo seguido las biblias, cheatsheets y trucos para este tipo de cosas.**
 
-
-
-
-
-
+- **Después de `HTML` y `CSS` ha llegado la hora, ahora si viene lo bueno! `javascript` y `PHP`**  
 
 ### References
 
@@ -1198,6 +1199,5 @@ tr.collapse {
 - https://fonts.google.com/
 - https://blog.hubspot.com/website/span-vs-div
 - https://codepen.io/hubspot/pen/bGqGwPJ
-- 
 
 
