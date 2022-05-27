@@ -318,6 +318,8 @@ console.log(f0_array_2)
 
 - ![image](https://user-images.githubusercontent.com/94720207/170583157-a4ef1ef1-8022-4e48-8742-d2607b333304.png)
 
+---
+
 ### Push Method
 
 - Para poder meter más `datos` o `elementos` a un `array` se utiliza el `push`
@@ -349,6 +351,8 @@ console.log(f0_array_2)
 ## Operadores Matemáticos en Javascript 
 
 - [Javascript Operators](https://www.w3schools.com/js/js_operators.asp)
+
+---
 
 ### JavaScript Arithmetic Operators
 
@@ -492,6 +496,8 @@ console.log("decremento (-10 en total) también se puede con: '--'", f0_num_incr
 
 - ![image](https://user-images.githubusercontent.com/94720207/170594347-4c9d9944-495f-449d-839c-61c075fda8d0.png)
 
+---
+
 ### JavaScript Assignment Operators
 
 | **Operator** | **Example** | **Same As**  |
@@ -580,15 +586,7 @@ console.log("Usando operador /= 3: ", f0_num_original);
 
 - ![image](https://user-images.githubusercontent.com/94720207/170598723-c7f91644-2b70-45cd-853f-8f5da204f6a7.png)
 
-### JavaScript Logical Operators
-
-| **Operator** | **Description**  |
-|--------------|------------------|
-| &&           | logical and      |
-| "or"(reserved in md)        | logical or       |
-| !            | logical not      |
-
-- Comparaciones entre distintos tipos de datos.
+---
 
 ### JavaScript Comparison Operators
 
@@ -701,6 +699,17 @@ console.log("js responde: ", f0_resultado1);
 
 - ![image](https://user-images.githubusercontent.com/94720207/170604779-258246aa-c85b-442e-b6c2-7729bc86666e.png)
 
+---
+
+### JavaScript Logical Operators
+
+| **Operator** | **Description**  |
+|--------------|------------------|
+| &&           | logical and      |
+| "or"(reserved in md)        | logical or       |
+| !            | logical not      |
+
+- Comparaciones entre distintos tipos de datos.
 
 
 
