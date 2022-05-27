@@ -580,7 +580,84 @@ console.log("Usando operador /= 3: ", f0_num_original);
 
 - ![image](https://user-images.githubusercontent.com/94720207/170598723-c7f91644-2b70-45cd-853f-8f5da204f6a7.png)
 
+### JavaScript Logical Operators
+
+| **Operator** | **Description**  |
+|--------------|------------------|
+| &&           | logical and      |
+| ||           | logical or       |
+| !            | logical not      |
+
+- Comparaciones entre distintos tipos de datos.
+
 ### JavaScript Comparison Operators
+
+| **Operator** | **Description**                    |
+|--------------|------------------------------------|
+| ==           | equal to                           |
+| ===          | equal value and equal type         |
+| !=           | not equal                          |
+| !==          | not equal value or not equal type  |
+| >            | greater than                       |
+| <            | less than                          |
+| >=           | greater than or equal to           |
+| <=           | less than or equal to              |
+| ?            | ternary operator                   |
+
+Ejemplo:
+
+```js
+    // El operador "===" Es estricto, forzosamente compara un valor y debe ser idéntico. 
+    
+        // Número original = << 5 >>, a ese "5" lo comparo con un "6" y pregunto:
+        // Acaso ese 5 es igual a 6, Oh! señor Don Javascript?
+        // A lo cual el viejo "js" nos responderá con un: TRUE or FALSE
+
+let f0_resultado1 = 5 === 6
+
+console.log();	
+console.log("Señor Don Javascript, es acaso 5 igual a 6? (usando ===)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1);
+
+f0_resultado1 = 5 === 5	
+
+console.log();	
+console.log();	
+console.log("Señor Don Javascript, es acaso 5 igual a 5? (usando ===)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1);
+
+
+    // Ahora, si utilizo "==" también me dará 5... ¡¿pero por que existen 2 para lo mismo?!
+    // No!!! uno compara VALOR y TIPO (5, es un número entero)
+    
+    // Pero también podría poner un 5 con string, solo lo debo poner dentro de ""
+    
+    // Así que no es lo mismo comparar << 5 === 5 >> con << 5 === "5" >> 
+
+f0_resultado1 = 5 === '5'	
+
+console.log();	
+console.log();	
+console.log("pregunta 1: Señor Don Javascript, es acaso 5 igual a '5'? (usando ===)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1); 
+
+f0_resultado1 = 5 == '5'	
+
+console.log();	
+console.log();	
+console.log("pregunta 2: Señor Don Javascript, es acaso 5 igual a '5'? (usando ==)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1); 
+```
+
+![image](https://user-images.githubusercontent.com/94720207/170603660-dcb0feff-73e3-4729-a65a-7c6325f3a2e5.png)
+
+- **Como nos podemos dar cuenta el Señor Javascript puede comparar `strings` con `numbers`, y si usamos `==` encuentra una relación de valor, aunque no de tipo. (una aberración en otros lenguajes), _welcome to javascript son!_**
+
+- 
 
 
 
