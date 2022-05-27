@@ -864,6 +864,13 @@ console.log('El resultado de !false : ', f0_resultado_not2);
 - Ejemplo básico de un `if`:
 
 ```js
+    // If vacío en su estado puro:
+    
+if (true){}
+
+
+if (false){}
+    
     // instrucción: << IF >> en su estado puro
 
     // Sin comparar nada, solo como un demo "true" o "false"
@@ -910,6 +917,17 @@ if (f0_edad > 5 && f0_edad < 18) {
 - Un ejemplo usando el mismo código del if, pero ahora será un viejo cascarrabias el que trate de pasar por el programa:
 
 ```js
+    // If-Else vacío en su estado puro:
+    
+if (true){}
+
+else {}
+
+
+if (false){}
+
+else {}
+
     // If evaluando la condición: >>>>  solo números entre 5 y 18
 
 const f0_edad = 49
@@ -995,6 +1013,8 @@ console.log('Nos vemos mañana en cafetería Fz3r0 :D');
 - **NOTA: Las evaluaciones pueden ser de distintos tipos, como `true` o `false`**
 
 ## Switch
+
+- 
 
 
 
