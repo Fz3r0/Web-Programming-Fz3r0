@@ -887,6 +887,11 @@ console.log('Nos vemos mañana en cafetería Fz3r0 :D');
 ```
 - ![image](https://user-images.githubusercontent.com/94720207/170626161-7b9047dc-55cb-4990-9c26-badf49cb2bfc.png)
 
+- **NOTA: Las evaluaciones pueden ser de distintos tipos, como `true` o `false`**
+
+** Switch
+
+
 
 
 
