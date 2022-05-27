@@ -1179,12 +1179,13 @@ console.log('      y se hace costumbre siempre usarla, ya que "i" recuerda a uno
 - Despúes haré el codeblock del `for` para acceder a dichos `elementos`.
 
     - **IMPORTANTE: En `js` hay una propiedad que tienen TODOS los `array` que es el `lenght`**
-        - `lenght` permite obtener el "largo" de un `array`
-        - Es decir, contar la cantidad de elementos!!! fácil!!!  
-             - Por ejemplo: un arreglo `[1, 2, 3, 4, 5]` tiene un `leght` de `5`
-             - Por ejemplo: un arreglo `[a, b, c]` tiene un `leght` de `3`
-             - Por ejemplo: un arreglo `['hola amigos', 666, user123, 'p@ssw00rd']` tiene un `lenght` de `4`
-
+        
+	- `lenght` permite obtener el "largo" de un `array`
+        
+	- Es decir, contar la cantidad de elementos!!! fácil!!!
+	    - Por ejemplo: un arreglo `[1, 2, 3, 4, 5]` tiene un `leght` de `5`
+	    - Por ejemplo: un arreglo `[a, b, c]` tiene un `leght` de `3`
+	    - Por ejemplo: un arreglo `['hola amigos', 666, user123, 'p@ssw00rd']` tiene un `lenght` de `4`
 
 ```js
     // Ejempplo: Accediendo a los elementos de un arreglo:
