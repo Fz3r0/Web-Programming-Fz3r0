@@ -1238,8 +1238,13 @@ console.log('Estoy fuera del for');
 
 - **[Javascript Functions](https://www.w3schools.com/js/js_functions.asp)**
 
--  
+    - A JavaScript function is a block of code designed to perform a particular task.
 
+    - A JavaScript function is executed when "something" invokes it (calls it).  
+    
+    - **Nota: Como las funciones en python y demás**
+    
+- 
 
 
 
