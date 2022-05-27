@@ -1234,6 +1234,12 @@ console.log('Estoy fuera del for');
 - ![image](https://user-images.githubusercontent.com/94720207/170794789-5ca9dce5-e1a3-4af1-bee1-56b8fa0c541d.png)
 
 
+## Funciones en Javascript
+
+- **[Javascript Functions](https://www.w3schools.com/js/js_functions.asp)**
+
+-  
+
 
 
 
