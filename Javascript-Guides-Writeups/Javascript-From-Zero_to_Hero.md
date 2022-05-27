@@ -1129,7 +1129,24 @@ for (statement 1; statement 2; statement 3) {
 
 - `Statement 3` is executed `every time` **after the code block has been executed.**
 
-    - El `for` 
+    - **El `for` es similar a `while`, nos permite iteral o permanecer dentro de un `loop` HASTA QUE SE CUMPLA UNA INSTRUCCIÓN.**
+
+
+| **Instrucción** | **Resultado** |
+|-----------------|---------------|
+| **SINTAXIS FOR**| `for (statement 1; statement 2; statement 3)`
+| **EJEMPLO FOR:**| `for (let i = 0; i < 10; )`
+| for             | instrucción for             |
+| ()              | Dentro de paréntesis van las **3 INSTRUCCIONES** que debe seguir `for` |
+| let i = 0       | **Instrucción-1**: **EL VALOR DE LA VARIABLE** que vamos a iterar <br> (En este caso `i` vale `0`) |
+| i <          | **Instrucción-2**: La condición que la variable `i` debe de cumplir **PARA SEGUIRSE EJECUTANDO** <br> (En este caso que `i` sea menor a `10`, es decir: `9`) |
+| i++ | **Instrucción-3:** Que **realice la operación HASTA QUE SE CUMPLA LA CONDICIÓN.** <br> En este caso sumar "+1" (para sgeuir el loop sumando y sumando hasta lograr la condición)|
+|{}| Dentro de las llaves va el code block. <br> En este caso una consola imprimiendo el valor de `i` cada que pasa por la comparación de la condición. 
+
+
+```js
+for () {}
+```
 
 
 
