@@ -1139,8 +1139,8 @@ for (statement 1; statement 2; statement 3) {
 | for             | instrucción for             |
 | ()              | Dentro de paréntesis van las **3 INSTRUCCIONES** que debe seguir `for` |
 | let i = 0       | **Instrucción-1**: **EL VALOR DE LA VARIABLE** que vamos a iterar <br> (En este caso `i` vale `0`) |
-| i <          | **Instrucción-2**: La condición que la variable `i` debe de cumplir **PARA SEGUIRSE EJECUTANDO** <br> (En este caso que `i` sea menor a `10`, es decir: `9`) |
-| i++ | **Instrucción-3:** Que **realice la operación HASTA QUE SE CUMPLA LA CONDICIÓN.** <br> En este caso sumar "+1" (para sgeuir el loop sumando y sumando hasta lograr la condición)|
+| i <          | **Instrucción-2**: La condición que la variable `i` debe de cumplir **PARA SEGUIRSE EJECUTANDO** <br> (En este caso que `i` sea menor a `10`, es decir: `máximo 9`) |
+| i++ | **Instrucción-3:** **Que se realice ESTA operación HASTA QUE SE CUMPLA LA CONDICIÓN.** <br> En este caso, la operación es sumar "+1" <br> <br> (Después el loop termina y **regresa de nuevo a la INSTRUCCIÓN 2**)|
 |{}| Dentro de las llaves va el code block. <br> En este caso una consola imprimiendo el valor de `i` cada que pasa por la comparación de la condición. 
 
 - Ejemplo:
@@ -1152,11 +1152,7 @@ for (let i = 0; i <; i++) {}
 - Ejemplo completo:
 
 ```js
-console.log();
-
     // Ejemplo for:
-
-        // Estoy usando el mismo código de la tabla de arriba:
 
 for (let i = 0; i < 10; i++) {
 	console.log('El valor de "i" es: ', i);
