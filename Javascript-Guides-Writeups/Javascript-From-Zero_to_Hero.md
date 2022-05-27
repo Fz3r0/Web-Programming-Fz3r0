@@ -1187,20 +1187,54 @@ console.log('      y se hace costumbre siempre usarla, ya que "i" recuerda a uno
 	    - Por ejemplo: un arreglo `[a, b, c]` tiene un `leght` de `3`
 	    - Por ejemplo: un arreglo `['hola amigos', 666, user123, 'p@ssw00rd']` tiene un `lenght` de `4`
 
+- El `lenght` es importante ya que permite acceder a los `index` de cada uno de los `elementos` del `array`
+
 ```js
-    // Ejempplo: Accediendo a los elementos de un arreglo:
+console.log()
 
-    // Declaración del Array:
+        // Accediendo a los elementos sin "for", directo de la consola like a boss:
+
+const numeros_1 = [1, 2, 3, 4, 5] 
+
+console.log('Primer ejemplo, usando [0]:   ', numeros_1[0]);
+console.log();
+
+        // Así de fácil mostré todos los elementos del array, ya que [] significa TODO dentro del array
+	
+	    // Pero, que pasa si pongo varios???
+
+console.log('Segundo ejemplo, usando [0, 3, 4] (si pongo varios toma el último osea 4(5)) :   ', numeros_1[0, 3, 4]);
+console.log('Tercer ejemplo, usando [0, 3] (si pongo varios toma el último osea 3(4))     :   ', numeros_1[0, 3]);	
+console.log();
+
+        // Los índices en js como todo en este mundo, se empieza a contar de 0, es por eso que 3 es 4, etc...
+
+console.log();
+
+    // La misma lógica utiliza el for para sacar esos elementos:
+
+    // Selecciona un número del Index del array y listo! sabrá que hay dentro de ese elemento.  
+
+        // Ejempplo: Accediendo a los elementos de un arreglo:
+
+        // Declaración del Array:
     
-const numeros = [1, 2, 3, 4, 5]  
+const numeros = [1, 2, 3, 'La bolita', 5, 'otra variable', 7, 8, 'un objeto!']  
 
-for (let i = 0; i < 10; i++) {
-	console.log('El valor de "i" es: ', i);
-}
+        // Loop for: en este caso la iteración (instrucción2) "numeros.lenght[i]" se está comaprando con su lenghtr mismo total (oseea 10)
 
+for (let i = 0; i < numeros.length; i++) {
+	console.log('Estoy dentro del for, "i" va contando el length del array y va en el elemento:  ', i);
+}	
 
-
+console.log();
+console.log('Estoy fuera del for');
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170794789-5ca9dce5-e1a3-4af1-bee1-56b8fa0c541d.png)
+
+
+
 
 
 
