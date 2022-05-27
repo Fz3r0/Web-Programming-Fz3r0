@@ -3,6 +3,37 @@ Alláaaaaa vaaan!!!
 
 ## Intro
 
+```js
+console.log(' =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+console.log(' "                                                               "');
+console.log(' "                                                               "');
+console.log(' "      /$$$$$$$$               /$$$$$$             /$$$$$$      "');
+console.log(' "     | $$_____/              /$$__  $$           /$$$_  $$     "');
+console.log(' "     | $$          /$$$$$$$$|__/    $$  /$$$$$$ | $$$$  $$     "');
+console.log(' "     | $$$$$ /$$$$|____ /$$/   /$$$$$/ /$$__  $$| $$ $$ $$     "');
+console.log(' "     | $$__/|____/   /$$$$/   |___  $$| $$   __/| $$  $$$$     "');
+console.log(' "     | $$           /$$__/   /$$    $$| $$      | $$   $$$     "');
+console.log(' "     | $$          /$$$$$$$$|  $$$$$$/| $$      |  $$$$$$/     "');
+console.log(' "     |__/         |________/  ______/ |__/        ______/      "');
+console.log(' "                                                               "');
+console.log(' "                  I can read people´s minds...                 "');
+console.log(' "          I have read the pasts, presents and futures          "');
+console.log(' "                And each mind that I peered into               "');
+console.log(' "     was stuffed with the same single object of obssesion      "');
+console.log(' "                                                               "');
+console.log(' "                    -- HECHO EN MEXICO --                      "');
+console.log(' "                                                               "');
+console.log(' "                     Twitter:  @fz3r0_OPs                      "');
+console.log(' "                     GitHub :  Fz3r0                           "');
+console.log(' "                                                               "');
+console.log(' "                                                               "');
+console.log(' =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170615647-c7d688d3-f967-4e85-ab09-8e770eaf7bd1.png)
+
+
+## Bienvenido al mundo de Javascript, abandonad toda esperanza
 
 - Hola mundo y comentarios:
 
@@ -710,6 +741,39 @@ console.log("js responde: ", f0_resultado1);
 | !            | logical not      |
 
 - Comparaciones entre distintos tipos de datos.
+
+## Conditional Statements / Control de Flujo 
+
+- Nos permite realizar iteraciones o también evaluar condiciones:
+
+    - Yo puedo evaluar una condición en caso que sea TRUE or FALSE, puedo realizar o saltarme esa lógica.
+    
+    - El clásico `if`... `If 10 == 10 > then: "si es 10" > else: "no es 10"`  
+
+## If / If Else / Else If
+
+- **[If / If Else / Else If](https://www.w3schools.com/js/js_if_else.asp)**
+
+### If
+
+- Ejemplo básico de un `if`:
+
+```js
+    // instrucción: << IF >> en su estado puro
+
+    // Sin comparar nada, solo como un demo "true" o "false"
+
+if (true){
+
+	console.log('Fz3r0: Estoy dentro de un << IF >>')
+
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170620813-110788d7-8c41-4fd2-bf13-036a96a1519a.png)
+
+
+
 
 
 
