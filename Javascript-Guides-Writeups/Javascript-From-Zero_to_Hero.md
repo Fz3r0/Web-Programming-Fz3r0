@@ -585,7 +585,7 @@ console.log("Usando operador /= 3: ", f0_num_original);
 | **Operator** | **Description**  |
 |--------------|------------------|
 | &&           | logical and      |
-| ||           | logical or       |
+| "or"(reserved in md)        | logical or       |
 | !            | logical not      |
 
 - Comparaciones entre distintos tipos de datos.
