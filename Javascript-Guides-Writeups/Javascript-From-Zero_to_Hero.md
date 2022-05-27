@@ -1014,7 +1014,109 @@ console.log('Nos vemos mañana en cafetería Fz3r0 :D');
 
 ## Switch
 
-- 
+[JavaScript Switch Statement](https://www.w3schools.com/js/js_switch.asp)
+
+- The switch statement is used to perform different actions based on different conditions.
+
+- **Use the switch statement to select one of many code blocks to be executed.**
+
+- Ejemplo:
+
+```js
+
+    // Switch vacío:
+    
+        // Nota: OJO! el default ya no necesita "break;"
+
+switch(f0_expression) {
+
+  case (x):
+    // code block A
+    break;
+    
+  case (y):
+    // code block B
+    break;
+    
+  default:
+    // Aqui está 
+    
+}
+
+let f0_expression1 = 1
+console.log()
+console.log('Caso 1:')
+
+    // Switch vacío:
+    
+        // Nota: OJO! el default ya no necesita "break;"
+
+switch(f0_expression1) {
+
+  case (1):
+    // code block 1
+    break;
+    
+  case (2):
+    // code block 2
+    break;
+    
+  default:
+    // code block 3 (default) 
+    
+}
+
+    // Ejemplo jocoso de "switch"
+    
+    // Así de fácil es el switch: se espera algún dato, como las compuertas de un juego de feria, donde está la bolita?!
+    
+    // Cada switch tiene un valor, dato, etc. Si son iguales, ese switch entra:
+
+let f0_expression2 = "B"
+console.log()
+
+switch(f0_expression2) {
+
+  case ("A"):
+    // code block 1
+    console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay bomba apestosa');
+    break;
+    
+  case ("B"):
+    console.log('Has seleccionado: ', f0_expression2, '>>> Aquí está la bolita!!! :D llamen a los golpeadores y huyan!');  
+    break;
+    
+  default:
+    console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');
+}
+
+console.log()
+console.log()
+console.log('Caso 2:')
+
+
+    // En cambio, si escribo cualquier otra cosa que no corresponda con nada, irá al default:
+
+let f0_expression3 = 666
+console.log()
+
+switch(f0_expression3) {
+
+  case ("A"):
+    // code block 1
+    console.log('Has seleccionado: ', f0_expression3, '>>> Aquí no está la bolita :(, pero hay bomba apestosa');
+    break;
+    
+  case ("B"):
+    console.log('Has seleccionado: ', f0_expression3, '>>> Aquí está la bolita!!! :D llamen a los golpeadores y huyan!');  
+    break;
+    
+  default:
+    console.log('Has seleccionado: ', f0_expression3, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');
+}      
+
+console.log()  
+```
 
 
 
