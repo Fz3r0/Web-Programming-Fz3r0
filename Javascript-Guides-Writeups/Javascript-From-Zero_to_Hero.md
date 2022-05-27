@@ -889,7 +889,9 @@ console.log('Nos vemos mañana en cafetería Fz3r0 :D');
 
 - **NOTA: Las evaluaciones pueden ser de distintos tipos, como `true` o `false`**
 
-** Switch
+## Switch
+
+
 
 
 
