@@ -737,10 +737,98 @@ console.log("js responde: ", f0_resultado1);
 | **Operator** | **Description**  |
 |--------------|------------------|
 | &&           | logical and      |
-| "or"(reserved in md)        | logical or       |
+| II           | logical or       |
 | !            | logical not      |
 
-- Comparaciones entre distintos tipos de datos.
+- Determina la lógica entre variables o valores.
+
+- Logical operators are used to determine the logic between variables or values.
+
+    - Por ejemplo, si  "x" = 6 & "y" = 3:
+
+```js
+                                  /* || (or) */
+
+console.log()
+
+    // Or - El operador "||" lo primero que hará es evaluar el primer valor con el que se encuentre o retorne el script en TRUE
+    
+         // Por ejemplo, si yo tengo un FALSE pero también un TRUE, el resultado que dará "||" (or) será = TRUE
+
+         // La única manera que un "||" regrese un valor de "false", es que ambos valores sean "False"
+	    
+const f0_resultado_or1 = false || true
+
+console.log('El resultado entre "false || true" es : ', f0_resultado_or1);
+
+const f0_resultado_or2 = true || false
+
+console.log('El resultado entre "true || false" es : ', f0_resultado_or2);
+
+const f0_resultado_or3 = true || true
+
+console.log('El resultado entre "true || true" es  : ', f0_resultado_or3);
+
+const f0_resultado_or4 = false || false
+
+console.log('El resultado entre "false || false" es: ', f0_resultado_or4, '<<< único false');
+
+                                  /* && (and) */
+
+console.log()
+
+    // Or - El operador "&&" (and) es similar a los resultados con "or", también recibe esos 2 valores
+
+         // Pero! "&&" a diferencia, siempre buscará el primer FALSE
+    
+         // Por ejemplo, si yo tengo un FALSE pero también un TRUE, el resultado que dará "&&" (and) será = FALSE
+
+         // La única manera que un "&&" regrese un valor de "true", es que ambos valores sean "True"
+	    
+const f0_resultado_and1 = false && true
+
+console.log('El resultado entre "false && true" es : ', f0_resultado_and1);
+
+const f0_resultado_and2 = true && false
+
+console.log('El resultado entre "true && false" es : ', f0_resultado_and2);
+
+const f0_resultado_and3 = true && true
+
+console.log('El resultado entre "true && true" es  : ', f0_resultado_and3, '<<< único true');
+
+const f0_resultado_and4 = false && false
+
+console.log('El resultado entre "false && false" es: ', f0_resultado_and4);
+
+const f0_resultado_and5 = true && true && true && true && true && false
+
+console.log()
+console.log('Nota: en caso que haya chingomil true, pero solo un false, el resultado será:', f0_resultado_and5);
+
+                                  /* ! (not) */
+
+console.log()
+
+    // Or - El operador "not" va "a dar vuelta" el valor que este tiene
+
+         // Es decir, tendrá el valor completamente opuesto en caso que sea boolean (1 y 0) 
+    
+         // Por ejemplo:  Si yo tengo un valor X = !true  >> el resultado será false
+
+                       // Si yo tengo un valor X = !false  >> el resultado será true 
+
+
+const f0_resultado_not1 = !true
+
+console.log('El resultado de !true : ', f0_resultado_not1);
+
+const f0_resultado_not2 = !false
+
+console.log('El resultado de !false : ', f0_resultado_not2);
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170729674-9bdcbde4-8110-4d11-b5b2-138bb124543e.png)
 
 ## Conditional Statements / Control de Flujo 
 
