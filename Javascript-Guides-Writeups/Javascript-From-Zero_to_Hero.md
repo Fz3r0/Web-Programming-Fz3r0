@@ -1143,10 +1143,37 @@ for (statement 1; statement 2; statement 3) {
 | i++ | **Instrucción-3:** Que **realice la operación HASTA QUE SE CUMPLA LA CONDICIÓN.** <br> En este caso sumar "+1" (para sgeuir el loop sumando y sumando hasta lograr la condición)|
 |{}| Dentro de las llaves va el code block. <br> En este caso una consola imprimiendo el valor de `i` cada que pasa por la comparación de la condición. 
 
+- Ejemplo:
 
 ```js
-for () {}
+for (let i = 0; i <; i++) {}
 ```
+
+- Ejemplo completo:
+
+```js
+console.log();
+
+    // Ejemplo for:
+
+        // Estoy usando el mismo código de la tabla de arriba:
+
+for (let i = 0; i < 10; i++) {
+	console.log('El valor de "i" es: ', i);
+}
+
+// Fuera del for... lo que sigue del programa:
+
+console.log();
+console.log('Se ha acabado el loop del for, aquí "afuera" ya no funciona mi variable "i"');
+console.log('Si yo utilizara la "i" acá afuera, marcaría error. Solo funciona para ese "for"');
+console.log();
+console.log('HINT: "i" casi siempre se usa para el "for", solo porque se puede repetir...');
+console.log('      y se hace costumbre siempre usarla, ya que "i" recuerda a uno "instrucción" :P');
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170785989-da8269df-d7fa-4758-92c9-edeb66947683.png)
+
 
 
 
