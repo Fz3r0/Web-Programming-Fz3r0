@@ -657,7 +657,9 @@ console.log("js responde: ", f0_resultado1);
 
 - **Como nos podemos dar cuenta el Señor Javascript puede comparar `strings` con `numbers`, y si usamos `==` encuentra una relación de valor, aunque no de tipo. (una aberración en otros lenguajes), _welcome to javascript son!_**
 
-- 
+- Esto es permitido en `js` ya que aveces es necesario un tipo de comparación que no sea tan estricta. 
+
+
 
 
 
