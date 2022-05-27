@@ -744,7 +744,7 @@ console.log("js responde: ", f0_resultado1);
 
 - Logical operators are used to determine the logic between variables or values.
 
-    - Por ejemplo, si  "x" = 6 & "y" = 3:
+    - Por ejemplo:
 
 ```js
                                   /* || (or) */
@@ -818,7 +818,6 @@ console.log()
 
                        // Si yo tengo un valor X = !false  >> el resultado será true 
 
-
 const f0_resultado_not1 = !true
 
 console.log('El resultado de !true : ', f0_resultado_not1);
@@ -829,6 +828,25 @@ console.log('El resultado de !false : ', f0_resultado_not2);
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170729674-9bdcbde4-8110-4d11-b5b2-138bb124543e.png)
+
+- NOTA: `js` y sus operadores de `||` y `&&`  funcionan con `short circuit evaluation`, lo que hace básicamente es al encontrar el primer resultado que busca, detener la demás operación. 
+
+- **NOTA SUPER IMPORTANTE: STRINGS, OBJETOS, NÚMEROS TODOS SON `TRUE` EXCEPTO EL `0`. 
+- EL `0` ES EL ÚNICO `FALSE`.** (Por eso en el siguiente ejemplo puedo usar un string como TRUE pero solo un "0" como false)
+
+    - Por ejemplo:
+
+        - La única manera que un "||" regrese un valor de "False", es que ambos valores sean "False"
+	    
+	    - Entonces: `false || false || false || false || "string, objeto, número (excepto 0), o true"` **`<--- stop!!!`**
+	    - Entonces: `false || false || false || false || `true` **`<--- stop!!!`**
+
+        - La única manera que un "&&" regrese un valor de "true", es que ambos valores sean "True"
+        
+	    - Entonces: `true && true && true && true && 0` **`<--- stop!!!`** 
+	    - Entonces: `true && true && true && true && false` **`<--- stop!!!`** 
+
+- Es decir, en el caso de `||` si encuentra el primer `FALSE` después de `5 TRUE` en una lista de `3000 TRUE`, la búsqueda se detiene en `5 TRUE`.
 
 ## Conditional Statements / Control de Flujo 
 
