@@ -958,6 +958,10 @@ if (f0_edad > 5 && f0_edad < 18) {
         - "Mientras sean entre 8am y 16pm, la cafetería permanecerá abierta" 
 
 ```js
+    // While vacío
+    
+while (1 < 100) {}   
+
     // While evaluando la condición: >>>>  La cafetería abre hasta las 8am
 
 let f0_hora = 5
@@ -1020,29 +1024,9 @@ console.log('Nos vemos mañana en cafetería Fz3r0 :D');
 
 - **Use the switch statement to select one of many code blocks to be executed.**
 
-- Ejemplo:
+    - Ejemplo:
 
 ```js
-
-    // Switch vacío:
-    
-        // Nota: OJO! el default ya no necesita "break;"
-
-switch(f0_expression) {
-
-  case (x):
-    // code block A
-    break;
-    
-  case (y):
-    // code block B
-    break;
-    
-  default:
-    // Aqui está 
-    
-}
-
 let f0_expression1 = 1
 console.log()
 console.log('Caso 1:')
@@ -1068,11 +1052,11 @@ switch(f0_expression1) {
 
     // Ejemplo jocoso de "switch"
     
-    // Así de fácil es el switch: se espera algún dato, como las compuertas de un juego de feria, donde está la bolita?!
+    // Así de fácil es el switch, se espera algún dato, como las compuertas de un juego de feria, donde está la bolita?!
     
     // Cada switch tiene un valor, dato, etc. Si son iguales, ese switch entra:
 
-let f0_expression2 = "B"
+let f0_expression2 = "cualquier otra cosa, o valor, o número"
 console.log()
 
 switch(f0_expression2) {
@@ -1085,19 +1069,22 @@ switch(f0_expression2) {
   case ("B"):
     console.log('Has seleccionado: ', f0_expression2, '>>> Aquí está la bolita!!! :D llamen a los golpeadores y huyan!');  
     break;
-    
+ 
+  case ("C"):
+    console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');  
+    break;
+
   default:
-    console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');
+    console.log('Has seleccionado: ', f0_expression2, '>>> No has seleccionado ninguna de las 3 opciones!!! Golpeadores!!! a el!!!');
 }
 
 console.log()
 console.log()
 console.log('Caso 2:')
 
-
     // En cambio, si escribo cualquier otra cosa que no corresponda con nada, irá al default:
 
-let f0_expression3 = 666
+let f0_expression3 = "666"
 console.log()
 
 switch(f0_expression3) {
@@ -1110,16 +1097,39 @@ switch(f0_expression3) {
   case ("B"):
     console.log('Has seleccionado: ', f0_expression3, '>>> Aquí está la bolita!!! :D llamen a los golpeadores y huyan!');  
     break;
-    
-  default:
-    console.log('Has seleccionado: ', f0_expression3, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');
-}      
+ 
+  case ("C"):
+    console.log('Has seleccionado: ', f0_expression3, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');  
+    break;
 
-console.log()  
+  default:
+    console.log('Has seleccionado: ', f0_expression3, '>>> No has seleccionado ninguna de las 3 opciones!!! Golpeadores!!! a el!!!');
+}
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170776822-c3a9c484-6631-400c-924d-6396d71595ce.png)
 
+## For
+
+- **[The For Loop](https://www.w3schools.com/js/js_loop_for.asp)**
+
+- The for loop has the following syntax:
+
+```js
+    // Ejemplo puro:
+
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+} 
+```
+
+- `Statement 1` is executed `one time`** before the execution of the code block.**
+
+- `Statement 2` defines **the condition for executing the code block.**
+
+- `Statement 3` is executed `every time` **after the code block has been executed.**
+
+    - El `for` 
 
 
 
