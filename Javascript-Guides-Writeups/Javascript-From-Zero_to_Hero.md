@@ -659,6 +659,48 @@ console.log("js responde: ", f0_resultado1);
 
 - Esto es permitido en `js` ya que aveces es necesario un tipo de comparación que no sea tan estricta. 
 
+    - Otros ejemplos de operadores de comparación:
+
+```js
+    // Otros ejemplos de operadores de comparación:
+    
+let f0_resultado1 = 10
+
+console.log();
+console.log("El número original es ", f0_resultado1);
+console.log();
+
+f0_resultado1 = 10 < 20
+
+console.log();	
+console.log("Señor Don Javascript, es acaso 10 MENOR a 20? (usando <)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1);
+
+f0_resultado1 = 10 > 20
+
+console.log();	
+console.log("Señor Don Javascript, es acaso 10 MAYOR a 20? (usando >)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1);
+
+f0_resultado1 = 10 >= 100
+
+console.log();	
+console.log("Señor Don Javascript, es acaso 10 MAYOR O IGUAL a 100? (usando >=)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1);
+
+f0_resultado1 = 10 <= 100
+
+console.log();	
+console.log("Señor Don Javascript, es acaso 10 MENOR O IGUAL a 100? (usando <=)"); 
+console.log();	
+console.log("js responde: ", f0_resultado1);
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170604779-258246aa-c85b-442e-b6c2-7729bc86666e.png)
+
 
 
 
