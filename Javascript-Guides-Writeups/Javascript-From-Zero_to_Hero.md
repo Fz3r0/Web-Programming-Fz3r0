@@ -754,7 +754,7 @@ console.log("js responde: ", f0_resultado1);
 
 - **[If / If Else / Else If](https://www.w3schools.com/js/js_if_else.asp)**
 
-### If
+## If
 
 - Ejemplo básico de un `if`:
 
@@ -763,7 +763,17 @@ console.log("js responde: ", f0_resultado1);
 
     // Sin comparar nada, solo como un demo "true" o "false"
 
+        // En caso de "true" imprimirá la instrucción:
+
 if (true){
+
+	console.log('Fz3r0: Estoy dentro de un << IF >>')
+
+}
+
+        // En caso de "false" se brincará la instrucción y no imprimirá nada:
+
+if (false){
 
 	console.log('Fz3r0: Estoy dentro de un << IF >>')
 
@@ -771,6 +781,113 @@ if (true){
 ```
 
 - ![image](https://user-images.githubusercontent.com/94720207/170620813-110788d7-8c41-4fd2-bf13-036a96a1519a.png)
+
+- También se pueden recibir otros tipos de `operadores lógicos`:
+
+```js
+    // If evaluando la condición: >>>>  solo números entre 5 y 18
+
+const f0_edad = 10
+
+if (f0_edad > 5 && f0_edad < 18) {
+
+   console.log('Estoy dentro de un if! El if solicita una edad entre 5 y 18 años, yo tengo 10!!! hurra!!!');
+   
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170622208-f78d7c0e-8a3c-4230-add5-070f1898763f.png)
+
+- Si quiero agregar el `else` se realiza de la siguiente manera: 
+
+## Else 
+
+- Un ejemplo usando el mismo código del if, pero ahora será un viejo cascarrabias el que trate de pasar por el programa:
+
+```js
+    // If evaluando la condición: >>>>  solo números entre 5 y 18
+
+const f0_edad = 49
+
+if (f0_edad > 5 && f0_edad < 18) {
+
+   console.log('Estoy dentro de un if! El if solicita una edad entre 5 y 18 años, yo tengo 10!!! hurra!!!');
+   
+} else {
+
+    console.log('Estoy dentro de un if! El if solicita una edad entre 5 y 18 años, yo tengo 49!!! soy un viejo!!! D:');
+
+}
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170622937-9873943c-2884-41df-86d3-15be9e098b40.png)
+
+- Nota: Los `if` o `else` solo aplica para lo que esté dentro de los mismos bloques `if` o `else`... obviamente...
+
+## While
+
+- `While` se quedará iterando (o haciendo loops) de manera infinita a menos que le indiquemos lo contrario.
+
+    - Por ejemplo:
+
+        - "Mientras no sean las 8am, no abrirá la cafetería"
+
+        - "Mientras sean entre 8am y 16pm, la cafetería permanecerá abierta" 
+
+```js
+    // While evaluando la condición: >>>>  La cafetería abre hasta las 8am
+
+let f0_hora = 5
+
+while (f0_hora < 8) {
+
+	console.log('Aún no es hora de abrir, son las: ', f0_hora);
+
+	f0_hora++
+
+}
+
+console.log('El restaurante está abierto! Son las: ', f0_hora);
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170624046-8e94e754-e58e-4a87-8999-1c4197e5ce76.png)
+
+- Por ejemplo:
+
+    - "Mientras sean entre 8am y 16pm, la cafetería permanecerá abierta" 
+
+```js
+    // While evaluando la condición: >>>>  La cafetería está abierta entre 8am y 16pm
+
+    // Detalle jocoso: Debo poner <= 15, ya que por lógica: si el restaurante cierra a las 16, 15 es la última hora que pasará abierto ;) ... ++1 16, en 16 cierra
+
+let f0_hora = 0
+
+while (f0_hora < 8) {
+
+	console.log('Son las: ', f0_hora, ' Y estoy en el primer while, cuando den las 8, entro al segundo while');
+
+	f0_hora++
+
+}
+
+console.log('------ Cambio de while 1 a while 2!!!, son las: ', f0_hora);
+
+while (f0_hora >= 8 && f0_hora <= 15) {
+
+	console.log('Cafatería abierta, son las: ', f0_hora);
+
+	f0_hora++
+
+}
+
+console.log('El restaurante ha cerrado! son las: ', f0_hora);
+
+console.log('Nos vemos mañana en cafetería Fz3r0 :D');
+```
+- ![image](https://user-images.githubusercontent.com/94720207/170626161-7b9047dc-55cb-4990-9c26-badf49cb2bfc.png)
+
+
 
 
 
