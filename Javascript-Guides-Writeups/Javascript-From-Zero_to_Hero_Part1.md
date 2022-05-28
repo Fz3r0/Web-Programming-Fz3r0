@@ -1505,12 +1505,82 @@ const Resultado_en_constante3 = f0_suma(100, 250);
 - Un `callback` es una `function` que se ejecutará al final de otra `function`
 
 ```js
+console.log()
 
-// Primero escribo una función que se dedique a sumar 2 números (igual que el ejemplo pasado) pero agregando "cb"
+// Función suma
+
+    // Esta función tendrá como objetivo sumar 2 números diferentes ARGUMENTOS(futuros parámetros): "A" + "B"
+
+    // Después imprimirá el resultado de la suma de A + B
 
 function f0_suma (a, b) {
 	console.log(a + b);
 }
+
+
+    // Ahora mandaré llamar la función, tomando ambos parámetros de A y B
+
+    // Nota: recordar que no necesita console log ni nada, solo se manda llamar la FUNCIÓN con sus PARÁMETROS que utilizará(antiguos argumentos)
+
+        // En este ejemplo usaré los PARÁMETROS de 1 y 2
+
+            // Es decir, la función "suma" que sirve para sumar 2 números sumará: 1 y 2 >>> 1 + 2 = 3
+
+f0_suma(1, 2); 
+f0_suma(2, 2);           //  <<<<    En caso de usar console.log será esto lo que regresará a consola
+f0_suma(10, 10); 
+f0_suma(100, 250);
+
+
+    //  Ahora si, pondré el resultado de alguna de esas sumas pero dentro de una variable o constante
+console.log()
+
+const Resultado_en_constante1 = f0_suma(10000, 123423); 
+const Resultado_en_constante2 = f0_suma(100000, 250234);
+const Resultado_en_constante3 = f0_suma(1000000, 24442);
+    
+
+// ----------------------------------------------------------------------------------------------
+//
+// AHORA EXACTAMENTE LO MISMO PERO CAMBIANDO EL CONSOLE.LOG DEL FUNCTION POR UN "RETURN":
+    
+
+console.log()
+
+// Función suma
+
+    // Esta función tendrá como objetivo sumar 2 números diferentes ARGUMENTOS(futuros parámetros): "A" + "B"
+
+    // Después imprimirá el resultado de la suma de A + B
+
+function f0_suma_2 (a, b) {
+	return(a + b);
+}
+
+
+    // Ahora mandaré llamar la función, tomando ambos parámetros de A y B
+
+    // Nota: recordar que no necesita console log ni nada, solo se manda llamar la FUNCIÓN con sus PARÁMETROS que utilizará(antiguos argumentos)
+
+        // En este ejemplo usaré los PARÁMETROS de 1 y 2
+
+            // Es decir, la función "suma" que sirve para sumar 2 números sumará: 1 y 2 >>> 1 + 2 = 3
+
+f0_suma_2(1, 2); 
+f0_suma_2(2, 2); 
+f0_suma_2(10, 10); 
+f0_suma_2(100, 250);
+
+
+    //  Ahora si, pondré el resultado de alguna de esas sumas pero dentro de una variable o constante
+console.log()
+
+const Resultado_en_constante1_2 = f0_suma_2(10000, 123423); 
+const Resultado_en_constante2_2 = f0_suma_2(100000, 250234);     //  <<<<    En caso de usar console.log será esto lo que regresará a consola
+const Resultado_en_constante3_2 = f0_suma_2(1000000, 24442);    
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170809263-9272ea99-1787-401b-9cff-fafc9ff53234.png)
 
 
 
