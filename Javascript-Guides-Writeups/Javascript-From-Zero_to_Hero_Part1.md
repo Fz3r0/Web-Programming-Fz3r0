@@ -1262,54 +1262,92 @@ funtion f0_funcion_1() {
 }
 ```
 
-- Por ejemplo:
+- **Ejemplo de Forma 1:**
 
 ```js
-funtion f0_function_bolita() {
-    
-    console.log()
-    console.log('Esta es una funcion que contiene varias instrucciones, objetos, datos, arrays...etc');
-    console.log()
-    console.log('Todo eso es alguna "funcion", quizás una operación algo compleja pero que se repetirá muchas veces en el programa');
-    console.log()
-    console.log('Entonces... ¿Para qué escribirla mil veces?');
-    console.log()
-    console.log('Por ejemplo, una funcion que se dedique a hacer el juego de la bolita!!!');
-    console.log()
-    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-)
-    console.log()
-    console.log('          Comienza el juego de la bolita!!!');
-    
-    let f0_expression2 = "C"
+console.log()
 
-    console.log()
-    switch(f0_expression2) {
-
-        case ("A"):
-        console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay bomba apestosa');
-        break;
+    // Ejemplo de function con un for
     
-        case ("B"):
-        console.log('Has seleccionado: ', f0_expression2, '>>> Aquí está la bolita!!! :D llamen a los golpeadores y huyan!'); 
-        break;
- 
-        case ("C"):
-        console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');  
-        break;
-
-        default:
-        console.log('Has seleccionado: ', f0_expression2, '>>> No has seleccionado ninguna de las 3 opciones!!! Golpeadores!!! a el!!!');
-    }
-
-    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-)
-    console.log()
-    console.log('Aquí ya acabó el juego de la bolita pero sigue siendo parte de la función!!! quizás otra operación')
-    console.log()
-    console.log('Finalmente aqui ya termina la funcion con }'), 
-    console.log('toooodo eso, es una funcion que pued guardar en una sola variable como:  "f0_function_bolita"')
+    // Este "for" originalmente cuanta el lenght de la constante "f0_numeros_const_10"
     
-}
+    // Pero qué tal que yo tengo otra constante que se llame "f0_palabras_1"? y tenga strings
+    
+    // O que sea de "f0_usuarios", o cualquier otra cosa que hayamos creado...
+    
+        // Y TODAS ESAS QUIERO CONTAR SUS ELEMENTOS CON UN FOR....
+    
+            // En este caso el próximo for no serviría de nada ya que solo fucniona con "f0_numeros_const_10":
+
+
+
+    // FOR USANDO "f0_numeros_const_10.length" en su segunda "instrucción" 
+
+const f0_numeros_const_10 = [1, 2, 3, 4, 'cinco :3', 6, 7, 8, 9, 'diez :D']
+
+for (let i = 0; i < f0_numeros_const_10.length; i++) {
+	console.log('Estoy dentro del "for" que usa la constante "f0_numeros_const_10".... Contando i:  ', i);
+}	
+
+console.log()
+console.log('Estoy fuera del "for" que usa "f0_numeros_const_10.length"');
+console.log()
+
+
+
+    // Para poder "reutilizar" ese pedazo de código nececisto "meterlo" en una FUNCIÓN!!!!	
+
+    // Cuando se mande llamar a "f0_iterar_lengths", se ejecutará el código dentro de {}
+
+
+        // 1. Voy a repetir exactamente el for de arriba dentro de los {} (incluyendo variables y todo)
+
+        // 2. Revisar que esté bien identado todo!
+
+function f0_iterar_lengths() {
+
+	// Code Block:
+
+	const f0_numeros_const_666 = [1, 2, 3, 4, 'cinco :3', 666, 7, 8, 9, 'diez :D']
+
+	for (let i = 0; i < f0_numeros_const_666.length; i++) {
+	console.log('Esta ya es la FUNCION ;).... Contando i:  ', i);
+	}	
+
+	console.log()
+	console.log('Estoy fuera del "for" DE LA FUNCION"');
+	console.log()
+	console.log('Ojo: fuera del for, pero sigo dentro de la "función" :o AH PERRO!');
+	console.log()
+	console.log()
+
+}     
+
+console.log()
+console.log('Ya está creada la "f0_numeros_const_666.length", obviamente nunca se vió en consola');
+console.log()
+console.log('Pero ahora la mandaré a llamar 2 veces consecutivas con la función "f0_iterar_lengths":');
+console.log()
+console.log()
+console.log()
+console.log()
+console.log('FUNCIÓN "f0_iterar_lengths" YO TE ELIJO 2 VECES!!!:');
+console.log()
+console.log()
+console.log()
+console.log()
+
+
+    // Así de sencillo se manda llamar de la forma más básica: 
+
+f0_iterar_lengths()
+f0_iterar_lengths()
+
+console.log('__________________________________________________________________________')
+console.log('Acaba el programa, esta linea es un "adiós mundo"')
 ```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170804364-34b1af05-f883-4d97-b403-6e1bf5691011.png)
 
 
 
