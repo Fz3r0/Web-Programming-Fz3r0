@@ -1349,6 +1349,78 @@ console.log('Acaba el programa, esta linea es un "adiós mundo"')
 
 - ![image](https://user-images.githubusercontent.com/94720207/170804364-34b1af05-f883-4d97-b403-6e1bf5691011.png)
 
+- Ahora ya logré mandar llamar la función 2 veces, pero ahora quiero que esa función `f0_iterar_lengths()` para contar.
+
+- Por el momento solo mandé llamar a la función 2 veces con el comando `f0_iterar_lengths()` pero aún no le ponemos dentro los **`ARGUMENTOS`**
+
+    - Una `function` recibe `arguments` que permiten cambiar el contenido de la `function` de forma **`dinámica`** de lo que está dentro de `{}`
+    
+    - Es decir: **El valor que va a tener un `argumento` va a ser iguál al valor que estará dentro de `()` cuando lo mandemos llamar.**
+    
+        - Por ejemplo:
+    
+```js
+    // Esta vez dentro de los "()" irán los argumentos "f0_arg_1"
+
+    // En este caso "f0_arg_1" quedó definido también como una variable, pero no tenemos idea cuanto vale ARG1
+
+    // Es decir >>>> FUNCION1 >>>> VA A ITERAR >>>> EL ARGUMENTO1 
+
+        // Donde ese ARGUMENTO1 podrá ser modifcado a placer así como se repitió la función 2 veces en el ejemplo anterior
+
+           
+           // SUPER MEGA ARCHI OJOOOOO!!!!!!!!!!!!!!!!!! <------------------------
+
+           // CUANDO F0_ARG_1 ESTÁ DECLARANDOSE EN LA FUNCIÓN COMO AQUÍ ABAJO SE LE LLAMA "ARGUMENTO"
+           // PERO! CUANDO SE USA YA FUERA DE LA FUNCIÓN CUANDO SE PASA EL VALOR (MÁS ADELANTE LEER EL OJO2!) 
+           // SE CONOCE COMO:       "PARÁMETRO"
+
+
+function f0_iterar_lengths(f0_arg_1) {
+
+	// Code Block:
+
+	const f0_numeros_const = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+	// Ahora los argumentos irán en lugar de la variable o constante que usabamos antes, y usaré "f0_arg_1"
+
+	for (let i = 0; i < f0_arg_1.length; i++) {
+	console.log()
+	console.log('Por ejemplo, esta función sirve para contar lenghts de arrays!!! mira como cuenta ----->>>>  ', (f0_arg_1[i]));
+	}	
+}   
+
+    // Aquí ya acaba la función y podemos empezarla a llamar durante el código del programa
+
+    // Por ejemplo, crearé los siguientes 2 arrays los cuales los quiero contar!
+
+    // En lugar de hacer 2 for mandaré llamar a la función
+
+const f0_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const f0_nombres = ['abc', 'fff', 'Vegeta', 'Mr Popo', 'Goku']
+const f0_user_dt = ['User1', 'Password', 'Address', 'Type of Account', 'Credit Card']
+
+
+        // OJITO!!! AQUÍ ES DONDE VA EL "PARÁMETRO" DEL QUE HABLABA ANTES!!! .... (EL QUE EN LA FUNCIÓN SE LLAMA "ARGUMENTO")
+
+	// Ahora los argumentos irán en lugar de la variable o constante que usabamos antes 
+
+console.log() 
+
+f0_iterar_lengths(f0_numeros)  // <-- contando el array 1
+
+console.log() 
+
+f0_iterar_lengths(f0_nombres)  // <-- contando el array 1
+
+console.log() 
+
+f0_iterar_lengths(f0_user_dt)  // <-- contando el array 3
+
+console.log() 
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170806829-d2d899f8-9c22-4dcd-900c-9d7e422ae1a7.png)
 
 
 
