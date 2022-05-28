@@ -1422,7 +1422,7 @@ console.log()
 
 - ![image](https://user-images.githubusercontent.com/94720207/170806829-d2d899f8-9c22-4dcd-900c-9d7e422ae1a7.png)
 
-## Más funciones en Javascript
+## Más funciones en Javascript (un número más otro)
 
 - Apenas el bloque pasado es una mini-embarrada de lo que realmente son las `funciones` en `js`
 
@@ -1460,7 +1460,57 @@ f0_suma(100, 250);
 
 - ![image](https://user-images.githubusercontent.com/94720207/170807770-00789ded-d2c8-4f1c-aad8-5821a642b3aa.png)
 
+- Ahora, el único problema aquí es que para mandar llamar a esa función no he usado "console" y yo lo quiero en una variable para console, entonces solo debo desclararlo en una variable:
 
+```js
+console.log()
+
+// Función suma
+
+    // Esta función tendrá como objetivo sumar 2 números diferentes ARGUMENTOS(futuros parámetros): "A" + "B"
+
+    // Después imprimirá el resultado de la suma de A + B
+
+function f0_suma (a, b) {
+	console.log(a + b);
+}
+
+
+    // Ahora mandaré llamar la función, tomando ambos parámetros de A y B
+
+    // Nota: recordar que no necesita console log ni nada, solo se manda llamar la FUNCIÓN con sus PARÁMETROS que utilizará(antiguos argumentos)
+
+        // En este ejemplo usaré los PARÁMETROS de 1 y 2
+
+            // Es decir, la función "suma" que sirve para sumar 2 números sumará: 1 y 2 >>> 1 + 2 = 3
+
+f0_suma(1, 2); 
+f0_suma(2, 2); 
+f0_suma(10, 10); 
+f0_suma(100, 250);
+
+
+    //  Ahora si, pondré el resultado de alguna de esas sumas pero dentro de una variable o constante
+console.log()
+
+const Resultado_en_constante1 = f0_suma(10, 10); 
+const Resultado_en_constante2 = f0_suma(100, 250);
+const Resultado_en_constante3 = f0_suma(100, 250);
+    
+    
+```
+
+## Más funciones en Javascript - Callback
+
+- Un `callback` es una `function` que se ejecutará al final de otra `function`
+
+```js
+
+// Primero escribo una función que se dedique a sumar 2 números (igual que el ejemplo pasado) pero agregando "cb"
+
+function f0_suma (a, b) {
+	console.log(a + b);
+}
 
 
 
