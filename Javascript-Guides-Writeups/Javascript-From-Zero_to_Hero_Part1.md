@@ -1422,6 +1422,48 @@ console.log()
 
 - ![image](https://user-images.githubusercontent.com/94720207/170806829-d2d899f8-9c22-4dcd-900c-9d7e422ae1a7.png)
 
+## Más funciones en Javascript
+
+- Apenas el bloque pasado es una mini-embarrada de lo que realmente son las `funciones` en `js`
+
+- En este caso presentaré otro poco más en cuanto a `funciones`
+
+    - Ejemplo de función `f0_suma`
+
+```js
+console.log()
+
+// Función suma
+
+    // Esta función tendrá como objetivo sumar 2 números diferentes ARGUMENTOS(futuros parámetros): "A" + "B"
+
+    // Después imprimirá el resultado de la suma de A + B
+
+function f0_suma (a, b) {
+	console.log(a + b);
+}
+
+
+    // Ahora mandaré llamar la función, tomando ambos parámetros de A y B
+
+    // Nota: recordar que no necesita console log ni nada, solo se manda llamar la FUNCIÓN con sus PARÁMETROS que utilizará(antiguos argumentos)
+
+        // En este ejemplo usaré los PARÁMETROS de 1 y 2
+
+            // Es decir, la función "suma" que sirve para sumar 2 números sumará: 1 y 2 >>> 1 + 2 = 3
+
+f0_suma(1, 2); 
+f0_suma(2, 2); 
+f0_suma(10, 10); 
+f0_suma(100, 250); 
+```
+
+- ![image](https://user-images.githubusercontent.com/94720207/170807770-00789ded-d2c8-4f1c-aad8-5821a642b3aa.png)
+
+
+
+
+
 
 
 
