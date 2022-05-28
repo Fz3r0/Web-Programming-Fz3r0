@@ -1244,7 +1244,73 @@ console.log('Estoy fuera del for');
     
     - **Nota: Como las funciones en python y demás**
     
-- 
+- **Las funciones en `js` se pueden escribir de 2 formas:**
+
+1. Forma 1:
+
+```js
+funtion f0_funcion_1() {
+    // code block
+}
+```
+
+2. Forma 2
+
+```js
+funtion f0_funcion_1() {
+    // code block
+}
+```
+
+- Por ejemplo:
+
+```js
+funtion f0_function_bolita() {
+    
+    console.log()
+    console.log('Esta es una funcion que contiene varias instrucciones, objetos, datos, arrays...etc');
+    console.log()
+    console.log('Todo eso es alguna "funcion", quizás una operación algo compleja pero que se repetirá muchas veces en el programa');
+    console.log()
+    console.log('Entonces... ¿Para qué escribirla mil veces?');
+    console.log()
+    console.log('Por ejemplo, una funcion que se dedique a hacer el juego de la bolita!!!');
+    console.log()
+    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-)
+    console.log()
+    console.log('          Comienza el juego de la bolita!!!');
+    
+    let f0_expression2 = "C"
+
+    console.log()
+    switch(f0_expression2) {
+
+        case ("A"):
+        console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay bomba apestosa');
+        break;
+    
+        case ("B"):
+        console.log('Has seleccionado: ', f0_expression2, '>>> Aquí está la bolita!!! :D llamen a los golpeadores y huyan!'); 
+        break;
+ 
+        case ("C"):
+        console.log('Has seleccionado: ', f0_expression2, '>>> Aquí no está la bolita :(, pero hay un chicle laxante');  
+        break;
+
+        default:
+        console.log('Has seleccionado: ', f0_expression2, '>>> No has seleccionado ninguna de las 3 opciones!!! Golpeadores!!! a el!!!');
+    }
+
+    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-)
+    console.log()
+    console.log('Aquí ya acabó el juego de la bolita pero sigue siendo parte de la función!!! quizás otra operación')
+    console.log()
+    console.log('Finalmente aqui ya termina la funcion con }'), 
+    console.log('toooodo eso, es una funcion que pued guardar en una sola variable como:  "f0_function_bolita"')
+    
+}
+```
+
 
 
 
